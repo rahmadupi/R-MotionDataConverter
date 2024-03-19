@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root name="R+Motion" version="2.0.0">
+  <DesignRoot name="" controller="OpenCM9.04">
+    <skeleton>
+      <joint motor="XL-320" id="1" enable="True" id2="1" mirror="-1" />
+      <joint motor="XL-320" id="2" enable="True" id2="2" mirror="-1" />
+      <joint motor="XL-320" id="3" enable="True" id2="3" mirror="-1" />
+      <joint motor="XL-320" id="4" enable="True" id2="4" mirror="-1" />
+      <joint motor="XL-320" id="5" enable="True" id2="5" mirror="-1" />
+      <joint motor="XL-320" id="6" enable="True" id2="6" mirror="-1" />
+      <joint motor="XL-320" id="7" enable="True" id2="7" mirror="-1" />
+      <joint motor="XL-320" id="8" enable="True" id2="8" mirror="-1" />
+      <joint motor="XL-320" id="9" enable="True" id2="9" mirror="-1" />
+      <joint motor="XL-320" id="10" enable="True" id2="10" mirror="-1" />
+      <joint motor="XL-320" id="11" enable="True" id2="11" mirror="-1" />
+      <joint motor="XL-320" id="12" enable="True" id2="12" mirror="-1" />
+      <joint motor="XL-320" id="13" enable="True" id2="13" mirror="-1" />
+      <joint motor="XL-320" id="14" enable="True" id2="14" mirror="-1" />
+      <joint motor="XL-320" id="15" enable="True" id2="15" mirror="-1" />
+    </skeleton>
+  </DesignRoot>
+  <FlowRoot>
+    <Flow name="==== ZONA MULAI ====" return="-1">
+      <units />
+    </Flow>
+    <Flow name="START INIT" return="-1">
+      <units>
+        <unit main="START INIT V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="INIT 2" return="-1">
+      <units>
+        <unit main="START INIT V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="INIT 3" return="-1">
+      <units>
+        <unit main="START INIT V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="INIT 4" return="-1">
+      <units>
+        <unit main="START INIT V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="INIT 5" return="-1">
+      <units>
+        <unit main="START INIT V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="GERAK PEMBUKA V2" return="-1">
+      <units>
+        <unit main="GERAK PEMBUKA V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="PASANG MASKER V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="CUCI TANGAN V2" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="MERENG BARU KANAN" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="JALAN A1" return="-1">
+      <units>
+        <unit main="A1 KANAN AWAL" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRTUP" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="==== ZONA A ====" return="-1">
+      <units />
+    </Flow>
+    <Flow name="IRAMA GENDANG V2" return="-1">
+      <units>
+        <unit main="IRAMA GENDANG V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="KAKI MELINTANG" return="-1">
+      <units>
+        <unit main="ANGKAT KAKI" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="MALAM GEMBIRA" return="-1">
+      <units>
+        <unit main="MALAM GEMBIRA" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="MALAM GEMBIRA 2" return="-1">
+      <units>
+        <unit main="MALAM GEMBIRA" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="JALAN A2 NAIK" return="-1">
+      <units>
+        <unit main="A1 KANAN AWAL" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRTUP" mainSpeed="1.8" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="==== ZONA B1 ====" return="-1">
+      <units />
+    </Flow>
+    <Flow name="1/2 SALAM B1" return="-1">
+      <units>
+        <unit main="1/2 SETELAH SALAM" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="TRANSISI B1" return="-1">
+      <units>
+        <unit main="TRANSISI B1" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="MEKAR CYCLING" return="-1">
+      <units>
+        <unit main="MEKAR CYCLING V2" mainSpeed="1.1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="SETELAH SALAM B1" return="-1">
+      <units>
+        <unit main="SETELAH SALAM" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="JALAN B1" return="-1">
+      <units>
+        <unit main="A1 KANAN AWAL" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRTUP" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="==== ZONA B2 ====" return="-1">
+      <units />
+    </Flow>
+    <Flow name="SRISIG" return="-1">
+      <units>
+        <unit main="SRISIG V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="SRISIG 2" return="-1">
+      <units>
+        <unit main="SRISIG V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="ARM CYCLING" return="-1">
+      <units>
+        <unit main="arm cycling" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="TRANSISI B2" return="-1">
+      <units>
+        <unit main="TRANSISI B2 B" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="JALAN B2 TURUN" return="-1">
+      <units>
+        <unit main="A1 KANAN AWAL" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRI++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KANAN++" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="A1 KIRTUP" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="==== ZONA C ====" return="-1">
+      <units />
+    </Flow>
+    <Flow name="MENDAYU SYAHDU" return="-1">
+      <units>
+        <unit main="MENDAYU V3" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="MEGOL DUDUK" return="-1">
+      <units>
+        <unit main="DUDUK MEGOL V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="MT TRANSISI" return="-1">
+      <units>
+        <unit main="MT Transisi" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="JALAN C1" return="-1">
+      <units>
+        <unit main="Kanan Awal 3" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Kiri ++ 3" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Kanan ++ 3" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Kiri ++ 3" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Kanan ++ 3" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Kiri Tutup 3" mainSpeed="1.5" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Sisa C1 V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="== ZONA AKHIR ==" return="-1">
+      <units />
+    </Flow>
+    <Flow name="SALAM PENUTUP" return="-1">
+      <units>
+        <unit main="SALAM PENUTUP NINA" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="LEPAS MASKER" return="-1">
+      <units>
+        <unit main="LEPAS MASKER" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="CUCI TANGAN2" return="-1">
+      <units>
+        <unit main="CUCI TANGAN C" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="FINAL POSE" return="-1">
+      <units>
+        <unit main="Final Pose Ninaa" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="FINAL POSE DELAY" return="-1">
+      <units>
+        <unit main="FINAL POSE DELAY" mainSpeed="1" loop="20" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="==== SELESAI ====" return="-1">
+      <units />
+    </Flow>
+    <Flow name="Gerak Pembuka" return="-1">
+      <units>
+        <unit main="GERAK PEMBUKA V2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Pasang Masker" mainSpeed="1.2" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="CUCI TANGAN 2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Mereng Edit 2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Salam Pembuka 2" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="SIBAK ATAS" return="-1">
+      <units>
+        <unit main="SIBAK ATAS" mainSpeed="1.2" loop="3" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="SETELAH SALAM" return="-1">
+      <units>
+        <unit main="SETELAH SALAM" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="NGIBAS SLEBEW" return="-1">
+      <units>
+        <unit main="NGIBAS V2" mainSpeed="1.1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="NGASAI TURUN" return="-1">
+      <units>
+        <unit main="NGASAI TURUN" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="KEBAK GANTI" return="-1">
+      <units>
+        <unit main="KEBAK GANTI" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="KEMBANG KINCUP" return="-1">
+      <units>
+        <unit main="Kembang Kincup" mainSpeed="0.9" loop="2" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="CLINGAK CLINGUK" return="-1">
+      <units>
+        <unit main="CLINGAK CLINGUK" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="Kembang Kincup" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="PARADE" return="-1">
+      <units>
+        <unit main="init parade" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="PARADE" mainSpeed="1" loop="14" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="DADAH" return="-1">
+      <units>
+        <unit main="init parade" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+        <unit main="DADAH" mainSpeed="1" loop="100" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+    <Flow name="feather" return="-1">
+      <units>
+        <unit main="feather" mainSpeed="1" loop="1" exit="" exitSpeed="1" callSite="False" />
+      </units>
+    </Flow>
+  </FlowRoot>
+  <PageRoot>
+    <Page name="==== ZONA MULAI ====">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="START INIT V2">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="180" pose="0 0 0 36.62 -36.62 9.67 -9.67 -48.34 48.34 73.54 -73.54 8.79 -8.79 58.89 -58.89" />
+      </steps>
+    </Page>
+    <Page name="GERAK PEMBUKA V2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="63" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="128" pose="-6.15 36.91 -11.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="180" pose="-6.15 36.91 21.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="231" pose="-6.15 36.91 -21.39 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="282" pose="-6.15 36.91 21.39 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="345" pose="0 0 0 36.62 -36.62 9.67 -9.67 -48.34 48.34 73.54 -73.54 8.79 -8.79 58.89 -58.89" />
+        <step frame="414" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="474" pose="-6.15 -36.91 11.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="486" pose="-6.15 -36.91 11.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+      </steps>
+    </Page>
+    <Page name="PASANG MASKER V2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 29.59" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="CUCI TANGAN V2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="103" pose="13.48 0 -0.88 62.4 -62.4 6.15 -6.15 -14.06 14.06 64.45 -64.45 137.11 -137.11 -41.6 41.6" />
+        <step frame="205" pose="0 0 0 67.38 -68.85 0.88 -1.76 -20.51 11.13 59.77 -60.64 139.16 -139.16 42.77 -43.65" />
+        <step frame="282" pose="11.43 -2.05 -0.59 70.31 -70.31 -12.89 12.89 -68.85 68.85 45.41 -45.41 137.11 -137.11 38.96 -38.96" />
+        <step frame="307" pose="11.43 -2.05 -0.59 70.31 -70.31 -12.89 12.89 -68.85 68.85 45.41 -45.41 137.11 -137.11 38.96 -38.96" />
+        <step frame="385" pose="15.82 -14.65 6.45 67.09 -61.23 -17.58 -5.27 -70.02 84.67 29 -75.48 136.52 -137.7 34.86 -64.16" />
+        <step frame="461" pose="15.82 14.65 -6.45 61.82 -68.26 -16.7 -4.98 -84.67 77.64 62.7 -46.88 137.11 -137.99 59.47 -50.39" />
+        <step frame="538" pose="15.82 -14.65 6.45 67.09 -61.23 -17.58 -5.27 -70.02 84.67 29 -75.48 136.52 -137.7 34.86 -64.16" />
+        <step frame="564" pose="15.82 -14.65 6.45 67.09 -61.23 -17.58 -5.27 -70.02 84.67 29 -75.48 136.52 -137.7 34.86 -64.16" />
+        <step frame="640" pose="15.82 14.65 -6.45 61.82 -68.26 -16.7 -4.98 -84.67 77.64 62.7 -46.88 137.11 -137.99 59.47 -50.39" />
+        <step frame="717" pose="15.82 -14.65 6.45 67.09 -61.23 -17.58 -5.27 -70.02 84.67 29 -75.48 136.52 -137.7 34.86 -64.16" />
+        <step frame="794" pose="15.82 14.65 -6.45 61.82 -68.26 -16.7 -4.98 -84.67 77.64 62.7 -46.88 137.11 -137.99 59.47 -50.39" />
+      </steps>
+    </Page>
+    <Page name="MERENG BARU KANAN">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="0 0 0 0.59 -54.2 44.82 -6.74 85.55 1.17 68.55 -63.57 9.38 -16.99 68.26 -45.41" />
+        <step frame="103" pose="-7.03 19.04 -23.73 21.68 -49.8 36.04 -6.74 92.87 2.05 69.14 -62.7 43.36 -29.88 33.11 35.45" />
+        <step frame="146" pose="22.27 34.86 -28.12 32.23 -54.49 24.02 -3.22 89.65 1.76 57.71 -82.03 67.09 -62.4 32.81 59.47" />
+        <step frame="196" pose="23.14 16.11 -22.27 35.16 -54.49 13.18 -2.05 26.95 1.17 61.52 -84.08 127.15 -123.05 52.15 69.73" />
+        <step frame="238" pose="12.3 7.91 -19.34 40.14 -53.03 17.87 -1.46 -1.46 2.05 106.64 -85.84 138.57 -149.71 50.68 20.8" />
+        <step frame="294" pose="13.48 -12.89 16.11 56.84 -36.33 31.35 -14.65 -48.93 41.02 114.55 -65.62 91.11 -133.01 39.55 -43.95" />
+        <step frame="359" pose="0 0 0 75.29 -40.72 2.64 -3.81 -84.08 63.57 78.81 -72.66 49.22 -149.71 67.97 -39.55" />
+        <step frame="450" pose="0 0 0 75.29 -40.72 2.64 -3.81 -84.08 63.57 78.81 -72.66 49.22 -149.71 67.97 -39.55" />
+        <step frame="499" pose="11.13 -47.1 17.58 -23.44 -58.3 72.95 -8.2 47.17 60.35 22.56 -84.08 64.45 -71.78 -46.88 -51.56" />
+        <step frame="563" pose="0 48.93 0 5.57 -58.3 91.99 -8.2 5.57 60.35 67.68 -84.08 9.08 -71.78 50.1 -51.56" />
+        <step frame="666" pose="0 48.93 0 5.57 -58.3 91.99 -8.2 5.57 60.35 67.68 -84.08 9.08 -71.78 50.1 -51.56" />
+        <step frame="691" pose="0 48.93 0 5.57 -58.3 91.99 -8.2 5.57 60.35 67.68 -84.08 9.08 -71.78 50.1 -51.56" />
+        <step frame="743" pose="30 0 0 23.73 -23.73 21.39 -21.39 -53.03 53.03 65.62 -65.62 113.38 -113.38 -53.03 53.03" />
+        <step frame="819" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 63.28 -63.28 147 -147 37.21 -37.21" />
+        <step frame="845" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 63.28 -63.28 147 -147 37.21 -37.21" />
+        <step frame="896" pose="33.11 0 0 65.41 -65.41 -14.65 14.65 -55.66 55.66 75.29 -70.02 77.34 -77.34 50.1 -38.67" />
+        <step frame="1144" pose="33.11 0 0 65.41 -65.41 -14.65 14.65 -55.66 55.66 75.29 -70.02 77.34 -77.34 50.1 -38.67" />
+        <step frame="1243" pose="0 0 0 -1.76 1.76 29.3 -29.3 61.52 -61.52 28.12 -28.12 10.84 -10.84 62.11 -62.11" />
+      </steps>
+    </Page>
+    <Page name="==== ZONA A ====">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="IRAMA GENDANG V2">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 57.71 -57.71 31.35 -31.35 -58.3 58.3 114.55 -114.55 140.04 -140.04 -45.12 45.12" />
+        <step frame="103" pose="0 0 0 57.71 -57.71 31.35 -31.35 -58.3 58.3 114.55 -114.55 140.04 -140.04 -45.12 45.12" />
+        <step frame="179" pose="0.17 2.78 14.61 49.22 -39.26 84.67 -86.72 -74.71 69.73 29 -24.02 142.68 -140.62 -38.96 43.95" />
+        <step frame="231" pose="0.29 4.69 24.61 43.95 -43.95 81.74 -81.74 -26.07 26.07 23.14 -23.14 62.7 -62.7 59.47 -59.47" />
+        <step frame="251" pose="0.29 4.69 24.61 43.95 -43.95 81.74 -81.74 -26.07 26.07 23.14 -23.14 62.7 -62.7 59.47 -59.47" />
+        <step frame="332" pose="29.59 0.29 0.29 24.9 -24.9 56.25 -56.25 -70.02 70.02 65.92 -65.92 -24.9 24.9 57.13 -57.13" />
+        <step frame="374" pose="0 0 0 29.59 -29.59 -0.29 0.29 -47.46 47.46 60.35 -60.35 74.71 -74.71 41.6 -41.6" />
+        <step frame="492" pose="-0.59 -0.88 -17.87 38.38 -38.38 74.12 -74.12 8.5 -8.5 21.09 -21.09 146.78 -146.78 35.45 -35.45" />
+        <step frame="516" pose="-0.59 -0.88 -17.87 38.38 -38.38 74.12 -74.12 8.5 -8.5 21.09 -21.09 146.78 -146.78 35.45 -35.45" />
+        <step frame="570" pose="19.69 -1.42 -7.01 75.88 -75.88 28.12 -28.12 -64.16 64.16 55.37 -55.37 143.26 -143.26 -47.17 47.17" />
+        <step frame="605" pose="32.23 -1.76 -0.29 61.52 -61.52 17.58 -17.58 -35.16 35.16 54.79 -54.79 33.98 -33.98 -47.75 47.75" />
+        <step frame="640" pose="21.49 -1.17 -0.19 55.66 -55.66 15.53 -15.53 -34.57 34.57 52.73 -52.73 33.69 -33.69 66.21 -66.21" />
+        <step frame="713" pose="0 0 0 -1.46 1.46 25.78 -25.78 -25.2 25.2 51.86 -51.86 28.71 -28.71 83.5 -83.5" />
+        <step frame="743" pose="0 0 0 -1.46 1.46 25.78 -25.78 -25.2 25.2 51.86 -51.86 28.71 -28.71 83.5 -83.5" />
+        <step frame="858" pose="0 0 0 57.71 -57.71 31.35 -31.35 -58.3 58.3 114.55 -114.55 140.04 -140.04 -45.12 45.12" />
+        <step frame="918" pose="-0.88 0 0 32.52 -39.84 18.16 -14.65 -37.21 36.91 30.47 -32.81 134.18 -132.42 -65.62 66.21" />
+        <step frame="974" pose="-0.88 -21.97 0 31.64 -31.64 67.68 -64.16 64.45 -67.38 50.98 -50.1 16.99 -16.99 -47.75 47.75" />
+        <step frame="1031" pose="-0.88 14.94 0 -1.76 1.76 105.47 -105.47 80.86 -80.86 51.27 -51.27 17.29 -17.29 -46.58 46.58" />
+        <step frame="1046" pose="-0.88 21 0 -1.76 1.76 104.3 -104.3 81.45 -81.45 46.58 -46.58 18.46 -18.46 -18.46 18.46" />
+        <step frame="1079" pose="-0.88 0 0 -1.46 1.46 101.66 -101.66 82.91 -82.91 35.45 -35.45 21.09 -21.09 51.27 -51.27" />
+        <step frame="1119" pose="-0.88 -21 0 -2.34 2.34 72.07 -72.07 82.32 -82.32 34.86 -34.86 20.51 -20.51 51.27 -51.27" />
+        <step frame="1178" pose="-0.88 0 0 -3.81 3.81 29 -29 81.45 -81.45 33.98 -33.98 19.92 -19.92 51.27 -51.27" />
+      </steps>
+    </Page>
+    <Page name="ANGKAT KAKI">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="-0.88 0 0 -3.81 -76.76 29 -5.57 81.45 78.81 33.98 -74.12 19.92 -63.57 51.27 36.33" />
+        <step frame="166" pose="6.88 22.82 10.71 -3.81 -96.97 29 -33.11 81.45 0.59 33.98 -84.67 19.92 -89.36 51.27 62.11" />
+        <step frame="245" pose="13.77 43.07 20.21 -3.81 -94.92 29 -27.54 81.45 -15.23 33.98 -66.21 19.92 -131.25 51.27 -49.22" />
+        <step frame="333" pose="-0.88 0 0 2.34 -66.21 55.08 -16.41 37.79 70.02 29.3 -71.19 -14.94 -72.36 14.65 -66.5" />
+        <step frame="435" pose="28.12 50.98 6.15 127.73 32.81 -3.52 -53.91 -63.57 55.96 84.38 -94.92 19.04 -73.24 -33.4 -65.04" />
+        <step frame="486" pose="28.12 50.98 6.15 127.73 32.81 -3.52 -53.91 -63.57 55.96 84.38 -94.92 19.04 -73.24 -33.4 -65.04" />
+        <step frame="538" pose="13.92 2.17 12.81 91.11 -14.36 4.69 -46.88 2.05 53.91 93.75 -94.92 80.57 -74.41 -58.89 -56.25" />
+        <step frame="589" pose="0 -45.7 19.34 100.78 -55.37 49.8 5.27 22.56 79.39 52.15 -65.04 114.84 -147.95 32.23 -50.1" />
+        <step frame="654" pose="16.21 -51.36 5.2 106.05 -39.26 39.26 -31.05 -14.36 -11.72 78.22 -78.22 114.84 -1.76 -59.47 33.69" />
+        <step frame="717" pose="25.75 -53.59 -1.68 43.07 -12.6 39.26 -77.64 -38.38 -69.14 70.61 -48.34 55.66 -13.48 14.65 31.93" />
+        <step frame="782" pose="35.6 -55.89 -8.77 24.9 -7.91 43.07 -77.05 49.22 -69.73 58.01 -30.47 28.42 -13.48 48.63 -53.03" />
+        <step frame="796" pose="35.6 -55.89 -8.77 24.9 -7.91 43.07 -77.05 49.22 -69.73 58.01 -30.47 28.42 -13.48 48.63 -53.03" />
+        <step frame="882" pose="39.84 -54.79 -9.08 32.52 -77.64 38.96 -6.15 -5.86 -22.27 60.35 -7.62 126.27 -28.12 24.9 -63.87" />
+        <step frame="954" pose="21.09 -60.64 3.81 54.2 -42.77 43.65 -23.73 31.05 89.94 87.89 -43.07 119.53 -28.42 35.74 -63.87" />
+        <step frame="1084" pose="0 0 0 6.74 -6.74 16.7 -16.7 -3.52 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="1103" pose="0 0 0 6.74 -6.74 16.7 -16.7 -3.52 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+      </steps>
+    </Page>
+    <Page name="MALAM GEMBIRA">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="27.83 0 0 67.09 -67.09 -26.07 26.07 -2.34 2.34 32.81 -32.81 145.61 -145.61 46.29 -46.29" />
+        <step frame="128" pose="2.93 -9.08 18.16 104 -104 9.08 -9.08 -2.34 2.34 33.69 -33.69 145 -145 46.58 -46.58" />
+        <step frame="162" pose="1.85 -8.72 15.44 93.46 -99.32 10.55 -14.65 -6.74 7.91 53.91 -34.28 106.05 -106.93 -43.95 43.95" />
+        <step frame="194" pose="1.12 -5.39 13.77 72.66 -72.66 9.08 -9.08 -20.21 20.21 43.07 -43.07 36.04 -36.04 -62.99 62.99" />
+        <step frame="243" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+        <step frame="331" pose="2.93 9.08 -18.16 104 -104 9.08 -9.08 -2.34 2.34 33.69 -33.69 145 -145 46.58 -46.58" />
+        <step frame="363" pose="2.93 9.08 -18.16 104 -104 9.08 -9.08 -2.34 2.34 33.69 -33.69 145 -145 46.58 -46.58" />
+        <step frame="394" pose="0 0 0 93.46 -99.32 10.55 -14.65 -6.74 7.91 53.91 -34.28 106.05 -106.93 -43.95 43.95" />
+        <step frame="455" pose="2.93 -9.08 18.16 78.38 -83.79 -6.29 27.25 -13.51 12.3 36.34 -53.61 60.49 -15.82 -44.39 42.77" />
+        <step frame="487" pose="9.67 -30.76 21.09 57.71 -70.9 -26.95 24.61 -19.04 17.58 38.38 -55.66 14.65 36.91 -44.82 -61.82" />
+        <step frame="521" pose="9.67 -30.76 21.09 57.71 -70.9 -26.95 24.61 -19.04 17.58 38.38 -55.66 14.65 36.91 -44.82 -61.82" />
+        <step frame="577" pose="27.83 0 0 67.09 -67.09 -26.07 26.07 -2.34 2.34 32.81 -32.81 145.61 -145.61 46.29 -46.29" />
+        <step frame="629" pose="0 0 0 104 -104 9.08 -9.08 -2.34 2.34 33.69 -33.69 145 -145 46.58 -46.58" />
+        <step frame="650" pose="0 0 0 104 -104 9.08 -9.08 -2.34 2.34 33.69 -33.69 145 -145 46.58 -46.58" />
+        <step frame="696" pose="0 0 0 93.46 -99.32 10.55 -14.65 -6.74 7.91 53.91 -34.28 106.05 -106.93 -43.95 43.95" />
+        <step frame="725" pose="1.73 -18.47 -0.26 89.06 -91.11 8.79 -23.14 -6.45 12.01 76.17 -38.96 6.45 -57.71 -46.58 9.08" />
+        <step frame="794" pose="5.86 -75.4 -0.88 70.31 -85.84 59.18 -34.28 3.52 26.66 18.75 -110.16 -5.27 -1.17 59.47 -58.89" />
+        <step frame="833" pose="5.86 -75.29 -0.88 70.31 -85.84 59.18 -34.28 3.52 26.66 18.75 -110.16 -5.27 -1.17 59.47 -58.89" />
+        <step frame="950" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="==== ZONA B1 ====">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="1/2 SETELAH SALAM">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="104" pose="0 0 0 61.52 -61.52 -2.05 2.05 -13.77 13.77 46 -46 -8.5 8.5 62.11 -62.11" />
+        <step frame="181" pose="0 0 0 58.3 -58.3 28.71 -28.71 -48.05 48.05 63.87 -63.87 112.79 -112.79 -53.61 53.61" />
+        <step frame="258" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 64.45 -64.45 147 -147 -60.35 60.35" />
+        <step frame="332" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 41.02 -41.02 147 -147 37.21 -37.21" />
+        <step frame="358" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 41.02 -41.02 147 -147 37.21 -37.21" />
+      </steps>
+    </Page>
+    <Page name="TRANSISI B1">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 36.33 -36.33 26.66 -26.66 -37.5 37.5 91.41 -91.41 38.96 -38.96 45.12 -45.12" />
+        <step frame="154" pose="-2.93 54.79 2.64 56.25 -19.63 -24.9 -40.14 -60.64 -71.78 58.89 -57.42 37.21 22.56 43.95 -55.66" />
+        <step frame="191" pose="12.01 53.91 4.39 54.49 -23.44 -27.25 -60.64 -59.77 -75.29 61.23 -17.87 34.57 -10.25 -58.59 56.84" />
+        <step frame="231" pose="-2.93 54.79 2.64 56.25 -19.63 -24.9 -40.14 -60.64 -71.78 58.89 -57.42 37.21 22.56 43.95 -55.66" />
+        <step frame="307" pose="0 0 0 31.64 -31.64 48.05 -48.05 41.02 -41.02 112.5 -112.5 120.12 -120.12 -59.18 59.18" />
+        <step frame="359" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="384" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="487" pose="6.15 -39.26 20.51 -12.01 -90.53 73.24 -23.14 21.39 24.02 23.73 -83.2 -1.46 -144.14 62.7 64.45" />
+        <step frame="563" pose="4.61 29.44 -15.38 90.53 -15.53 23.14 -46.29 -24.02 17.87 83.2 -74.12 108.98 -26.07 71.48 -68.85" />
+        <step frame="615" pose="6.15 39.26 -20.51 90.53 12.01 23.14 -73.24 -24.02 -21.39 83.2 -23.73 144.14 1.46 -64.45 -62.7" />
+        <step frame="692" pose="2.63 16.76 -8.76 -52.44 -20.51 35.16 0 -12.3 11.43 89.65 -38.96 51.86 -4.1 -34.57 -78.22" />
+        <step frame="742" pose="0 0 0 -15.53 -57.71 60.94 3.52 49.8 87.3 29.88 -77.64 -9.67 -60.35 56.84 -75.88" />
+        <step frame="768" pose="0 0 0 -15.53 -57.71 60.94 3.52 49.8 87.3 29.88 -77.64 -9.67 -60.35 56.84 -75.88" />
+        <step frame="897" pose="6.15 39.26 -20.51 90.53 12.01 23.14 -73.24 -24.02 -21.39 83.2 -23.73 144.14 1.46 -64.45 -62.7" />
+        <step frame="973" pose="4.61 -29.44 15.38 15.53 -90.53 46.29 -23.14 -17.87 24.02 74.12 -83.2 26.07 -108.98 68.85 -71.48" />
+        <step frame="1024" pose="6.15 -39.26 20.51 -12.01 -90.53 73.24 -23.14 21.39 24.02 23.73 -83.2 -1.46 -144.14 62.7 64.45" />
+        <step frame="1101" pose="2.63 -16.76 8.76 20.51 52.44 0 -35.16 -11.43 12.3 38.96 -89.65 4.1 -51.86 78.22 34.57" />
+        <step frame="1127" pose="0 0 0 57.71 15.53 -3.52 -60.94 -87.3 -49.8 77.64 -29.88 60.35 9.67 75.88 -56.84" />
+        <step frame="1152" pose="0 0 0 57.71 15.53 -3.52 -60.94 -87.3 -49.8 77.64 -29.88 60.35 9.67 75.88 -56.84" />
+      </steps>
+    </Page>
+    <Page name="MEKAR CYCLING V2">
+      <param compileSize="4" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="0 0 0 -2.93 2.93 40.72 -40.72 87.3 -87.3 35.45 -35.45 -1.76 1.76 66.5 -66.5" />
+        <step frame="102" pose="0 0 0 63.87 -63.87 33.98 -33.98 7.32 -7.32 41.89 -41.89 -1.76 1.76 65.92 -65.92" />
+        <step frame="168" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="193" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="246" pose="0 0 0 58.89 -58.89 22.56 -22.56 -9.38 9.38 101.37 -101.37 56.54 -56.54 -44.82 44.82" />
+        <step frame="321" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="346" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="409" pose="0 0 0 81.45 -63.87 21.68 -33.98 9.67 -7.32 34.86 -41.89 34.28 1.76 55.66 -65.92" />
+        <step frame="487" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="512" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="565" pose="0 0 0 58.89 -58.89 22.56 -22.56 -9.38 9.38 101.37 -101.37 56.54 -56.54 -44.82 44.82" />
+        <step frame="640" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="665" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="743" pose="0 0 0 -31.64 -56.54 42.77 -56.25 -27.54 40.43 63.87 -82.32 27.25 -96.68 67.68 -58.3" />
+        <step frame="819" pose="1.76 31.93 -30.47 -21.09 -61.82 40.72 -4.69 -22.85 69.14 0 -89.36 26.66 -78.22 -28.42 -58.3" />
+        <step frame="833" pose="1.76 31.93 -30.47 -21.09 -61.82 40.72 -4.69 -22.85 69.14 0 -89.36 26.66 -78.22 -28.42 -58.3" />
+        <step frame="896" pose="1.76 31.93 -30.47 0.88 -61.82 79.69 -4.69 0.88 69.14 50.1 -89.36 26.37 -78.22 -36.33 -58.3" />
+        <step frame="948" pose="1.76 31.93 -30.47 6.45 -61.82 77.64 -4.69 9.96 69.14 30.76 -89.36 -1.17 -78.22 65.62 -58.3" />
+        <step frame="1024" pose="1.76 15.97 -15.23 56.54 31.64 56.25 -42.77 -40.43 27.54 82.32 -63.87 96.68 -27.25 58.3 -67.68" />
+        <step frame="1101" pose="1.76 2.31 -2.2 61.82 21.09 4.69 -40.72 -69.14 22.85 89.36 0 78.22 -26.66 58.3 28.42" />
+        <step frame="1114" pose="1.76 -3.55 -2.12 61.82 21.09 4.69 -40.72 -69.14 22.85 89.36 0 78.22 -26.66 58.3 28.42" />
+        <step frame="1177" pose="1.76 -31.93 -1.76 61.82 -0.88 4.69 -79.69 -69.14 -0.88 89.36 -50.1 78.22 -26.37 58.3 36.33" />
+        <step frame="1229" pose="1.76 -31.93 -1.76 61.82 -6.45 4.69 -77.64 -69.14 -9.96 89.36 -30.76 78.22 1.17 58.3 -65.62" />
+        <step frame="1255" pose="1.76 -31.93 -1.76 61.82 -6.45 4.69 -77.64 -69.14 -9.96 89.36 -30.76 78.22 1.17 58.3 -65.62" />
+        <step frame="1306" pose="-7.62 18.46 -35.74 -2.93 -49.51 22.85 -1.76 -53.91 2.05 75.29 -90.82 10.55 -148.54 32.81 -31.93" />
+        <step frame="1358" pose="-4.22 6.77 -17.25 -2.93 -49.51 22.85 -1.76 -53.91 2.05 75.29 -90.82 10.55 -135.08 32.81 14.37" />
+        <step frame="1409" pose="-0.88 -4.69 0.88 -9.67 -49.51 38.67 -1.76 -60.64 2.05 73.54 -90.82 110.45 -121.88 -9.96 59.77" />
+        <step frame="1485" pose="7.32 -39.26 38.96 -1.17 -49.51 56.25 -1.76 22.56 2.05 38.67 -90.82 49.22 -12.3 -39.26 61.52" />
+        <step frame="1511" pose="7.32 -39.26 38.96 0.29 -39.55 69.43 -2.05 69.14 1.17 24.32 -75 49.51 -11.13 8.5 -46.58" />
+        <step frame="1613" pose="-7.62 -18.46 35.74 49.51 2.93 1.76 -22.85 -2.05 53.91 90.82 -75.29 148.54 -10.55 31.93 -32.81" />
+        <step frame="1664" pose="-7.62 -18.46 35.74 49.51 2.93 1.76 -22.85 -2.05 53.91 90.82 -75.29 148.54 -10.55 -44.82 -32.81" />
+        <step frame="1716" pose="-0.88 4.69 -0.88 49.51 9.67 1.76 -38.67 -2.05 60.64 90.82 -73.54 121.88 -110.45 -59.77 9.96" />
+        <step frame="1792" pose="7.32 39.26 -38.96 49.51 1.17 1.76 -56.25 -2.05 -22.56 90.82 -38.67 12.3 -49.22 -61.52 39.26" />
+        <step frame="1818" pose="7.32 39.26 -38.96 39.55 -0.29 2.05 -69.43 -1.17 -69.14 75 -24.32 11.13 -49.51 46.58 -8.5" />
+      </steps>
+    </Page>
+    <Page name="SETELAH SALAM">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="104" pose="0 0 0 61.52 -61.52 -2.05 2.05 -13.77 13.77 46 -46 -8.5 8.5 62.11 -62.11" />
+        <step frame="181" pose="0 0 0 58.3 -58.3 28.71 -28.71 -48.05 48.05 63.87 -63.87 112.79 -112.79 -53.61 53.61" />
+        <step frame="258" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 64.45 -64.45 147 -147 -60.35 60.35" />
+        <step frame="332" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 41.02 -41.02 147 -147 37.21 -37.21" />
+        <step frame="411" pose="0 0 0 67.97 -67.97 17.87 -17.87 -37.5 37.5 61.82 -61.82 147.71 -147.71 -61.82 61.82" />
+        <step frame="462" pose="0 0 0 69.14 -69.14 20.21 -20.21 -67.97 67.97 65.04 -65.04 99.32 -99.32 -62.4 62.4" />
+        <step frame="537" pose="0 0 0 73.54 -73.54 3.81 -3.81 -50.68 50.68 43.65 -43.65 34.57 -34.57 -37.79 37.79" />
+        <step frame="590" pose="0 0 0 74.71 -74.71 -0.59 0.59 -5.57 5.57 31.05 -31.05 9.38 -9.38 64.75 -64.75" />
+        <step frame="641" pose="0 0 0 74.71 -74.71 -0.59 0.59 -5.57 5.57 31.05 -31.05 9.38 -9.38 64.75 -64.75" />
+      </steps>
+    </Page>
+    <Page name="==== ZONA B2 ====">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="SRISIG V2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 23.73 -23.73 4.39 -4.39 -68.85 68.85 37.21 -37.21 48.93 -48.93 27.54 -27.54" />
+        <step frame="165" pose="0 0 0 -4.1 4.1 27.54 -27.54 57.42 -57.42 43.95 -43.95 -0.29 0.29 32.81 -32.81" />
+        <step frame="242" pose="34.28 -1.34 0 -7.91 7.91 35.16 -35.16 88.18 -88.18 65.92 -65.92 0.59 -0.59 49.8 -49.8" />
+        <step frame="262" pose="34.28 -1.46 0 -7.91 7.91 35.16 -35.16 88.18 -88.18 65.92 -65.92 0.59 -0.59 49.8 -49.8" />
+        <step frame="318" pose="39.55 -1.76 -32.52 8.79 -42.48 32.52 -17.87 -9.08 16.41 58.3 -76.17 25.78 -13.77 57.42 -54.79" />
+        <step frame="369" pose="39.55 -1.76 -32.52 8.79 -42.48 32.52 -17.87 -9.08 16.41 58.3 -76.17 -10.25 43.95 40.14 -25.2" />
+        <step frame="446" pose="39.55 -1.76 -32.52 13.18 -66.5 49.8 -23.14 -19.92 36.91 83.79 -76.17 109.57 -84.38 -56.54 70.02" />
+        <step frame="524" pose="32.23 -2.34 -32.23 36.62 -78.22 19.63 -8.79 -24.32 21.68 58.89 -52.44 149.71 -149 -52.44 43.95" />
+        <step frame="587" pose="16.11 -1.17 -16.11 33.69 -76.46 7.03 -7.91 -11.13 21.39 72.36 -43.95 148.54 -149.41 32.52 -23.14" />
+        <step frame="600" pose="16.11 -1.17 -16.11 33.69 -76.46 7.03 -7.91 -11.13 21.39 72.36 -43.95 148.54 -149.41 32.52 -23.14" />
+        <step frame="690" pose="0 0 0 35.74 -80.57 5.27 -7.32 -10.25 8.79 58.3 -53.61 17.58 1.46 66.8 -60.06" />
+        <step frame="779" pose="20 -78.81 25.89 1.46 -39.55 59.33 -11.13 79.39 66.5 37.79 -78.81 4.69 -31.93 76.76 -63.87" />
+        <step frame="804" pose="20 -78.81 25.89 1.46 -39.55 59.33 -11.13 79.39 66.5 37.79 -78.81 4.69 -31.93 76.76 -63.87" />
+        <step frame="881" pose="0 -78.87 20.55 2.34 -70.02 96.09 0.59 79.1 49.8 83.2 -88.18 2.93 -43.65 -50.1 42.48" />
+        <step frame="907" pose="0 -78.87 20.55 2.34 -70.02 96.09 0.59 79.1 49.8 83.2 -88.18 2.93 -43.65 -50.1 42.48" />
+        <step frame="983" pose="19.63 -78.81 20.51 0.29 -54.49 41.02 -3.52 75.29 65.92 71.48 -78.52 3.52 -43.65 37.5 -49.8" />
+        <step frame="1009" pose="19.63 -78.81 20.51 0.29 -54.49 41.02 -3.52 75.29 65.92 71.48 -78.52 3.52 -43.65 37.5 -49.8" />
+        <step frame="1119" pose="0 0 0 -7.91 7.91 35.16 -35.16 88.18 -88.18 65.92 -65.92 0.59 -0.59 49.8 -49.8" />
+      </steps>
+    </Page>
+    <Page name="arm cycling">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="128" pose="-5.86 -4.1 -26.07 -19.04 -79.98 36.62 -1.76 12.01 16.7 16.99 -36.33 5.27 -4.1 64.75 66.21" />
+        <step frame="230" pose="-5.86 26.66 -25.49 -19.04 -79.98 36.62 -1.76 12.01 16.7 16.99 -36.33 5.27 39.84 64.75 -44.24" />
+        <step frame="358" pose="-5.86 4.1 26.07 79.98 19.04 1.76 -36.62 -16.7 -12.01 36.33 -16.99 4.1 -5.27 -66.21 -64.75" />
+        <step frame="461" pose="-5.86 -26.66 25.49 79.98 19.04 1.76 -36.62 -16.7 -12.01 36.33 -16.99 -39.84 -5.27 44.24 -64.75" />
+        <step frame="590" pose="-5.86 -4.1 -26.07 -19.04 -79.98 36.62 -1.76 12.01 16.7 16.99 -36.33 5.27 -4.1 64.75 66.21" />
+        <step frame="691" pose="-5.86 26.66 -25.49 -19.04 -79.98 36.62 -1.76 12.01 16.7 16.99 -36.33 5.27 39.84 64.75 -44.24" />
+        <step frame="819" pose="-5.86 4.1 26.07 79.98 19.04 1.76 -36.62 -16.7 -12.01 36.33 -16.99 4.1 -5.27 -66.21 -64.75" />
+        <step frame="921" pose="-5.86 -26.66 25.49 79.98 19.04 1.76 -36.62 -16.7 -12.01 36.33 -16.99 -39.84 -5.27 44.24 -64.75" />
+        <step frame="978" pose="0 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+      </steps>
+    </Page>
+    <Page name="TRANSISI B2 B">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="128" pose="0 0 0 36.33 -36.33 26.66 -26.66 -37.5 37.5 91.41 -91.41 38.96 -38.96 45.12 -45.12" />
+        <step frame="179" pose="0 0 0 58.3 -58.3 28.71 -28.71 -48.05 48.05 63.87 -63.87 112.79 -112.79 -53.61 53.61" />
+        <step frame="230" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 64.45 -64.45 147 -147 -60.35 60.35" />
+        <step frame="307" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="347" pose="0 0 0 16.7 -16.7 36.04 -36.04 72.07 -72.07 90.23 -90.23 0 0 -31.93 31.93" />
+        <step frame="384" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="460" pose="-2.93 -54.79 -2.64 68.55 -68.55 59.77 -59.77 -2.34 2.34 103.12 -103.12 147.07 -147.07 -91.99 91.99" />
+        <step frame="524" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="589" pose="0 -19.08 12.28 44.82 -43.07 -1.46 -17.87 -64.75 43.07 99.02 -100.49 24.02 -41.6 -93.75 -56.84" />
+        <step frame="653" pose="0 -37.79 24.32 95.51 -36.33 26.07 -12.3 0.29 72.95 62.11 -92.29 149.71 -41.31 41.31 -55.37" />
+        <step frame="679" pose="0 -37.79 24.32 95.51 -36.33 26.07 -12.3 0.29 72.95 62.11 -92.29 149.71 -41.31 41.31 -55.37" />
+        <step frame="730" pose="6.45 -50.1 19.92 64.16 -100.78 85.55 -29.3 -24.61 21.39 10.55 -110.16 0 -134.77 37.21 -70.02" />
+        <step frame="794" pose="9.49 11.6 -9.05 19.04 -9.38 43.36 -22.27 -48.34 7.62 47.46 -24.61 131.25 15.23 59.18 -65.04" />
+        <step frame="856" pose="11.43 50.98 -27.54 51.27 17.29 12.89 -73.54 -70.9 -61.23 88.18 -22.56 149.71 12.6 60.35 -65.33" />
+        <step frame="881" pose="11.43 50.98 -27.54 51.27 17.29 12.89 -73.54 -70.9 -61.23 88.18 -22.56 149.71 12.6 60.35 -65.33" />
+        <step frame="946" pose="0 19.08 -12.28 43.07 -44.82 17.87 1.46 -43.07 64.75 100.49 -99.02 41.6 -24.02 56.84 93.75" />
+        <step frame="999" pose="0 37.79 -24.32 36.33 -95.51 12.3 -26.07 -72.95 -0.29 92.29 -62.11 41.31 -149.71 55.37 -41.31" />
+        <step frame="1023" pose="0 37.79 -24.32 36.33 -95.51 12.3 -26.07 -72.95 -0.29 92.29 -62.11 41.31 -149.71 55.37 -41.31" />
+        <step frame="1076" pose="6.45 50.1 -19.92 100.78 -64.16 29.3 -85.55 -21.39 24.61 110.16 -10.55 134.77 0 70.02 -37.21" />
+        <step frame="1126" pose="9.49 -11.6 9.05 9.38 -19.04 22.27 -43.36 -7.62 48.34 24.61 -47.46 -15.23 -131.25 65.04 -59.18" />
+        <step frame="1192" pose="11.43 -50.98 27.54 -17.29 -51.27 73.54 -12.89 61.23 70.9 22.56 -88.18 -12.6 -149.71 65.33 -60.35" />
+        <step frame="1254" pose="11.43 -50.98 27.54 -17.29 -51.27 73.54 -12.89 61.23 70.9 22.56 -88.18 -12.6 -149.71 65.33 -60.35" />
+        <step frame="1331" pose="0 0 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+      </steps>
+    </Page>
+    <Page name="==== ZONA C ====">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="Sisa C1 V2">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="64" pose="0 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="129" pose="21.97 -53.32 22.85 21.39 -63.28 80.27 -12.01 16.7 78.22 24.32 -98.14 148 -40.43 25.49 -47.17" />
+        <step frame="202" pose="4.98 -53.91 24.61 0.59 -63.28 96.68 -12.01 55.96 78.22 71.78 -98.14 148 -40.43 -72.95 -47.17" />
+        <step frame="275" pose="2.47 -26.77 12.22 4.1 -63.28 97.85 -12.01 55.37 78.22 71.78 -98.14 95.8 -40.43 -85.25 -47.17" />
+        <step frame="347" pose="0 0 0 3.52 -63.28 55.37 -12.01 4.98 78.22 93.16 -98.14 36.04 -40.43 58.01 -47.17" />
+        <step frame="419" pose="0 0 0 63.28 -63.28 12.01 -12.01 -78.22 78.22 98.14 -98.14 40.43 -40.43 47.17 -47.17" />
+      </steps>
+    </Page>
+    <Page name="MENDAYU V3">
+      <param compileSize="5" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+        <step frame="141" pose="2.26 -0.56 -14.83 89.36 -89.36 5.27 -5.27 -31.64 31.64 89.65 -89.65 128.91 -128.91 26.07 -26.07" />
+        <step frame="193" pose="3.52 -0.88 -23.14 89.94 -89.94 7.91 -7.91 -32.81 32.81 88.77 -88.77 139.45 -139.45 -47.17 47.17" />
+        <step frame="268" pose="1.38 -0.34 -9.07 89.06 -89.06 -3.52 3.52 -7.91 7.91 68.26 -68.26 -5.57 5.57 -89.65 89.65" />
+        <step frame="318" pose="0 0 0 72.66 -72.66 -2.34 2.34 -7.91 7.91 48.93 -48.93 -5.86 5.86 57.13 -57.13" />
+        <step frame="448" pose="24.61 55.37 -8.5 64.75 4.1 14.06 -71.48 -73.54 -52.44 94.92 -21.09 123.93 5.27 -59.47 36.62" />
+        <step frame="499" pose="24.61 55.37 -8.5 67.68 4.1 14.65 -69.73 -75 -64.16 94.04 -22.27 80.27 5.57 53.61 -63.87" />
+        <step frame="627" pose="24.61 -55.37 8.5 -4.1 -64.75 71.48 -14.06 52.44 73.54 21.09 -94.92 -5.27 -123.93 -36.62 59.47" />
+        <step frame="678" pose="24.61 -55.37 8.5 -4.1 -67.68 69.73 -14.65 64.16 75 22.27 -94.04 -5.57 -80.27 63.87 -53.61" />
+        <step frame="807" pose="24.61 55.37 -8.5 64.75 4.1 14.06 -71.48 -73.54 -52.44 94.92 -21.09 123.93 5.27 -59.47 36.62" />
+        <step frame="857" pose="24.61 55.37 -8.5 67.68 4.1 14.65 -69.73 -75 -64.16 94.04 -22.27 80.27 5.57 53.61 -63.87" />
+        <step frame="986" pose="7.97 18.55 -14.96 82.03 -88.48 1.17 2.05 -71.19 12.3 63.87 -37.21 -9.38 -94.04 41.6 -23.73" />
+        <step frame="1050" pose="-0.29 0.29 -18.16 91.7 -93.04 -2.64 2.17 -78.22 10.08 36.91 -27.71 8.5 -92.46 44.24 72.48" />
+        <step frame="1076" pose="-0.29 0.29 -18.16 91.7 -93.04 -2.64 2.17 -78.22 10.08 36.91 -27.71 8.5 -92.46 44.24 72.48" />
+        <step frame="1140" pose="-0.29 0.1 -6.05 74.12 -60.35 -21.39 7.91 -35.45 -33.98 59.18 -100.78 -18.75 -1.46 36.91 -34.28" />
+        <step frame="1205" pose="-0.29 -0.1 6.24 88.48 -82.03 -2.05 -1.17 -12.3 71.19 37.21 -63.87 94.04 9.38 23.73 -41.6" />
+        <step frame="1268" pose="-0.29 -0.29 18.16 93.04 -91.7 -2.17 2.64 -10.08 78.22 27.71 -36.91 92.46 -8.5 -72.48 -44.24" />
+        <step frame="1293" pose="-0.29 -0.29 18.16 93.16 -91.7 -2.05 2.64 -9.96 78.22 27.83 -36.91 92.58 -8.5 -72.36 -44.24" />
+        <step frame="1357" pose="-0.29 -0.1 6.24 65.33 -77.34 -23.44 -2.93 23.73 32.52 69.73 -74.71 -5.27 5.27 62.99 -33.98" />
+        <step frame="1421" pose="-0.29 0.1 -6.05 82.03 -88.48 1.17 2.05 -71.19 12.3 63.87 -37.21 -9.38 -94.04 41.6 -23.73" />
+        <step frame="1487" pose="-0.29 0.29 -18.16 91.7 -93.16 -2.64 2.05 -78.22 9.96 36.91 -27.83 8.5 -92.58 44.24 72.36" />
+        <step frame="1513" pose="-0.29 0.29 -18.16 91.7 -93.16 -2.64 2.05 -78.22 9.96 36.91 -27.83 8.5 -92.58 44.24 72.36" />
+        <step frame="1579" pose="-0.29 0 -6.15 74.12 -60.35 -21.39 7.91 -35.45 -33.98 59.18 -100.78 -18.75 -1.46 36.91 -34.28" />
+        <step frame="1641" pose="-0.29 0 6.15 88.48 -82.03 -2.05 -1.17 -12.3 71.19 37.21 -63.87 94.04 9.38 23.73 -41.6" />
+        <step frame="1705" pose="-0.29 -0.29 18.16 93.16 -91.7 -2.05 2.64 -9.96 78.22 27.83 -36.91 92.58 -8.5 -72.36 -44.24" />
+        <step frame="1753" pose="-0.29 -0.29 18.16 93.16 -91.7 -2.05 2.64 -9.96 78.22 27.83 -36.91 92.58 -8.5 -72.36 -44.24" />
+        <step frame="1856" pose="21.09 54.49 -9.96 73.71 -0.12 36.21 -65.16 -7.74 -55.2 110.62 -27.07 148.71 17.87 -60.47 33.69" />
+        <step frame="1920" pose="4.69 54.49 -10.25 74.71 -10.21 35.74 -54.03 -9.67 -45.31 123.63 -27.08 149.71 0.73 62.99 -50.22" />
+        <step frame="2023" pose="21.09 -54.49 9.96 -0.88 -74.71 64.16 -37.21 54.2 6.74 26.07 -111.62 -17.87 -150 -33.69 59.47" />
+        <step frame="2086" pose="4.69 -54.49 10.25 10.21 -74.71 54.03 -35.74 45.31 9.67 27.08 -123.63 -0.73 -149.71 50.22 -62.99" />
+        <step frame="2189" pose="21.09 54.49 -9.96 74.71 0.88 37.21 -64.16 -6.74 -54.2 111.62 -26.07 149.71 17.87 -59.47 33.69" />
+        <step frame="2253" pose="4.69 54.49 -10.25 74.71 -10.21 35.74 -54.03 -9.67 -45.31 123.63 -27.08 149.71 0.73 62.99 -50.22" />
+        <step frame="2356" pose="21.09 -54.49 9.96 -0.88 -74.71 64.16 -37.21 54.2 6.74 26.07 -111.62 -17.87 -150 -33.69 59.47" />
+        <step frame="2419" pose="4.69 -54.49 10.25 10.25 -74.71 53.91 -35.74 45.41 9.67 26.95 -123.63 -0.59 -149.71 50.1 -62.99" />
+        <step frame="2521" pose="0.29 0 0 67.68 -67.68 14.65 -14.65 -75 75 94.04 -94.04 80.27 -80.27 53.61 -53.61" />
+        <step frame="2638" pose="32.52 1.76 -0.88 68.55 -68.55 14.06 -14.06 -65.62 65.62 91.11 -91.11 132.71 -132.71 -83.2 83.2" />
+        <step frame="2752" pose="0 0 0 88.48 -88.48 -2.05 2.05 -35.74 35.74 31.64 -31.64 147.07 -147 30.47 -30.47" />
+        <step frame="2840" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="DUDUK MEGOL">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="143" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="269" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="398" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="527" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="599" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="727" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="819" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="919" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="1047" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="1175" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+      </steps>
+    </Page>
+    <Page name="DUDUK MEGOL V2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="143" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="269" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="398" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="527" pose="0.88 48.34 -23.73 0.29 -73.83 23.14 -48.63 -41.89 -13.18 78.52 -109.57 106.05 13.18 -55.37 -58.59" />
+        <step frame="599" pose="15.53 -50.1 18.75 -8.2 -76.76 60.35 -6.15 28.42 -2.34 24.61 -94.04 -9.08 -143.55 34.57 -59.47" />
+        <step frame="666" pose="0 0 0 36.62 -36.62 9.67 -9.67 -48.34 48.34 73.54 -73.54 8.79 -8.79 58.89 -58.89" />
+        <step frame="727" pose="0.88 -48.34 23.73 73.83 -0.29 48.63 -23.14 13.18 41.89 109.57 -78.52 -13.18 -106.05 58.59 55.37" />
+        <step frame="819" pose="15.53 50.1 -18.75 76.76 8.2 6.15 -60.35 2.34 -28.42 94.04 -24.61 143.55 9.08 59.47 -34.57" />
+        <step frame="919" pose="0.88 -48.34 23.73 73.83 -0.29 48.63 -23.14 13.18 41.89 109.57 -78.52 -13.18 -106.05 58.59 55.37" />
+        <step frame="1047" pose="15.53 50.1 -18.75 76.76 8.2 6.15 -60.35 2.34 -28.42 94.04 -24.61 143.55 9.08 59.47 -34.57" />
+        <step frame="1175" pose="0.88 -48.34 23.73 73.83 -0.29 48.63 -23.14 13.18 41.89 109.57 -78.52 -13.18 -106.05 58.59 55.37" />
+      </steps>
+    </Page>
+    <Page name="MT Transisi">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="153" pose="0 0 0 36.33 -36.33 26.66 -26.66 -37.5 37.5 91.41 -91.41 38.96 -38.96 45.12 -45.12" />
+        <step frame="256" pose="-2.93 -54.79 -2.64 19.63 -56.25 40.14 24.9 71.78 60.64 57.42 -58.89 -22.56 -37.21 55.66 -43.95" />
+        <step frame="293" pose="12.01 -53.91 -4.39 23.44 -54.49 60.64 27.25 75.29 59.77 17.87 -61.23 10.25 -34.57 -56.84 58.59" />
+        <step frame="333" pose="-2.93 -54.79 -2.64 19.63 -56.25 40.14 24.9 71.78 60.64 57.42 -58.89 -22.56 -37.21 55.66 -43.95" />
+        <step frame="358" pose="0 0 0 19.63 -56.25 40.14 24.9 71.78 60.64 57.42 -58.89 -22.56 -37.21 55.66 -43.95" />
+        <step frame="435" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="511" pose="23.44 0 0 -13.18 -74.71 15.53 -1.76 8.2 -14.65 14.06 -57.13 149.71 13.48 -25.49 -54.79" />
+        <step frame="563" pose="0 0 0 85.25 -84.08 10.25 16.41 9.96 74.41 29.59 -65.62 149.12 -54.49 18.16 -54.49" />
+        <step frame="578" pose="0 0 0 85.25 -84.08 10.25 16.41 9.96 74.41 29.59 -65.62 149.12 -54.49 18.16 -54.49" />
+        <step frame="639" pose="10.84 -29.59 -12.3 104 -47.17 6.45 -69.73 3.81 11.13 67.09 -23.14 147 -40.72 27.83 -63.57" />
+        <step frame="691" pose="10.84 -29.59 -12.3 112.21 -64.6 15.23 -46.2 -41.6 -3.6 89.06 -71.38 145.61 -100.13 27.25 16.15" />
+        <step frame="743" pose="-0.59 -47.17 10.55 109.57 -77.34 64.45 -29 -14.94 -14.36 29.59 -106.64 0 -143.55 43.36 74.41" />
+        <step frame="767" pose="-0.59 -47.17 10.55 109.57 -77.34 64.45 -29 -14.94 -14.36 29.59 -106.64 0 -143.55 43.36 74.41" />
+        <step frame="844" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="907" pose="23.44 0 0 -13.18 -74.71 15.53 -1.76 8.2 -14.65 14.06 -57.13 149.71 13.48 -25.49 -54.79" />
+        <step frame="958" pose="0 0 0 85.25 -84.08 10.25 16.41 9.96 74.41 29.59 -65.62 149.12 -54.49 18.16 -54.49" />
+        <step frame="971" pose="0 0 0 85.25 -84.08 10.25 16.41 9.96 74.41 29.59 -65.62 149.12 -54.49 18.16 -54.49" />
+        <step frame="1035" pose="10.84 -29.59 -12.3 104 -47.17 6.45 -69.73 3.81 11.13 67.09 -23.14 147 -40.72 27.83 -63.57" />
+        <step frame="1086" pose="10.84 -29.59 -12.3 112.21 -64.6 15.23 -46.2 -41.6 -3.6 89.06 -71.38 145.61 -100.13 27.25 16.15" />
+        <step frame="1151" pose="-0.59 -47.17 10.55 109.57 -77.34 64.45 -29 -14.94 -14.36 29.59 -106.64 0 -143.55 43.36 74.41" />
+        <step frame="1176" pose="-0.59 -47.17 10.55 109.57 -77.34 64.45 -29 -14.94 -14.36 29.59 -106.64 0 -143.55 43.36 74.41" />
+        <step frame="1228" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="1305" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+      </steps>
+    </Page>
+    <Page name="==== ZONA AKHIR ====">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="SALAM PENUTUP NINA">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="154" pose="0 0 0 -2.93 2.93 40.72 -40.72 87.3 -87.3 35.45 -35.45 -1.76 1.76 66.5 -66.5" />
+        <step frame="205" pose="0 0 0 63.87 -63.87 33.98 -33.98 7.32 -7.32 41.89 -41.89 -1.76 1.76 65.92 -65.92" />
+        <step frame="257" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="282" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="333" pose="0 0 0 58.89 -58.89 22.56 -22.56 -9.38 9.38 101.37 -101.37 56.54 -56.54 -44.82 44.82" />
+        <step frame="397" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="422" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="513" pose="0 0 0 67.68 -70.02 14.65 0.59 -75 2.64 94.04 -32.52 80.27 4.69 53.61 -63.57" />
+        <step frame="564" pose="5.22 7.4 -10.44 72.95 -71.48 14.94 8.5 -67.97 8.79 93.16 -25.2 131.84 11.72 -82.91 -58.3" />
+        <step frame="616" pose="10.55 14.94 -21.09 81.15 -73.54 -26.66 20.51 -55.66 18.16 59.77 -13.77 149.71 22.56 44.24 -50.1" />
+        <step frame="642" pose="10.55 14.94 -21.09 81.15 -73.54 -26.66 20.51 -55.66 18.16 59.77 -13.77 149.71 22.56 44.24 -50.1" />
+        <step frame="693" pose="10.55 14.94 -21.09 68.55 -73.54 -2.05 20.51 -82.32 18.16 84.08 -13.77 67.09 22.56 54.2 -50.1" />
+        <step frame="744" pose="7.18 -16.85 1.32 28.71 -70.61 21.68 2.93 -84.38 46.58 53.91 -53.91 66.8 -28.71 54.49 -51.86" />
+        <step frame="795" pose="3.81 -48.63 23.73 24.9 -67.68 60.64 -14.65 47.75 75 32.23 -94.04 -6.74 -80.27 57.13 -53.61" />
+        <step frame="821" pose="3.81 -48.63 23.73 24.9 -67.68 60.64 -14.65 47.75 75 32.23 -94.04 -6.74 -80.27 57.13 -53.61" />
+        <step frame="871" pose="0 0 0 30.47 -30.47 19.04 -19.04 -74.71 74.71 34.86 -34.86 75 -75 53.91 -53.91" />
+        <step frame="924" pose="0 0 0 65.33 -65.92 -14.65 0 -55.66 54.79 75.29 -94.04 77.34 -76.46 38.09 -29.88" />
+        <step frame="950" pose="0 0 0 65.33 -65.92 -14.65 0 -55.66 54.79 75.29 -94.04 77.34 -76.46 38.09 -29.88" />
+        <step frame="1053" pose="33.11 0 0 65.33 -65.92 -14.65 0 -55.66 54.79 75.29 -94.04 77.34 -76.46 38.09 -29.88" />
+        <step frame="1178" pose="0 0 0 65.33 -65.92 -14.65 0 -55.66 54.79 75.29 -94.04 77.34 -76.46 38.09 -29.88" />
+      </steps>
+    </Page>
+    <Page name="LEPAS MASKER">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="79" pose="-0.29 0.88 0 33.4 -33.4 4.39 -4.39 -27.54 27.54 69.73 -69.73 -0.59 0.59 51.56 -51.56" />
+        <step frame="129" pose="-0.29 0.88 0 16.41 -16.41 49.22 -49.22 -22.56 22.56 50.98 -50.98 -13.77 13.77 63.87 -63.87" />
+        <step frame="170" pose="-0.29 0.59 0 -4.69 1.17 52.44 -49.51 41.02 -15.82 28.12 -23.44 22.85 -36.91 70.9 -71.48" />
+        <step frame="241" pose="-3.52 -0.59 -63.57 -4.1 6.74 96.68 -48.05 90.23 -95.8 36.91 -13.77 0.29 0.88 43.95 -55.37" />
+        <step frame="254" pose="-3.52 -0.59 -63.57 -4.1 6.74 96.68 -48.05 90.23 -95.8 36.91 -13.77 0.29 0.88 43.95 -55.37" />
+        <step frame="335" pose="-3.52 -0.59 -63.57 75 6.74 -1.76 -48.05 -23.73 -95.8 81.15 -13.77 74.12 0.88 38.38 -55.37" />
+        <step frame="395" pose="-3.52 -0.59 -63.57 94.04 6.74 -18.16 -48.05 -45.7 -95.8 99.02 -13.77 144.73 0.88 8.2 -55.37" />
+        <step frame="427" pose="26.66 -1.76 -18.75 79.98 6.74 -9.38 -48.05 -20.21 -95.8 96.39 -13.77 140.33 0.88 -55.66 -55.37" />
+        <step frame="452" pose="15.53 -0.29 9.67 67.97 6.74 1.46 -48.05 -57.71 -95.8 88.77 -13.77 137.4 0.88 -72.95 -55.37" />
+        <step frame="498" pose="0 0 0 12.6 -12.6 38.67 -38.67 96.39 -96.39 107.81 -107.81 4.98 -4.98 -51.27 51.27" />
+        <step frame="543" pose="0 0 0 12.01 -12.01 16.99 -16.99 75.29 -75.29 49.8 -49.8 -3.52 3.52 49.51 -49.51" />
+      </steps>
+    </Page>
+    <Page name="CUCI TANGAN C">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 9.67 -9.67 29.3 -29.3 -19.92 19.92 87.01 -87.01 136.52 -136.52 -19.63 19.63" />
+        <step frame="128" pose="13.48 0 -0.88 62.4 -62.4 6.15 -6.15 -14.06 14.06 64.45 -64.45 137.11 -137.11 -41.6 41.6" />
+        <step frame="170" pose="0 0 0 67.38 -68.85 0.88 -1.76 -20.51 11.13 59.77 -60.64 139.16 -139.16 42.77 -43.65" />
+        <step frame="179" pose="0 0 0 67.38 -68.85 0.88 -1.76 -20.51 11.13 59.77 -60.64 139.16 -139.16 42.77 -43.65" />
+        <step frame="231" pose="11.43 -2.05 -0.59 70.31 -70.31 -12.89 12.89 -68.85 68.85 45.41 -45.41 137.11 -137.11 38.96 -38.96" />
+        <step frame="308" pose="15.82 -14.65 6.45 67.09 -61.23 -17.58 -5.27 -70.02 84.67 29 -75.48 136.52 -137.7 34.86 -64.16" />
+        <step frame="384" pose="15.82 14.65 -6.45 61.82 -68.26 -16.7 -4.98 -84.67 77.64 62.7 -46.88 137.11 -137.99 59.47 -50.39" />
+        <step frame="461" pose="15.82 -14.65 6.45 67.09 -61.23 -17.58 -5.27 -70.02 84.67 29 -75.48 136.52 -137.7 34.86 -64.16" />
+        <step frame="538" pose="15.82 14.65 -6.45 61.82 -68.26 -16.7 -4.98 -84.67 77.64 62.7 -46.88 137.11 -137.99 59.47 -50.39" />
+      </steps>
+    </Page>
+    <Page name="Final Pose Ninaa">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="30 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="346" pose="30 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="398" pose="14.85 0 0 0 -31.35 7.03 -6.45 1.46 7.91 72.95 -87.3 -8.79 -70.31 59.47 73.24" />
+        <step frame="449" pose="0 0 0 31.35 -55.37 6.45 -0.29 -7.91 4.98 87.3 -85.55 70.31 -150 -73.24 -40.14" />
+        <step frame="500" pose="0 0 -10 60.94 -50.68 27.83 -26.37 -4.98 61.23 65.04 -88.18 110.16 -58.01 -16.7 -69.43" />
+        <step frame="551" pose="0 0 -20 90.53 25.2 49.22 -25.2 -2.05 29.59 43.07 -75.29 149.71 -24.9 39.55 -91.11" />
+      </steps>
+    </Page>
+    <Page name="FINAL POSE DELAY">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 -20 90.53 25.2 49.22 -25.2 -2.05 29.59 43.07 -75.29 149.71 -24.9 39.55 -91.11" />
+        <step frame="1280" pose="0 0 -20 90.53 25.2 49.22 -25.2 -2.05 29.59 43.07 -75.29 149.71 -24.9 39.55 -91.11" />
+      </steps>
+    </Page>
+    <Page name="Vivat Lopyu V2 Nina">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 -5.86 5.86 18.46 -18.46 4.69 -4.69 50.39 -50.39 2.05 -2.05 70.61 -70.61" />
+        <step frame="128" pose="31.05 -60.35 -8.5 -6.74 -51.27 15.23 15.53 4.69 73.54 47.75 -24.61 2.34 -76.76 68.85 16.7" />
+        <step frame="205" pose="31.05 -60.35 -8.5 -6.74 -41.6 15.23 8.5 4.69 84.67 47.75 -43.36 2.34 -107.52 68.85 48.93" />
+        <step frame="282" pose="31.05 -60.35 -8.5 -6.74 -41.6 15.23 8.5 4.69 84.67 47.75 -43.36 2.34 -107.52 68.85 48.93" />
+        <step frame="348" pose="31.05 -60.35 -8.5 -6.74 -59.18 15.23 -4.69 4.69 90.23 47.75 -23.44 2.34 -70.9 68.85 -50.1" />
+        <step frame="435" pose="0 0 0 -5.86 -53.61 18.46 -13.18 4.69 23.14 50.39 -57.13 2.05 -30.18 70.61 -70.31" />
+        <step frame="476" pose="0 0 0 -5.86 -53.61 18.46 -13.18 4.69 23.14 50.39 -57.13 2.05 -30.18 70.61 -70.31" />
+        <step frame="560" pose="20 0 0 67.68 -53.61 -8.79 -13.18 -36.91 23.14 104.59 -57.13 133.59 -30.18 -16.7 -70.31" />
+        <step frame="586" pose="20 0 0 67.68 -53.61 -8.79 -13.18 -36.91 23.14 104.59 -57.13 133.59 -30.18 -16.7 -70.31" />
+        <step frame="687" pose="1.17 -0.88 -22.85 66.8 -53.61 13.77 -13.18 -9.96 23.14 87.01 -57.13 141.8 -30.18 37.79 -70.31" />
+        <step frame="816" pose="1.17 -0.88 -22.85 66.8 -53.61 13.77 -13.18 -9.96 23.14 87.01 -57.13 141.8 -30.18 37.79 -70.31" />
+        <step frame="917" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+        <step frame="994" pose="-4.39 -19.92 -31.64 67.09 -53.61 18.46 -13.18 -29.59 23.14 65.62 -57.13 -6.15 -30.18 57.13 -70.31" />
+        <step frame="1071" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+        <step frame="1148" pose="-4.39 -19.92 -31.64 67.09 -53.61 18.46 -13.18 -29.59 23.14 65.62 -57.13 -6.15 -30.18 57.13 -70.31" />
+        <step frame="1225" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+      </steps>
+    </Page>
+    <Page name="VIVAT LOPYU V3">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 -5.86 5.86 18.46 -18.46 4.69 -4.69 50.39 -50.39 2.05 -2.05 70.61 -70.61" />
+        <step frame="128" pose="31.05 -60.35 -8.5 -6.74 -51.27 15.23 15.53 4.69 73.54 47.75 -24.61 2.34 -76.76 68.85 16.7" />
+        <step frame="205" pose="31.05 -60.35 -8.5 -6.74 -41.6 15.23 8.5 4.69 84.67 47.75 -43.36 2.34 -107.52 68.85 48.93" />
+        <step frame="282" pose="31.05 -60.35 -8.5 -6.74 -41.6 15.23 8.5 4.69 84.67 47.75 -43.36 2.34 -107.52 68.85 48.93" />
+        <step frame="348" pose="31.05 -60.35 -8.5 31.35 -59.18 6.45 -4.69 -7.91 90.23 87.3 -23.44 70.31 -70.9 -73.24 -50.1" />
+        <step frame="435" pose="0 0 -20 90.53 -53.61 49.22 -13.18 -2.05 23.14 43.07 -57.13 149.71 -30.18 39.55 -70.31" />
+        <step frame="476" pose="0 0 -20 90.53 -53.61 49.22 -13.18 -2.05 23.14 43.07 -57.13 149.71 -30.18 39.55 -70.31" />
+        <step frame="560" pose="20 0 0 67.68 -53.61 -8.79 -13.18 -36.91 23.14 104.59 -57.13 133.59 -30.18 -16.7 -70.31" />
+        <step frame="586" pose="20 0 0 67.68 -53.61 -8.79 -13.18 -36.91 23.14 104.59 -57.13 133.59 -30.18 -16.7 -70.31" />
+        <step frame="687" pose="1.17 -0.88 0 66.8 -53.61 13.77 -13.18 -9.96 23.14 87.01 -57.13 141.8 -30.18 37.79 -70.31" />
+        <step frame="816" pose="1.17 -0.88 0 66.8 -53.61 13.77 -13.18 -9.96 23.14 87.01 -57.13 141.8 -30.18 37.79 -70.31" />
+        <step frame="917" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+        <step frame="994" pose="-4.39 -19.92 -31.64 67.09 -53.61 18.46 -13.18 -29.59 23.14 65.62 -57.13 -6.15 -30.18 57.13 -70.31" />
+        <step frame="1071" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+        <step frame="1148" pose="-4.39 -19.92 -31.64 67.09 -53.61 18.46 -13.18 -29.59 23.14 65.62 -57.13 -6.15 -30.18 57.13 -70.31" />
+        <step frame="1225" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+        <step frame="1302" pose="-4.39 -19.92 -31.64 67.09 -53.61 18.46 -13.18 -29.59 23.14 65.62 -57.13 -6.15 -30.18 57.13 -70.31" />
+        <step frame="1379" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+        <step frame="1456" pose="-4.39 -19.92 -31.64 67.09 -53.61 18.46 -13.18 -29.59 23.14 65.62 -57.13 -6.15 -30.18 57.13 -70.31" />
+        <step frame="1533" pose="-4.39 0 31.64 52.15 -53.61 24.61 -13.18 32.81 23.14 77.93 -57.13 68.55 -30.18 46.29 -70.31" />
+      </steps>
+    </Page>
+    <Page name="Final Vivat Nina">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="30 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="154" pose="0 0 0 -5.86 5.86 43.07 -43.07 4.69 -4.69 50.39 -50.39 2.05 -2.05 70.61 -70.61" />
+        <step frame="218" pose="29.3 62.99 6.74 -5.86 54.49 43.07 -47.75 4.69 48.93 50.39 -116.02 2.05 -94.34 70.61 -23.14" />
+        <step frame="281" pose="29.3 62.99 6.74 -5.86 57.71 43.07 -45.7 4.69 55.08 50.39 -119.53 2.05 -77.64 70.61 -33.69" />
+        <step frame="436" pose="29.3 62.99 6.74 -5.86 27.54 43.07 -36.33 4.69 12.01 50.39 -93.46 2.05 -79.39 70.61 -33.4" />
+        <step frame="588" pose="6.41 0 0 17.58 -53.32 9.67 -40.72 -8.5 1.46 67.68 -67.97 44.24 -31.93 42.77 -69.43" />
+        <step frame="615" pose="6.41 0 0 17.58 -53.32 9.67 -40.72 -8.5 1.46 67.68 -67.97 44.24 -31.93 42.77 -69.43" />
+        <step frame="716" pose="30 0 0 0 -53.32 7.03 -40.72 1.46 1.46 72.95 -67.97 -8.79 -31.93 59.47 -69.43" />
+        <step frame="768" pose="14.85 0 0 0 -53.32 7.03 -40.72 1.46 1.46 72.95 -67.97 -8.79 -31.93 59.47 -69.43" />
+        <step frame="819" pose="0 0 0 31.35 -53.32 6.45 -40.72 -7.91 1.46 87.3 -67.97 70.31 -31.93 -73.24 -69.43" />
+        <step frame="870" pose="0 0 -10 60.94 -53.32 27.83 -40.72 -4.98 1.46 65.04 -67.97 110.16 -31.93 -16.7 -69.43" />
+        <step frame="921" pose="0 0 -20 90.53 -53.32 49.22 -40.72 -2.05 1.46 43.07 -67.97 149.71 -31.93 39.55 -69.43" />
+      </steps>
+    </Page>
+    <Page name="======= SELESAI =======">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="                              ">
+      <param compileSize="0" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps />
+    </Page>
+    <Page name="===== MOTION JALAN =====">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="A1 KANAN AWAL">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="65" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+        <step frame="166" pose="16.7 68.85 4.1 14.36 -11.13 39.55 -43.36 83.2 -79.1 33.4 -97.56 2.93 0.29 75.29 53.61" />
+        <step frame="270" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="A1 KIRI++">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="65" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+        <step frame="185" pose="12.3 -66.8 -1.46 5.86 -14.36 48.05 -39.55 85.84 -83.2 103.42 -33.4 3.52 -2.93 -52.73 -75.29" />
+        <step frame="307" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="A1 KANAN++">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+        <step frame="193" pose="16.7 68.85 4.1 14.36 -11.13 39.55 -43.36 83.2 -79.1 33.4 -97.56 2.93 0.29 75.29 53.61" />
+        <step frame="322" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="A1 KIRTUP">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+        <step frame="172" pose="12.3 -66.8 -1.46 5.86 -14.36 48.05 -39.55 85.84 -83.2 103.42 -33.4 3.52 -2.93 -52.73 -75.29" />
+        <step frame="260" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="Kanan Awal 3">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 -10.84 -46.29 24.9 -43.95 47.46 -26.95 10.84 -117.77 21.39 -146.19 79.98 -42.19" />
+        <step frame="140" pose="0 0 0 -10.84 -51.27 24.9 -44.24 47.46 -26.66 10.84 -114.55 21.39 -143.55 79.98 59.77" />
+        <step frame="197" pose="0 0 0 -10.84 -51.27 24.9 -58.01 47.46 10.55 10.84 -116.31 21.39 -93.75 79.98 61.23" />
+        <step frame="270" pose="0 0 0 -10.84 -48.34 24.9 -57.13 47.46 11.13 10.84 -110.16 21.39 -34.57 79.98 -56.84" />
+      </steps>
+    </Page>
+    <Page name="Kiri ++ 3">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 46.29 10.84 43.95 -24.9 26.95 -47.46 117.77 -10.84 146.19 -21.39 42.19 -79.98" />
+        <step frame="153" pose="0 0 0 51.27 10.84 44.24 -24.9 26.66 -47.46 114.55 -10.84 143.55 -21.39 -59.77 -79.98" />
+        <step frame="231" pose="0 0 0 51.27 10.84 58.01 -24.9 -10.55 -47.46 116.31 -10.84 93.75 -21.39 -61.23 -79.98" />
+        <step frame="307" pose="0 0 0 48.34 10.84 57.13 -24.9 -11.13 -47.46 110.16 -10.84 34.57 -21.39 56.84 -79.98" />
+      </steps>
+    </Page>
+    <Page name="Kanan ++ 3">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 -10.84 -46.29 24.9 -43.95 47.46 -26.95 10.84 -117.77 21.39 -146.19 79.98 -42.19" />
+        <step frame="154" pose="0 0 0 -10.84 -51.27 24.9 -44.24 47.46 -26.66 10.84 -114.55 21.39 -143.55 79.98 59.77" />
+        <step frame="236" pose="0 0 0 -10.84 -51.27 24.9 -58.01 47.46 10.55 10.84 -116.31 21.39 -93.75 79.98 61.23" />
+        <step frame="322" pose="0 0 0 -10.84 -48.34 24.9 -57.13 47.46 11.13 10.84 -110.16 21.39 -34.57 79.98 -56.84" />
+      </steps>
+    </Page>
+    <Page name="Kiri Tutup 3">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 46.29 10.84 43.95 -24.9 26.95 -47.46 117.77 -10.84 146.19 -21.39 42.19 -79.98" />
+        <step frame="129" pose="0 0 0 51.27 10.84 44.24 -24.9 26.66 -47.46 114.55 -10.84 143.55 -21.39 -59.77 -79.98" />
+        <step frame="199" pose="0 0 0 51.27 10.84 58.01 -24.9 -10.55 -47.46 116.31 -10.84 93.75 -21.39 -61.23 -79.98" />
+        <step frame="260" pose="0 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+      </steps>
+    </Page>
+    <Page name="                             ">
+      <param compileSize="0" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps />
+    </Page>
+    <Page name="== MOTION ATRAS ==">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="139" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="216" pose="0 0 0 11.13 -24.32 12.01 -0.29 -43.95 10.25 73.54 -76.46 25.78 -134.18 52.15 -2.93" />
+        <step frame="293" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="395" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="446" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="497" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="602" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="640" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="IRAMA GENDANG">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="30 0 0 6.74 -6.74 16.7 -16.7 -3.52 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="154" pose="0 -41.6 -4.69 -4.69 -36.33 60.64 -28.42 53.03 67.09 38.09 -105.18 9.67 -65.62 69.43 -59.47" />
+        <step frame="230" pose="30 0 0 6.74 -6.74 16.7 -16.7 -3.52 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="307" pose="0 41.6 4.69 36.33 4.69 28.42 -60.64 -67.09 -53.03 105.18 -38.09 65.62 -9.67 59.47 -69.43" />
+        <step frame="384" pose="30 0 0 6.74 -6.74 16.7 -16.7 -3.52 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="461" pose="0 -41.6 -4.69 -4.69 -36.33 60.64 -28.42 53.03 67.09 38.09 -105.18 9.67 -65.62 69.43 -59.47" />
+        <step frame="538" pose="30 0 0 6.74 -6.74 16.7 -16.7 -3.52 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="614" pose="0 0 0 60.94 -60.94 -20.8 20.8 -15.23 15.23 35.45 -35.45 106.64 -106.64 43.95 -43.95" />
+        <step frame="680" pose="0 0 0 60.94 -60.94 -20.8 20.8 -15.23 15.23 35.45 -35.45 106.64 -106.64 43.95 -43.95" />
+        <step frame="729" pose="11.13 47.1 -17.58 60.94 23.44 -20.8 -72.95 -15.23 -47.17 35.45 -22.56 106.64 -64.45 43.95 46.88" />
+        <step frame="793" pose="0 -48.93 0 60.94 -5.57 -20.8 -91.99 -15.23 -5.57 35.45 -67.68 106.64 -9.08 43.95 -50.1" />
+      </steps>
+    </Page>
+    <Page name="CUCI TANGAN 2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="-1.17 17.29 26.07 58.59 -54.79 9.08 4.1 -79.1 55.66 84.08 -51.56 55.66 -148 43.95 -21.97" />
+        <step frame="130" pose="-2.34 17.87 -11.72 53.91 -53.03 10.25 -16.7 -51.86 75.88 49.51 -90.82 55.37 -147.95 43.95 -21.97" />
+        <step frame="181" pose="-1.17 17.29 26.07 58.59 -54.79 9.08 4.1 -79.1 55.66 84.08 -51.56 55.66 -147.95 43.95 -21.97" />
+        <step frame="233" pose="-2.34 17.87 -11.72 53.91 -53.03 10.25 -16.7 -51.86 75.88 49.51 -90.82 55.37 -147.95 43.95 -21.97" />
+        <step frame="245" pose="-2.34 17.87 -11.72 53.91 -53.03 10.25 -16.7 -51.86 75.88 49.51 -90.82 55.37 -147.95 43.95 -21.97" />
+        <step frame="308" pose="-1.17 -17.29 -26.07 54.79 -58.59 -4.1 -9.08 -55.66 79.1 51.56 -84.08 148 -55.66 21.97 -43.95" />
+        <step frame="361" pose="-2.34 -17.87 11.72 53.03 -53.91 16.7 -10.25 -75.88 51.86 90.82 -49.51 148 -55.37 21.97 -43.95" />
+        <step frame="412" pose="-1.17 -17.29 -26.07 54.79 -58.59 -4.1 -9.08 -55.66 79.1 51.56 -84.08 147.95 -55.66 21.97 -43.95" />
+        <step frame="464" pose="-2.34 -17.87 11.72 53.03 -53.91 16.7 -10.25 -75.88 51.86 90.82 -49.51 147.95 -55.37 -2.05 -43.95" />
+        <step frame="537" pose="-2.34 -17.87 11.72 53.03 -53.91 16.7 -10.25 -75.88 51.86 90.82 -49.51 147.95 -55.37 -2.05 -43.95" />
+      </steps>
+    </Page>
+    <Page name="SALAM PENUTUP">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="154" pose="0 0 0 29.88 -29.88 19.92 -19.92 -53.61 53.61 77.93 -77.93 17.87 -17.87 51.56 -51.56" />
+        <step frame="231" pose="0 0 0 54.48 21.09 42.37 -11.13 -42.23 9.38 58.87 -48.63 10.34 -77.34 54.48 38.96" />
+        <step frame="306" pose="0 0 0 76.76 19.34 62.7 -42.48 -31.93 -69.73 41.6 -49.51 3.52 20.51 57.13 -45.12" />
+        <step frame="361" pose="0 45.12 0 76.76 25.78 62.7 -59.47 -31.93 -54.49 41.6 -35.16 -15.23 9.38 -47.17 43.65" />
+        <step frame="386" pose="0 45.12 0 76.76 25.78 62.7 -59.47 -31.93 -54.49 41.6 -35.16 -15.23 9.38 -47.17 43.65" />
+        <step frame="461" pose="0 0 0 53.32 -53.32 62.7 -62.7 -121.58 121.58 66.21 -66.21 18.75 -18.75 48.05 -48.05" />
+        <step frame="540" pose="0 0 0 38.96 -38.96 12.89 -12.89 -68.26 68.26 71.78 -71.78 31.93 -31.93 55.66 -55.66" />
+        <step frame="617" pose="0 0 0 50.98 -85.25 13.48 -4.69 -2.64 1.17 74.12 -49.51 8.5 -8.5 53.91 -45.12" />
+        <step frame="693" pose="0 0 0 5.86 -77.34 57.13 -4.98 66.21 1.46 59.77 -27.83 8.79 -8.5 53.61 -58.89" />
+        <step frame="745" pose="0 -45.12 0 4.69 -80.57 54.2 3.52 69.73 -12.01 59.77 -27.83 118.95 -87.01 24.9 -26.07" />
+        <step frame="771" pose="0 -45.12 0 4.69 -80.57 54.2 3.52 69.73 -12.01 59.77 -27.83 118.95 -87.01 24.9 -26.07" />
+        <step frame="898" pose="0 0 0 67.64 -63.28 -10.55 20.51 -54.49 48.34 52.73 -50.68 103.12 -108.4 22.56 -40.14" />
+        <step frame="924" pose="0 0 0 67.68 -63.28 -10.55 20.51 -54.49 48.34 52.73 -50.68 103.12 -108.4 22.56 -40.14" />
+        <step frame="1027" pose="33.11 0 0 65.41 -65.41 -14.65 14.65 -55.66 55.66 75.29 -70.02 77.34 -77.34 50.1 -38.67" />
+        <step frame="1152" pose="0 0 0 65.41 -65.41 -14.65 14.65 -55.66 55.66 75.29 -70.02 77.34 -77.34 50.1 -38.67" />
+      </steps>
+    </Page>
+    <Page name="MEKAR CYCLING">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="51" pose="0 0 0 -2.93 2.93 40.72 -40.72 87.3 -87.3 35.45 -35.45 -1.76 1.76 66.5 -66.5" />
+        <step frame="102" pose="0 0 0 63.87 -63.87 33.98 -33.98 7.32 -7.32 41.89 -41.89 -1.76 1.76 65.92 -65.92" />
+        <step frame="168" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="193" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="246" pose="0 0 0 58.89 -58.89 22.56 -22.56 -9.38 9.38 101.37 -101.37 56.54 -56.54 -44.82 44.82" />
+        <step frame="321" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="346" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="409" pose="0 0 0 81.45 -63.87 21.68 -33.98 9.67 -7.32 34.86 -41.89 34.28 1.76 55.66 -65.92" />
+        <step frame="487" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="512" pose="33.11 0 -6.74 56.25 -56.25 14.94 -14.94 -82.91 82.91 54.79 -54.79 32.52 -32.52 77.64 -77.64" />
+        <step frame="565" pose="0 0 0 58.89 -58.89 22.56 -22.56 -9.38 9.38 101.37 -101.37 56.54 -56.54 -44.82 44.82" />
+        <step frame="640" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="665" pose="0 0 0 30.47 -30.47 43.07 -43.07 79.39 -79.39 35.45 -35.45 90.53 -90.53 48.05 -48.05" />
+        <step frame="743" pose="0 0 0 -31.64 -56.54 42.77 -56.25 -27.54 40.43 63.87 -82.32 27.25 -96.68 67.68 -58.3" />
+        <step frame="819" pose="1.76 31.93 -30.47 -21.09 -61.82 40.72 -4.69 -22.85 69.14 0 -89.36 26.66 -78.22 -28.42 -58.3" />
+        <step frame="833" pose="1.76 31.93 -30.47 -21.09 -61.82 40.72 -4.69 -22.85 69.14 0 -89.36 26.66 -78.22 -28.42 -58.3" />
+        <step frame="896" pose="1.76 31.93 -30.47 0.88 -61.82 79.69 -4.69 0.88 69.14 50.1 -89.36 26.37 -78.22 -36.33 -58.3" />
+        <step frame="948" pose="1.76 31.93 -30.47 6.45 -61.82 77.64 -4.69 9.96 69.14 30.76 -89.36 -1.17 -78.22 65.62 -58.3" />
+        <step frame="1024" pose="1.76 15.97 -15.23 56.54 31.64 56.25 -42.77 -40.43 27.54 82.32 -63.87 96.68 -27.25 58.3 -67.68" />
+        <step frame="1101" pose="1.76 2.31 -2.2 61.82 21.09 4.69 -40.72 -69.14 22.85 89.36 0 78.22 -26.66 58.3 28.42" />
+        <step frame="1114" pose="1.76 -3.55 -2.12 61.82 21.09 4.69 -40.72 -69.14 22.85 89.36 0 78.22 -26.66 58.3 28.42" />
+        <step frame="1177" pose="1.76 -31.93 -1.76 61.82 -0.88 4.69 -79.69 -69.14 -0.88 89.36 -50.1 78.22 -26.37 58.3 36.33" />
+        <step frame="1229" pose="1.76 -31.93 -1.76 61.82 -6.45 4.69 -77.64 -69.14 -9.96 89.36 -30.76 78.22 1.17 58.3 -65.62" />
+      </steps>
+    </Page>
+    <Page name="FINAL POSE">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+        <step frame="153" pose="0 0 0 0 13.48 7.03 -6.45 1.46 19.04 72.95 -40.14 -8.79 -27.25 59.47 4.98" />
+        <step frame="180" pose="0 0 0 0 13.48 7.03 -6.45 1.46 19.04 72.95 -40.14 -8.79 -27.25 59.47 4.98" />
+        <step frame="256" pose="0 0 0 0 -18.75 7.03 -75.29 1.46 -65.33 72.95 -37.21 -8.79 -3.52 59.47 -61.23" />
+        <step frame="333" pose="0 0 0 -16.41 -81.45 23.73 -16.99 -18.16 9.67 41.31 -53.32 75.59 -15.53 -48.05 -58.3" />
+        <step frame="359" pose="0 0 0 -16.41 -80.71 23.73 -12.64 -18.16 31.13 41.31 -59.43 75.59 -33.38 -48.05 -61.35" />
+        <step frame="461" pose="20 0 0 -11.72 -61.82 44.53 4.69 84.38 77.93 41.02 -71.19 12.01 -72.07 50.68 -67.38" />
+        <step frame="487" pose="20 0 0 -11.72 -61.82 44.53 4.69 84.38 77.93 41.02 -71.19 12.01 -72.07 50.68 -67.38" />
+        <step frame="589" pose="0 0 0 -11.72 -61.82 44.53 4.69 84.38 77.93 41.02 -71.19 12.01 -72.07 50.68 -67.38" />
+        <step frame="615" pose="0 0 0 -11.72 -61.82 44.53 4.69 84.38 77.93 41.02 -71.19 12.01 -72.07 50.68 -67.38" />
+      </steps>
+    </Page>
+    <Page name="MENDAYU SYAHDU">
+      <param compileSize="4" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="64" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+        <step frame="154" pose="2.26 -0.56 -14.83 89.36 -89.36 5.27 -5.27 -31.64 31.64 89.65 -89.65 128.91 -128.91 26.07 -26.07" />
+        <step frame="206" pose="3.52 -0.88 -23.14 89.94 -89.94 7.91 -7.91 -32.81 32.81 88.77 -88.77 139.45 -139.45 -47.17 47.17" />
+        <step frame="281" pose="1.38 -0.34 -9.07 89.06 -89.06 -3.52 3.52 -7.91 7.91 68.26 -68.26 -5.57 5.57 -89.65 89.65" />
+        <step frame="331" pose="0 0 0 72.66 -72.66 -2.34 2.34 -7.91 7.91 48.93 -48.93 -5.86 5.86 57.13 -57.13" />
+        <step frame="461" pose="24.61 55.37 -8.5 64.75 4.1 14.06 -71.48 -73.54 -52.44 94.92 -21.09 123.93 5.27 -59.47 36.62" />
+        <step frame="512" pose="24.61 55.37 -8.5 67.68 4.1 14.65 -69.73 -75 -64.16 94.04 -22.27 80.27 5.57 53.61 -63.87" />
+        <step frame="640" pose="24.61 -55.37 8.5 -4.1 -64.75 71.48 -14.06 52.44 73.54 21.09 -94.92 -5.27 -123.93 -36.62 59.47" />
+        <step frame="691" pose="24.61 -55.37 8.5 -4.1 -67.68 69.73 -14.65 64.16 75 22.27 -94.04 -5.57 -80.27 63.87 -53.61" />
+        <step frame="820" pose="24.61 55.37 -8.5 64.75 4.1 14.06 -71.48 -73.54 -52.44 94.92 -21.09 123.93 5.27 -59.47 36.62" />
+        <step frame="870" pose="24.61 55.37 -8.5 67.68 4.1 14.65 -69.73 -75 -64.16 94.04 -22.27 80.27 5.57 53.61 -63.87" />
+        <step frame="998" pose="0 0 0 67.68 -70.02 14.65 0.59 -75 2.64 94.04 -32.52 80.27 4.69 53.61 -63.57" />
+        <step frame="1049" pose="1.33 4.58 -7.99 72.95 -71.41 14.94 8.45 -67.97 8.77 93.16 -25.12 131.84 11.74 -82.91 -58.25" />
+        <step frame="1101" pose="2.64 9.08 -15.82 81.15 -73.54 -26.66 20.51 -55.66 18.16 59.77 -13.77 149.71 22.56 44.24 -50.1" />
+        <step frame="1127" pose="2.64 9.08 -15.82 81.15 -73.54 -26.66 20.51 -55.66 18.16 59.77 -13.77 149.71 22.56 44.24 -50.1" />
+        <step frame="1177" pose="0 0 0 68.55 -73.54 -2.05 20.51 -82.32 18.16 84.08 -13.77 67.09 22.56 54.2 -50.1" />
+        <step frame="1280" pose="13.77 -51.86 5.86 24.9 -67.68 60.64 -14.65 47.75 75 32.23 -94.04 -6.74 -80.27 57.13 -53.61" />
+        <step frame="1306" pose="13.77 -51.86 5.86 24.9 -67.68 60.64 -14.65 47.75 75 32.23 -94.04 -6.74 -80.27 57.13 -53.61" />
+        <step frame="1382" pose="0 0 0 70.02 -67.68 -0.59 -14.65 -2.64 75 32.52 -94.04 -4.69 -80.27 63.57 -53.61" />
+        <step frame="1434" pose="1.36 -4.67 8.14 71.41 -72.95 -8.45 -14.94 -8.77 67.97 25.12 -93.16 -11.74 -131.84 58.25 82.91" />
+        <step frame="1485" pose="2.64 -9.08 15.82 73.54 -81.15 -20.51 26.66 -18.16 55.66 13.77 -59.77 -22.56 -149.71 50.1 -44.24" />
+        <step frame="1511" pose="2.64 -9.08 15.82 73.54 -81.15 -20.51 26.66 -18.16 55.66 13.77 -59.77 -22.56 -149.71 50.1 -44.24" />
+        <step frame="1562" pose="0 0 0 73.54 -68.55 -20.51 2.05 -18.16 82.32 13.77 -84.08 -22.56 -67.09 50.1 -54.2" />
+        <step frame="1664" pose="13.77 51.86 -5.86 67.68 -24.9 14.65 -60.64 -75 -47.75 94.04 -32.23 80.27 6.74 53.61 -57.13" />
+        <step frame="1766" pose="0.29 54.79 -23.73 67.68 -70.02 14.65 0.59 -75 2.64 94.04 -32.52 80.27 4.69 53.61 -63.57" />
+        <step frame="2534" pose="0.29 54.79 -23.73 67.68 -70.02 14.65 0.59 -75 2.64 94.04 -32.52 80.27 4.69 53.61 -63.57" />
+        <step frame="2651" pose="32.52 1.76 -0.88 68.55 -79.1 14.06 1.17 -65.62 3.22 91.11 -31.64 132.71 -85.84 -83.2 104.59" />
+        <step frame="2765" pose="0 0 0 88.48 -88.48 -2.05 2.05 -35.74 35.74 31.64 -31.64 147.07 -147 30.47 -30.47" />
+        <step frame="2853" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="KEBAK KANAN KIRI">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="-0.88 0 0 32.52 -39.84 18.16 -14.65 -37.21 36.91 30.47 -32.81 134.18 -132.42 -65.62 66.21" />
+        <step frame="153" pose="-0.88 -21.97 0 31.65 -31.75 67.04 -63.52 63.13 -66.03 50.71 -49.88 18.51 -18.49 -47.98 47.99" />
+        <step frame="154" pose="-0.88 -21.97 0 31.64 -31.64 67.68 -64.16 64.45 -67.38 50.98 -50.1 16.99 -16.99 -47.75 47.75" />
+        <step frame="230" pose="-0.88 14.94 0 -1.76 1.76 105.47 -105.47 80.86 -80.86 51.27 -51.27 17.29 -17.29 -46.58 46.58" />
+        <step frame="245" pose="-0.88 21 0 -1.76 1.76 104.3 -104.3 81.45 -81.45 46.58 -46.58 18.46 -18.46 -18.46 18.46" />
+        <step frame="282" pose="-0.88 0 0 -1.46 1.46 101.66 -101.66 82.91 -82.91 35.45 -35.45 21.09 -21.09 51.27 -51.27" />
+        <step frame="334" pose="-0.88 -21 0 -2.34 2.34 72.07 -72.07 82.32 -82.32 34.86 -34.86 20.51 -20.51 51.27 -51.27" />
+        <step frame="410" pose="-0.88 0 0 -3.81 3.81 29 -29 81.45 -81.45 33.98 -33.98 19.92 -19.92 51.27 -51.27" />
+      </steps>
+    </Page>
+    <Page name="NGANJAT LEBAR">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="64" pose="-0.88 0 0 32.52 -39.84 18.16 -14.65 -37.21 36.91 30.47 -32.81 134.18 -132.42 -65.62 66.21" />
+        <step frame="141" pose="-0.88 -24.32 23.44 31.64 -31.64 67.68 -64.16 64.45 -67.38 50.98 -50.1 16.99 -16.99 -47.75 47.75" />
+        <step frame="217" pose="-1.17 21.39 -13.77 -1.76 1.76 105.47 -105.47 80.86 -80.86 51.27 -51.27 17.29 -17.29 -46.58 46.58" />
+        <step frame="232" pose="-1.17 21.39 -13.77 -1.76 1.76 104.3 -104.3 81.45 -81.45 46.58 -46.58 18.46 -18.46 -18.46 18.46" />
+        <step frame="269" pose="-0.88 0 0 -1.46 1.46 101.66 -101.66 82.91 -82.91 35.45 -35.45 21.09 -21.09 51.27 -51.27" />
+        <step frame="321" pose="-0.88 -18.46 21.09 -2.34 2.34 72.07 -72.07 82.32 -82.32 34.86 -34.86 20.51 -20.51 51.27 -51.27" />
+        <step frame="397" pose="-0.88 0 0 -3.81 3.81 29 -29 81.45 -81.45 33.98 -33.98 19.92 -19.92 51.27 -51.27" />
+        <step frame="435" pose="-0.88 0 0 -3.81 3.81 29 -29 81.45 -81.45 33.98 -33.98 19.92 -19.92 51.27 -51.27" />
+      </steps>
+    </Page>
+    <Page name="VIVAT LOPYU">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 16.7 -16.7 16.7 -16.7 -6.15 6.15 48.93 -48.93 2.05 -2.05 69.14 -69.14" />
+        <step frame="129" pose="9.96 -21.41 -2.29 -29 6.15 45.7 -16.11 -25.2 -3.52 76.17 -48.05 113.09 -2.05 -53.61 -68.85" />
+        <step frame="179" pose="10.25 -21.39 -3.22 -40.14 5.27 64.75 -15.82 -3.52 -3.81 107.81 -48.05 123.93 -2.64 -61.82 -69.14" />
+        <step frame="230" pose="29.3 -62.99 -6.74 -97.85 5.86 15.23 -18.46 -7.03 -4.69 98.73 -50.39 96.97 -2.05 -2.34 -70.61" />
+        <step frame="325" pose="13.75 -29.56 -3.16 -94.63 5.86 13.18 -18.46 21.09 -4.69 100.78 -50.39 98.73 -2.05 -14.94 -70.61" />
+        <step frame="409" pose="0 0 0 53.32 5.86 40.72 -18.46 -1.46 -4.69 67.97 -50.39 31.93 -2.05 69.43 -70.61" />
+        <step frame="487" pose="20 0 0 53.32 -67.68 40.72 8.79 -1.46 36.91 67.97 -104.59 31.93 -133.59 69.43 16.7" />
+        <step frame="513" pose="20 0 0 53.32 -67.68 40.72 8.79 -1.46 36.91 67.97 -104.59 31.93 -133.59 69.43 16.7" />
+        <step frame="614" pose="1.17 -0.88 -22.85 53.32 -66.8 40.72 -13.77 -1.46 9.96 67.97 -87.01 31.93 -141.8 69.43 -37.79" />
+        <step frame="743" pose="1.17 -0.88 -22.85 53.32 -66.8 40.72 -13.77 -1.46 9.96 67.97 -87.01 31.93 -141.8 69.43 -37.79" />
+        <step frame="844" pose="-4.39 0 31.64 53.32 -52.15 40.72 -24.61 -1.46 -32.81 67.97 -77.93 31.93 -68.55 69.43 -46.29" />
+        <step frame="921" pose="-4.39 -19.92 -31.64 53.32 -67.09 40.72 -18.46 -1.46 29.59 67.97 -65.62 31.93 6.15 69.43 -57.13" />
+        <step frame="998" pose="-4.39 0 31.64 53.32 -52.15 40.72 -24.61 -1.46 -32.81 67.97 -77.93 31.93 -68.55 69.43 -46.29" />
+        <step frame="1075" pose="-4.39 -19.92 -31.64 53.32 -67.09 40.72 -18.46 -1.46 29.59 67.97 -65.62 31.93 6.15 69.43 -57.13" />
+        <step frame="1152" pose="-4.39 0 31.64 53.32 -52.15 40.72 -24.61 -1.46 -32.81 67.97 -77.93 31.93 -68.55 69.43 -46.29" />
+      </steps>
+    </Page>
+    <Page name="MAJU MUNDUR">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 57.13 -57.13 2.64 -2.64 -33.98 33.98 82.91 -82.91 150 -150 -15.53 15.53" />
+        <step frame="154" pose="20.8 -1.46 1.17 39.26 -39.26 27.83 -27.83 -37.5 37.5 95.8 -95.8 113.09 -113.09 -63.57 63.57" />
+        <step frame="270" pose="0 0 0 67.97 -67.97 -9.67 9.67 -29 29 20.51 -20.51 11.13 -11.13 70.9 -70.9" />
+        <step frame="311" pose="17.29 -11.13 -0.59 60.46 -67.97 -1.09 9.67 -69.37 29 50.16 -20.51 124.22 -11.13 -41.31 -70.9" />
+        <step frame="350" pose="28.71 -24.32 0.88 53.91 -67.97 12.6 9.67 -110.74 29 74.41 -20.51 84.08 -11.13 -4.1 -70.9" />
+        <step frame="382" pose="34.28 -53.03 10.84 41.6 -67.97 26.66 9.67 -100.2 29 35.45 -20.51 48.63 -11.13 -14.06 -70.9" />
+        <step frame="397" pose="27.83 -60.35 2.93 34.28 -67.97 46 9.67 -87.89 29 32.81 -20.51 54.49 -11.13 -24.32 -70.9" />
+        <step frame="442" pose="19.34 -69.73 4.1 44.53 -67.97 56.54 9.67 29.3 29 8.2 -20.51 9.96 -11.13 62.4 -70.9" />
+        <step frame="525" pose="0 0 0 44.53 -67.97 56.54 9.67 29.3 29 8.2 -20.51 9.96 -11.13 62.4 -70.9" />
+        <step frame="564" pose="18.46 -0.29 0.59 44.53 -60.46 56.54 1.09 29.3 69.37 8.2 -50.16 9.96 -124.22 62.4 41.31" />
+        <step frame="603" pose="39.26 13.48 0.88 44.53 -53.91 56.54 -12.6 29.3 110.74 8.2 -74.41 9.96 -84.08 62.4 4.1" />
+        <step frame="635" pose="28.42 36.33 0.29 44.53 -41.6 56.54 -26.66 29.3 100.2 8.2 -35.45 9.96 -48.63 62.4 14.06" />
+        <step frame="650" pose="28.42 36.33 0.29 44.53 -34.28 56.54 -46 29.3 87.89 8.2 -32.81 9.96 -54.49 62.4 24.32" />
+        <step frame="695" pose="24.9 55.96 -0.88 44.53 -44.53 56.54 -56.54 29.3 -29.3 8.2 -8.2 9.96 -9.96 62.4 -62.4" />
+        <step frame="762" pose="0 0 0 44.53 -44.53 56.54 -56.54 29.3 -29.3 8.2 -8.2 9.96 -9.96 62.4 -62.4" />
+        <step frame="829" pose="0 0 0 41.6 -41.6 11.72 -11.72 -65.33 65.33 30.47 -30.47 -24.9 24.9 -14.36 14.36" />
+        <step frame="883" pose="0 0 0 62.7 -62.7 9.08 -9.08 -30.47 30.47 82.62 -82.62 84.96 -84.96 -45.7 45.7" />
+        <step frame="947" pose="0 0 0 37.79 -37.79 -4.1 4.1 -63.28 63.28 94.63 -94.63 64.45 -64.45 61.82 -61.82" />
+      </steps>
+    </Page>
+    <Page name="TRANSISI B2">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="128" pose="0 0 0 36.33 -36.33 26.66 -26.66 -37.5 37.5 91.41 -91.41 38.96 -38.96 45.12 -45.12" />
+        <step frame="179" pose="0 0 0 58.3 -58.3 28.71 -28.71 -48.05 48.05 63.87 -63.87 112.79 -112.79 -53.61 53.61" />
+        <step frame="230" pose="0 0 0 60.64 -60.64 15.23 -15.23 -9.38 9.38 64.45 -64.45 147 -147 -60.35 60.35" />
+        <step frame="307" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="347" pose="0 0 0 16.7 -16.7 36.04 -36.04 72.07 -72.07 90.23 -90.23 0 0 -31.93 31.93" />
+        <step frame="384" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="460" pose="-2.93 -54.79 -2.64 68.55 -68.55 59.77 -59.77 -2.34 2.34 103.12 -103.12 147.07 -147.07 -91.99 91.99" />
+        <step frame="524" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="589" pose="0 -19.08 12.28 44.82 -43.07 -1.46 -17.87 -64.75 43.07 99.02 -100.49 24.02 -41.6 -93.75 -56.84" />
+        <step frame="653" pose="0 -37.79 24.32 95.51 -36.33 26.07 -12.3 0.29 72.95 62.11 -92.29 149.71 -41.31 41.31 -55.37" />
+        <step frame="679" pose="0 -37.79 24.32 95.51 -36.33 26.07 -12.3 0.29 72.95 62.11 -92.29 149.71 -41.31 41.31 -55.37" />
+        <step frame="743" pose="6.45 -50.1 19.92 64.16 -100.78 85.55 -29.3 -24.61 21.39 10.55 -110.16 0 -134.77 37.21 -70.02" />
+        <step frame="820" pose="11.43 50.98 -27.54 51.27 17.29 12.89 -73.54 -70.9 -61.23 88.18 -22.56 149.71 12.6 60.35 -65.33" />
+        <step frame="882" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="907" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="972" pose="0 19.08 -12.28 43.07 -44.82 17.87 1.46 -43.07 64.75 100.49 -99.02 41.6 -24.02 56.84 93.75" />
+        <step frame="1036" pose="0 37.79 -24.32 36.33 -95.51 12.3 -26.07 -72.95 -0.29 92.29 -62.11 41.31 -149.71 55.37 -41.31" />
+        <step frame="1060" pose="0 37.79 -24.32 36.33 -95.51 12.3 -26.07 -72.95 -0.29 92.29 -62.11 41.31 -149.71 55.37 -41.31" />
+        <step frame="1127" pose="6.45 50.1 -19.92 100.78 -64.16 29.3 -85.55 -21.39 24.61 110.16 -10.55 134.77 0 70.02 -37.21" />
+        <step frame="1203" pose="11.43 -50.98 27.54 -17.29 -51.27 73.54 -12.89 61.23 70.9 22.56 -88.18 -12.6 -149.71 65.33 -60.35" />
+        <step frame="1280" pose="0 0 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+        <step frame="1331" pose="0 0 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+      </steps>
+    </Page>
+    <Page name="gerak pembuka lagi">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 36.62 -36.62 9.67 -9.67 -48.34 48.34 73.54 -73.54 8.79 -8.79 58.89 -58.89" />
+        <step frame="142" pose="0 0 0 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="230" pose="-6.15 36.91 -11.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="257" pose="-6.15 36.91 -11.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="332" pose="0 0 0 10.84 -10.84 35.74 -35.74 -9.38 9.38 36.62 -36.62 9.08 -9.08 66.5 -66.5" />
+        <step frame="411" pose="0 0 0 36.62 -36.62 9.67 -9.67 -48.34 48.34 73.54 -73.54 8.79 -8.79 58.89 -58.89" />
+        <step frame="487" pose="-2.09 -12.54 3.88 38.38 -38.38 15.82 -15.82 7.03 -7.03 94.92 -94.92 35.74 -35.74 60.06 -60.06" />
+        <step frame="564" pose="-6.15 -36.91 11.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="589" pose="-6.15 -36.91 11.43 11.72 -11.72 50.1 -50.1 65.04 -65.04 29.88 -29.88 10.55 -10.55 62.99 -62.99" />
+        <step frame="640" pose="0 0 0 10.84 -10.84 35.74 -35.74 -9.38 9.38 36.62 -36.62 9.08 -9.08 66.5 -66.5" />
+      </steps>
+    </Page>
+    <Page name="Pasang Masker">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="26.95 0 1.46 25.49 -26.07 16.99 -21.39 -46.29 50.98 62.99 -77.05 43.07 -44.24 42.19 -43.07" />
+        <step frame="154" pose="0 0 0 19.92 -24.32 6.15 -0.29 -8.2 10.25 67.97 -76.46 121.29 -134.18 -4.69 -2.93" />
+        <step frame="231" pose="26.95 0 1.46 11.13 -34.28 12.01 4.39 -43.95 25.49 73.54 -86.43 25.78 -130.96 52.15 -2.34" />
+        <step frame="333" pose="39.26 2.34 -26.07 11.13 -80 12.01 17.29 -43.95 51.23 73.54 -97.84 25.78 -146 52.15 8.66" />
+        <step frame="384" pose="39.26 2.34 -26.07 11.13 -79.98 12.01 17.29 -43.95 51.27 73.54 -92.85 25.78 -145.9 52.15 24.66" />
+        <step frame="435" pose="21.94 12.89 -22.56 -23.73 -64.45 14.94 -16.7 -21.09 66.5 52.73 -106.64 102.83 -139.45 -24.45 16.11" />
+        <step frame="540" pose="13.48 24.61 -36.62 -12.3 -30.47 64.16 -27.83 49.22 48.05 31.64 -81.15 -21.09 -33.4 60.06 -52.44" />
+        <step frame="578" pose="0 0 0 -6.74 -30.47 60.64 -27.83 46.88 48.05 3.81 -81.15 -19.63 -33.4 -55.96 -52.44" />
+      </steps>
+    </Page>
+    <Page name="Salam Pembuka 2">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 57.71 -57.71 -7.32 7.32 -38.96 38.96 63.28 -63.28 102.25 -102.25 26.95 -26.95" />
+        <step frame="115" pose="0 0 0 57.71 -57.71 -7.32 7.32 -38.96 38.96 63.28 -63.28 102.25 -102.25 26.95 -26.95" />
+        <step frame="205" pose="33.11 0 0 65.41 -65.41 -14.65 14.65 -55.66 55.66 75.29 -70.02 77.34 -77.34 50.1 -38.67" />
+        <step frame="296" pose="33.11 0 0 65.41 -65.41 -14.65 14.65 -55.66 55.66 75.29 -70.02 77.34 -77.34 50.1 -38.67" />
+        <step frame="395" pose="0 0 0 -1.76 1.76 29.3 -29.3 61.52 -61.52 28.12 -28.12 10.84 -10.84 62.11 -62.11" />
+      </steps>
+    </Page>
+    <Page name="Mereng Edit 2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 54.2 -0.59 6.74 -44.82 -1.17 -85.55 63.57 -68.55 16.99 -9.38 45.41 -68.26" />
+        <step frame="129" pose="-7.03 -19.04 23.73 49.8 -21.68 6.74 -36.04 -2.05 -92.87 62.7 -69.14 29.88 -43.36 -35.45 -33.11" />
+        <step frame="172" pose="22.27 -34.86 28.12 54.49 -32.23 3.22 -24.02 -1.76 -89.65 82.03 -57.71 62.4 -67.09 -59.47 -32.81" />
+        <step frame="222" pose="23.14 -16.11 22.27 54.49 -35.16 2.05 -13.18 -1.17 -26.95 84.08 -61.52 123.05 -127.15 -69.73 -52.15" />
+        <step frame="264" pose="12.3 -7.91 19.34 53.03 -40.14 1.46 -17.87 -2.05 1.46 85.84 -106.64 149.71 -138.57 -20.8 -50.68" />
+        <step frame="341" pose="13.48 12.89 -16.11 36.33 -56.84 14.65 -31.35 -41.02 48.93 65.62 -114.55 133.01 -91.11 43.95 -39.55" />
+        <step frame="404" pose="25.2 2.05 -2.64 43.36 -77.64 0.29 6.15 -50.1 63.87 50.39 -78.52 149.71 -91.41 44.82 -51.56" />
+        <step frame="450" pose="0 0 0 40.72 -75.29 3.81 -2.64 -63.57 84.08 72.66 -78.81 149.71 -49.22 39.55 -67.97" />
+        <step frame="505" pose="0 14.06 17.87 40.72 -75.29 3.81 -2.64 -63.57 84.08 72.66 -78.81 149.71 -49.22 39.55 -67.97" />
+        <step frame="569" pose="0 16.11 -17.29 40.72 -75.29 3.81 -2.64 -63.57 84.08 72.66 -78.81 149.71 -49.22 39.55 -67.97" />
+        <step frame="633" pose="0 -7.32 -8.2 40.72 -75.29 3.81 -2.64 -63.57 84.08 72.66 -78.81 149.71 -49.22 39.55 -67.97" />
+        <step frame="697" pose="0 -16.11 17.29 40.72 -75.29 3.81 -2.64 -63.57 84.08 72.66 -78.81 149.71 -49.22 39.55 -67.97" />
+        <step frame="768" pose="27.83 0 0 40.72 -75.29 3.81 -2.64 -63.57 84.08 72.66 -78.81 149.71 -49.22 39.55 -67.97" />
+        <step frame="833" pose="0 0 0 -1.76 1.76 29.3 -29.3 61.52 -61.52 28.12 -28.12 10.84 -10.84 62.11 -62.11" />
+        <step frame="847" pose="0 0 0 -1.76 1.76 29.3 -29.3 61.52 -61.52 28.12 -28.12 10.84 -10.84 62.11 -62.11" />
+      </steps>
+    </Page>
+    <Page name="SIBAK ATAS">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="91" pose="-0.88 -4.69 0.88 15.82 -15.82 26.66 -26.66 -37.5 37.5 91.41 -91.41 38.96 -38.96 45.12 -45.12" />
+        <step frame="142" pose="1.76 -35.74 7.32 47.46 -36.33 21.68 -40.14 -12.6 18.16 56.54 -90.82 -27.83 -80.57 56.54 -47.17" />
+        <step frame="219" pose="0.29 -42.77 24.61 107.81 -81.45 28.42 10.84 -64.45 31.64 13.77 -49.8 -8.2 -131.54 46.29 -46.88" />
+        <step frame="321" pose="1.76 35.74 -7.32 47.46 -36.33 21.68 -40.14 -12.6 18.16 56.54 -90.82 -27.83 -80.57 56.54 -47.17" />
+        <step frame="397" pose="0.29 42.77 -24.61 81.45 -107.81 -10.84 -28.42 -31.64 64.45 49.8 -13.77 131.54 8.2 46.88 -46.29" />
+      </steps>
+    </Page>
+    <Page name="NGIBAS V2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="-7.03 36.04 -13.18 83.5 -73.83 -0.88 -3.81 -48.05 -39.84 70.61 -81.45 -8.79 -16.41 44.53 -27.25" />
+        <step frame="153" pose="20.13 -23.14 17.58 13.18 -29.88 26.07 -1.17 27.25 53.91 38.09 -39.26 -39.26 -57.13 58.59 -54.2" />
+        <step frame="231" pose="-7.03 -30.04 13.18 73.83 -83.5 3.81 0.88 39.84 48.05 81.45 -70.61 16.41 8.79 27.25 -44.53" />
+        <step frame="307" pose="20.13 23.14 -17.58 29.88 -13.18 1.17 -26.07 -53.91 -27.25 39.26 -38.09 57.13 39.26 54.2 -58.59" />
+        <step frame="384" pose="0 0 0 60.94 -60.94 -20.8 20.8 -15.23 15.23 35.45 -35.45 106.64 -106.64 43.95 -43.95" />
+        <step frame="461" pose="13.77 -47.26 19.34 -24.9 -60.94 52.15 20.8 48.05 15.23 21.39 -35.45 64.45 -106.64 -47.17 -43.95" />
+        <step frame="563" pose="0 0 0 6.45 -60.94 72.95 20.8 4.98 15.23 66.8 -35.45 8.79 -106.64 50.1 -43.95" />
+        <step frame="639" pose="-7.03 36.04 -13.18 83.5 -73.83 -0.88 -3.81 -48.05 -39.84 70.61 -81.45 -8.79 -16.41 44.53 -27.25" />
+        <step frame="716" pose="20.13 -23.14 17.58 13.18 -29.88 26.07 -1.17 27.25 53.91 38.09 -39.26 -39.26 -57.13 58.59 -54.2" />
+        <step frame="793" pose="-7.03 -30.04 13.18 73.83 -83.5 3.81 0.88 39.84 48.05 81.45 -70.61 16.41 8.79 27.25 -44.53" />
+        <step frame="870" pose="20.13 23.14 -17.58 29.88 -13.18 1.17 -26.07 -53.91 -27.25 39.26 -38.09 57.13 39.26 54.2 -58.59" />
+        <step frame="921" pose="0 0 0 60.94 -60.94 -20.8 20.8 -15.23 15.23 35.45 -35.45 106.64 -106.64 43.95 -43.95" />
+        <step frame="998" pose="11.13 47.1 -17.58 60.94 24.9 -20.8 -52.15 -15.23 -48.05 35.45 -21.39 106.64 -64.45 43.95 47.17" />
+        <step frame="1102" pose="0 0 0 60.94 -6.45 -20.8 -72.95 -15.23 -4.98 35.45 -66.8 106.64 -8.79 43.95 -50.1" />
+      </steps>
+    </Page>
+    <Page name="gambang semarang 2">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="-2.64 1.17 1.46 -11.13 11.13 18.16 -18.16 2.93 -2.93 49.22 -49.22 -3.81 3.81 77.34 -77.34" />
+        <step frame="153" pose="-2.64 1.17 1.46 40.43 -40.43 9.38 -9.38 -5.57 5.57 50.39 -50.39 -4.98 4.98 76.17 -76.17" />
+        <step frame="230" pose="-2.64 1.17 1.46 75 -84.08 10.84 -0.88 -42.77 72.66 60.94 -53.03 111.91 9.96 -41.89 -53.91" />
+        <step frame="308" pose="-2.64 1.17 1.46 75 -84.08 38.09 -36.91 -42.77 72.66 60.94 -53.03 111.91 9.96 -41.89 -53.91" />
+        <step frame="384" pose="-2.64 1.17 1.46 73.54 -84.08 28.71 -62.4 5.27 51.56 85.55 -29.3 110.45 9.96 -75 -47.46" />
+        <step frame="512" pose="-2.64 1.17 1.46 78.52 -78.22 72.36 -77.93 18.75 -14.65 79.98 -26.95 2.93 9.67 61.52 -62.4" />
+        <step frame="538" pose="-2.64 1.17 1.46 78.52 -78.22 72.36 -77.93 18.75 -14.65 79.98 -26.95 2.93 9.67 61.52 -62.4" />
+        <step frame="666" pose="-2.64 1.17 1.46 84.08 -75 0.88 -10.84 -72.66 42.77 53.03 -60.94 -9.96 -111.91 53.91 41.89" />
+        <step frame="744" pose="-2.64 1.17 1.46 84.08 -75 36.91 -38.09 -72.66 42.77 53.03 -60.94 -9.96 -111.91 53.91 41.89" />
+        <step frame="820" pose="-2.64 1.17 1.46 84.08 -73.54 62.4 -28.71 -51.56 -5.27 29.3 -85.55 -9.96 -110.45 47.46 75" />
+        <step frame="948" pose="-2.64 1.17 1.46 78.22 -78.52 77.93 -72.36 14.65 -18.75 26.95 -79.98 -9.67 -2.93 62.4 -61.52" />
+      </steps>
+    </Page>
+    <Page name="Kembang Kincup">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="101" pose="-2.64 1.17 1.46 12.6 -12.6 19.63 -19.63 56.54 -56.54 41.89 -41.89 -0.59 0.59 70.9 -70.9" />
+        <step frame="127" pose="-2.64 1.17 1.46 12.6 -12.6 19.63 -19.63 56.54 -56.54 41.89 -41.89 -0.59 0.59 70.9 -70.9" />
+        <step frame="255" pose="-2.64 1.17 1.46 88.48 -88.48 28.71 -28.71 5.27 -5.27 85.55 -85.55 110.45 -110.45 -75 75" />
+        <step frame="281" pose="-2.64 1.17 1.46 88.48 -88.48 28.71 -28.71 5.27 -5.27 85.55 -85.55 110.45 -110.45 -75 75" />
+        <step frame="408" pose="-2.64 1.17 1.46 12.6 -12.6 19.63 -19.63 56.54 -56.54 41.89 -41.89 -0.59 0.59 70.9 -70.9" />
+        <step frame="434" pose="-2.64 1.17 1.46 12.6 -12.6 19.63 -19.63 56.54 -56.54 41.89 -41.89 -0.59 0.59 70.9 -70.9" />
+        <step frame="562" pose="-2.64 1.17 1.46 88.48 -88.48 28.71 -28.71 5.27 -5.27 85.55 -85.55 110.45 -110.45 -75 75" />
+        <step frame="588" pose="-2.64 1.17 1.46 88.48 -88.48 28.71 -28.71 5.27 -5.27 85.55 -85.55 110.45 -110.45 -75 75" />
+      </steps>
+    </Page>
+    <Page name="FLIP V2">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="179" pose="0 0 0 36.33 -36.33 26.66 -26.66 -37.5 37.5 91.41 -91.41 38.96 -38.96 45.12 -45.12" />
+        <step frame="307" pose="-2.93 54.79 2.64 56.25 -19.63 -24.9 -40.14 -60.64 -71.78 58.89 -57.42 37.21 22.56 43.95 -55.66" />
+        <step frame="344" pose="12.01 53.91 4.39 54.49 -23.44 -27.25 -60.64 -59.77 -75.29 61.23 -17.87 34.57 -10.25 -58.59 56.84" />
+        <step frame="384" pose="-2.93 54.79 2.64 56.25 -19.63 -24.9 -40.14 -60.64 -71.78 58.89 -57.42 37.21 22.56 43.95 -55.66" />
+        <step frame="409" pose="0 0 0 56.25 -19.63 -24.9 -40.14 -60.64 -71.78 58.89 -57.42 37.21 22.56 43.95 -55.66" />
+        <step frame="512" pose="0 0 0 19.63 -19.63 40.14 -40.14 71.78 -71.78 57.42 -57.42 -22.56 22.56 55.66 -55.66" />
+        <step frame="590" pose="0 0 0 -18.46 18.46 14.65 -14.65 -29.3 29.3 57.42 -57.42 67.09 -67.09 -22.56 22.56" />
+        <step frame="616" pose="0 0 0 -18.46 18.46 14.65 -14.65 -29.3 29.3 57.42 -57.42 67.09 -67.09 -22.56 22.56" />
+        <step frame="691" pose="0 0 0 3.22 -3.22 80.86 -80.86 89.36 -89.36 26.95 -26.95 4.1 -4.1 -60.64 60.64" />
+        <step frame="717" pose="0 -60.06 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+        <step frame="768" pose="0 0 0 3.22 -3.22 80.86 -80.86 89.36 -89.36 26.95 -26.95 4.1 -4.1 -60.64 60.64" />
+        <step frame="806" pose="0 60.06 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+        <step frame="898" pose="0 0 0 94.04 -94.04 -17.58 17.58 1.17 -1.17 48.05 -48.05 -5.27 5.27 31.93 -31.93" />
+        <step frame="998" pose="0 0 0 3.22 -3.22 80.86 -80.86 89.36 -89.36 26.95 -26.95 4.1 -4.1 -60.64 60.64" />
+        <step frame="1037" pose="0 -60.06 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+        <step frame="1077" pose="0 0 0 3.22 -3.22 80.86 -80.86 89.36 -89.36 26.95 -26.95 4.1 -4.1 -60.64 60.64" />
+        <step frame="1115" pose="0 60.06 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+        <step frame="1204" pose="0 0 0 94.04 -94.04 -17.58 17.58 1.17 -1.17 48.05 -48.05 -5.27 5.27 31.93 -31.93" />
+        <step frame="1306" pose="0 0 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+        <step frame="1331" pose="0 0 0 2.64 -2.64 57.13 -57.13 88.77 -88.77 53.61 -53.61 3.81 -3.81 35.45 -35.45" />
+      </steps>
+    </Page>
+    <Page name="tukar kanan kiri">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0.59 -2.05 -18.16 12.01 -12.01 0.29 -0.29 -19.63 19.63 58.59 -58.59 10.84 -10.84 71.48 -71.48" />
+        <step frame="153" pose="0.59 -2.05 -18.16 18.46 -17.6 0.59 -6.86 -12.6 26.2 66.21 -60.69 8.5 4.25 -51.56 -67.71" />
+        <step frame="230" pose="0.59 -3.05 -19.16 75 -26.95 0.29 -15.53 -84.38 53.03 66.21 -72.36 149.12 51.86 -62.11 -54.2" />
+        <step frame="306" pose="0 0 0 74.12 -29.59 0.59 1.17 -4.1 55.96 67.38 -73.83 142.97 52.15 29.3 -54.2" />
+        <step frame="333" pose="0 0 0 74.12 -29.59 0.59 1.17 -4.1 55.96 67.38 -73.83 142.97 52.15 29.3 -54.2" />
+        <step frame="387" pose="0 0 0 78.31 -29.59 4.78 1.17 -29.85 55.96 52.18 -73.83 103.12 -27.57 -66.8 10.01" />
+        <step frame="435" pose="0.59 -2.05 18.16 82.03 -29.59 8.5 1.17 -52.73 55.96 38.67 -73.83 -14.06 -102.83 49.22 71.19" />
+        <step frame="487" pose="0.59 -2.05 18.16 82.03 -29.59 8.5 1.17 -52.73 55.96 38.67 -73.83 -14.06 -102.83 49.22 71.19" />
+        <step frame="589" pose="0.59 -2.05 18.16 52.02 -75 2.97 -0.29 -54.58 49.8 58.79 -66.21 -35.86 -145.02 52.07 62.11" />
+        <step frame="666" pose="0 0 0 29.59 -74.12 -1.17 -0.59 -55.96 4.1 73.83 -67.38 -52.15 -142.97 54.2 -29.3" />
+        <step frame="691" pose="0 0 0 29.59 -74.12 -1.17 -0.59 -55.96 4.1 73.83 -67.38 -52.15 -142.97 54.2 -29.3" />
+        <step frame="745" pose="0 0 0 29.59 -78.31 -1.17 -4.78 -55.96 29.85 73.83 -52.18 27.57 -103.12 -10.01 66.8" />
+        <step frame="794" pose="0.59 -18.16 -2.05 29.59 -82.03 -1.17 -8.5 -55.96 52.73 73.83 -38.67 102.83 14.06 -71.19 -49.22" />
+        <step frame="845" pose="0.59 -3.05 -19.16 29.59 -82.03 -1.17 -8.5 -55.96 52.73 73.83 -38.67 102.83 14.06 -71.19 -49.22" />
+        <step frame="947" pose="0.59 -2.05 -18.16 75 -26.95 0.29 -15.53 -84.38 53.03 66.21 -72.36 149.12 51.86 -62.11 -54.2" />
+        <step frame="1023" pose="0 0 0 74.12 -29.59 0.59 1.17 -4.1 55.96 67.38 -73.83 142.97 52.15 29.3 -54.2" />
+        <step frame="1050" pose="0 0 0 74.12 -29.59 0.59 1.17 -4.1 55.96 67.38 -73.83 142.97 52.15 29.3 -54.2" />
+        <step frame="1091" pose="0 0 0 74.12 -29.59 0.59 1.17 -4.1 55.96 67.38 -73.83 142.97 52.15 29.3 -54.2" />
+        <step frame="1171" pose="0 0 0 0 -6.74 7.03 -16.7 1.46 3.52 72.95 -76.46 -8.79 1.76 59.47 -59.18" />
+      </steps>
+    </Page>
+    <Page name="nyapu">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="25.78 -50.1 0.88 17.58 -29.59 28.42 15.53 -6.15 65.62 -4.69 -55.96 64.16 -53.61 61.52 -48.05" />
+        <step frame="112" pose="25.78 -50.1 0.88 13.48 -24.32 44.24 16.7 12.89 65.04 20.21 -65.04 63.57 -53.91 92.58 -49.51" />
+        <step frame="185" pose="-2.34 -50.1 -0.29 25.49 -67.38 96.39 17.87 -3.22 69.43 26.66 -60.94 70.02 -54.79 -51.86 62.7" />
+        <step frame="257" pose="26.37 50.1 -0.88 29.59 -17.58 -15.53 -28.42 -65.62 6.15 55.96 4.69 53.61 -64.16 48.05 -61.52" />
+        <step frame="311" pose="26.37 50.1 -0.88 24.32 -13.48 -16.7 -44.24 -65.04 -12.89 65.04 -20.21 53.91 -63.57 49.51 -92.58" />
+        <step frame="390" pose="2.34 53.03 -0.59 67.38 -25.49 -17.87 -96.39 -69.43 3.22 60.94 -26.66 54.79 -70.02 -62.7 51.86" />
+      </steps>
+    </Page>
+    <Page name="Vivat Lopyu V2 Zifaa">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 -5.86 5.86 18.46 -18.46 4.69 -4.69 50.39 -50.39 2.05 -2.05 70.61 -70.61" />
+        <step frame="141" pose="29.3 -62.99 -6.74 -23.14 5.86 55.08 -18.46 -42.19 -4.69 85.25 -50.39 120.7 -2.05 8.2 -70.61" />
+        <step frame="204" pose="29.3 -62.99 -6.74 -49.8 5.86 56.84 -18.46 -58.3 -4.69 115.43 -50.39 91.99 -2.05 30.18 -70.61" />
+        <step frame="263" pose="29.3 -62.99 -6.74 -50.1 5.86 52.44 -18.46 -63.57 -4.69 116.02 -50.39 75.88 -2.05 46.58 -70.61" />
+        <step frame="346" pose="29.3 -62.99 -6.74 -50.98 5.86 70.31 -18.46 -45.41 -4.69 109.57 -50.39 101.66 -2.05 46 -70.61" />
+        <step frame="461" pose="0 0 0 53.32 5.86 40.72 -18.46 -1.46 -4.69 67.97 -50.39 31.93 -2.05 -15.76 -70.61" />
+        <step frame="502" pose="6.41 0 0 53.32 -17.58 40.72 -9.67 -1.46 8.5 67.97 -67.68 31.93 -44.24 69.43 -42.77" />
+        <step frame="586" pose="20 0 0 53.32 -67.68 40.72 8.79 -1.46 36.91 67.97 -104.59 31.93 -133.59 69.43 16.7" />
+        <step frame="612" pose="20 0 0 53.32 -67.68 40.72 8.79 -1.46 36.91 67.97 -104.59 31.93 -133.59 69.43 16.7" />
+        <step frame="713" pose="1.17 -0.88 -22.85 53.32 -66.8 40.72 -13.77 -1.46 9.96 67.97 -87.01 31.93 -141.8 69.43 -37.79" />
+        <step frame="842" pose="1.17 -0.88 -22.85 53.32 -66.8 40.72 -13.77 -1.46 9.96 67.97 -87.01 31.93 -141.8 69.43 -37.79" />
+        <step frame="943" pose="-4.39 0 31.64 53.32 -52.15 40.72 -24.61 -1.46 -32.81 67.97 -77.93 31.93 -68.55 69.43 -46.29" />
+        <step frame="1020" pose="-4.39 -19.92 -31.64 53.32 -67.09 40.72 -18.46 -1.46 29.59 67.97 -65.62 31.93 6.15 69.43 -57.13" />
+        <step frame="1097" pose="-4.39 0 31.64 53.32 -52.15 40.72 -24.61 -1.46 -32.81 67.97 -77.93 31.93 -68.55 69.43 -46.29" />
+        <step frame="1174" pose="-4.39 -19.92 -31.64 53.32 -67.09 40.72 -18.46 -1.46 29.59 67.97 -65.62 31.93 6.15 69.43 -57.13" />
+        <step frame="1251" pose="-4.39 0 31.64 53.32 -52.15 40.72 -24.61 -1.46 -32.81 67.97 -77.93 31.93 -68.55 69.43 -46.29" />
+      </steps>
+    </Page>
+    <Page name="NGASAI TURUN">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="91" pose="0 -60 20 87.6 -35.45 89.36 -8.2 0.88 77.93 41.6 -103.71 -0.88 -26.37 -35.16 -53.61" />
+        <step frame="167" pose="0 -45 -20 87.01 -35.45 90.23 -8.2 -0.59 77.93 -23.44 -103.71 -0.88 -26.37 41.89 -53.61" />
+        <step frame="240" pose="0 -30 20 87.6 -35.45 45 -8.2 0.88 77.93 41.6 -103.71 -0.88 -26.37 -35.16 -53.61" />
+        <step frame="315" pose="0 -15 -20 87.01 -35.45 45 -8.2 -0.59 77.93 -23.44 -103.71 -0.88 -26.37 41.89 -53.61" />
+        <step frame="388" pose="0 0 20 87.01 -35.45 0 -8.2 -0.59 77.93 41.6 -103.71 -0.88 -26.37 -35.16 -53.61" />
+        <step frame="464" pose="0 0 0 87.01 -35.45 0 -8.2 -0.59 77.93 -23.44 -103.71 -0.88 -26.37 41.89 -53.61" />
+        <step frame="567" pose="0 60 -20 35.45 -87.01 8.2 -90 -77.93 0.59 103.71 -41.6 26.37 0.88 53.61 35.16" />
+        <step frame="643" pose="0 45 20 35.45 -87.01 8.2 -89.94 -77.93 0.59 103.71 23.44 26.37 0.88 53.61 -41.89" />
+        <step frame="720" pose="0 30 -20 35.45 -87.01 8.2 -45 -77.93 0.59 103.71 -41.6 26.37 0.88 53.61 35.16" />
+        <step frame="796" pose="0 15 20 35.45 -87.01 8.2 -45 -77.93 0.59 103.71 23.44 26.37 0.88 53.61 -41.89" />
+        <step frame="874" pose="0 0 -20 35.45 -87.01 8.2 0 -77.93 0.59 103.71 -41.6 26.37 0.88 53.61 35.16" />
+        <step frame="976" pose="20 0 0 35.45 -35.45 8.2 -8.2 -77.93 77.93 103.71 -103.71 26.37 -26.37 53.61 -53.61" />
+        <step frame="1027" pose="-5 0 0 67.68 -67.68 -22.27 22.27 -32.52 32.52 91.99 -91.99 26.37 -26.37 52.44 -52.44" />
+        <step frame="1115" pose="5 0 0 73.54 -73.54 39.26 -39.26 9.96 -9.96 66.8 -66.8 9.96 -9.96 53.61 -53.61" />
+        <step frame="1192" pose="15 0 0 9.96 -9.96 37.21 -37.21 70.61 -70.61 33.11 -33.11 10.25 -10.25 74.12 -74.12" />
+      </steps>
+    </Page>
+    <Page name="KEBAK GANTI">
+      <param compileSize="4" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="76" pose="0 0 0 0 0 35.16 -35.16 79.1 -79 41.89 -41.8 -5.27 5.27 58.89 -58.89" />
+        <step frame="141" pose="0 0 0 47.99 -47.99 14.65 -14.65 -9.67 9.67 75.88 -75.88 7.32 -7.32 58.59 -58.59" />
+        <step frame="205" pose="-0.59 -29.88 -14.06 73.04 -78.52 65.62 3.81 -6.74 35.74 77.93 -71.19 7.62 -55.66 58.59 -58.01" />
+        <step frame="280" pose="14.94 -29.88 -14.06 1.32 -56.87 34.28 3.81 68.85 88.48 68.55 -52.44 -8.5 -76.46 60.63 -57.71" />
+        <step frame="365" pose="2.93 -29.88 21.97 1.32 -79.72 90 4.1 68.26 12.6 67.38 -65.33 0.88 -76.76 -56.25 55.37" />
+        <step frame="451" pose="14.94 -29.88 -14.06 1.32 -56.84 34.28 3.81 68.85 88.48 68.55 -52.44 -8.5 -76.46 60.64 -57.71" />
+        <step frame="512" pose="0 0 0 47.99 -47.99 14.65 -14.65 -9.67 9.67 75.88 -75.88 7.32 -7.32 58.59 -58.59" />
+        <step frame="577" pose="-0.59 29.88 14.06 78.52 -73.04 -3.81 -65.62 -35.74 6.74 71.19 -77.93 55.66 -7.62 58.01 -58.59" />
+        <step frame="640" pose="14.94 29.88 14.06 56.87 -1.32 -3.81 -34.28 -88.48 -68.85 52.44 -68.55 76.46 8.5 57.71 -60.63" />
+        <step frame="717" pose="2.93 29.88 -21.97 79.72 -1.32 -4.1 -90 -12.6 -68.26 65.33 -67.38 76.76 -0.88 -55.37 56.25" />
+        <step frame="803" pose="14.94 29.88 14.06 56.84 -1.32 -3.81 -34.28 -88.48 -68.85 52.44 -68.55 76.46 8.5 57.71 -60.64" />
+        <step frame="883" pose="0 0 0 67.68 -70.02 14.65 0.59 -75 2.64 94.04 -32.52 80.27 4.69 53.61 -63.57" />
+        <step frame="934" pose="1.33 4.58 -7.99 72.95 -71.48 14.94 8.5 -67.97 8.79 93.16 -25.2 131.84 11.72 -82.91 -58.3" />
+        <step frame="986" pose="2.64 9.08 -15.82 81.15 -73.54 -26.66 20.51 -55.66 18.16 59.77 -13.77 149.71 22.56 44.24 -50.1" />
+        <step frame="1012" pose="2.64 9.08 -15.82 81.15 -73.54 -26.66 20.51 -55.66 18.16 59.77 -13.77 149.71 22.56 44.24 -50.1" />
+        <step frame="1062" pose="0 0 0 68.55 -73.54 -2.05 20.51 -82.32 18.16 84.08 -13.77 67.09 22.56 54.2 -50.1" />
+        <step frame="1152" pose="13.77 -51.86 5.86 24.9 -67.68 60.64 -14.65 47.75 75 32.23 -94.04 -6.74 -80.27 57.13 -53.61" />
+        <step frame="1178" pose="13.77 -51.86 5.86 24.9 -67.68 60.64 -14.65 47.75 75 32.23 -94.04 -6.74 -80.27 57.13 -53.61" />
+        <step frame="1240" pose="0 0 0 70.02 -67.68 -0.59 -14.65 -2.64 75 32.52 -94.04 -4.69 -80.27 63.57 -53.61" />
+        <step frame="1292" pose="1.36 -4.67 8.14 71.48 -72.95 -8.5 -14.94 -8.79 67.97 25.2 -93.16 -11.72 -131.84 58.3 82.91" />
+        <step frame="1343" pose="2.64 -9.08 15.82 73.54 -81.15 -20.51 26.66 -18.16 55.66 13.77 -59.77 -22.56 -149.71 50.1 -44.24" />
+        <step frame="1369" pose="2.64 -9.08 15.82 73.54 -81.15 -20.51 26.66 -18.16 55.66 13.77 -59.77 -22.56 -149.71 50.1 -44.24" />
+        <step frame="1420" pose="0 0 0 73.54 -68.55 -20.51 2.05 -18.16 82.32 13.77 -84.08 -22.56 -67.09 50.1 -54.2" />
+        <step frame="1510" pose="13.77 51.86 -5.86 67.68 -24.9 14.65 -60.64 -75 -47.75 94.04 -32.23 80.27 6.74 53.61 -57.13" />
+        <step frame="1535" pose="13.77 51.86 -5.86 67.68 -24.9 14.65 -60.64 -75 -47.75 94.04 -32.23 80.27 6.74 53.61 -57.13" />
+        <step frame="1611" pose="0 0 0 14.36 -14.36 39.55 -39.55 83.2 -83.2 33.4 -33.4 2.93 -2.93 75.29 -75.29" />
+      </steps>
+    </Page>
+    <Page name="CLINGAK CLINGUK">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 36.62 -36.62 9.67 -9.67 -48.34 48.34 73.54 -73.54 8.79 -8.79 58.89 -58.89" />
+        <step frame="139" pose="0 0 0 20.8 -20.8 9.08 -9.08 32.23 -32.23 51.86 -51.86 9.67 -9.67 29.59 -29.59" />
+        <step frame="193" pose="0 0 0 65.04 -5.57 45.41 -30.47 74.41 -69.73 -15.82 -50.1 26.07 -9.08 -56.84 -39.26" />
+        <step frame="247" pose="0 -22.85 -5.27 45.7 -57.71 50.39 -76.46 73.24 -26.37 -6.74 -68.55 12.3 -147 58.89 71.48" />
+        <step frame="308" pose="2.05 -33.69 -4.69 5.57 -58.01 30.47 -76.46 69.73 -35.16 50.1 -105.47 9.08 -147 39.26 62.7" />
+        <step frame="359" pose="14.36 -44.53 -12.6 5.57 -43.07 30.47 -90.23 69.73 -58.59 50.1 -119.24 9.08 -147 39.26 58.3" />
+        <step frame="411" pose="0 0 0 35.74 -35.45 24.61 -86.72 43.36 -12.6 49.22 -82.91 12.01 -147 27.25 60.35" />
+        <step frame="464" pose="0 22.85 5.27 57.71 -49.51 76.46 -62.99 26.37 -2.93 68.55 -84.67 147 -43.95 -71.48 19.34" />
+        <step frame="539" pose="0 22.85 5.27 58.01 -10.25 76.46 -51.27 35.16 -55.96 105.47 -39.55 147 -7.32 -62.7 -22.27" />
+        <step frame="615" pose="14.94 44.82 12.6 43.07 -5.57 90.23 -30.47 58.59 -69.73 119.24 -50.1 147 -9.08 -58.3 -39.26" />
+        <step frame="676" pose="0 22.85 5.27 35.45 -35.74 86.72 -24.61 12.6 -43.36 82.91 -49.22 147 -12.01 -60.35 -27.25" />
+        <step frame="744" pose="0 0 -4.69 49.51 -58.01 62.99 -76.46 2.93 -35.16 84.67 -105.47 43.95 -147 -19.34 62.7" />
+        <step frame="819" pose="2.05 -33.69 -4.69 25.78 -58.01 55.37 -76.46 3.22 -35.16 55.96 -105.47 32.52 -147 25.78 62.7" />
+        <step frame="871" pose="14.36 -44.53 -12.6 5.57 -43.07 30.47 -90.23 69.73 -58.59 50.1 -119.24 9.08 -147.07 39.26 58.3" />
+        <step frame="973" pose="0 0 0 36.62 -36.62 9.67 -9.67 -48.34 48.34 73.54 -73.54 8.79 -8.79 58.89 -58.89" />
+      </steps>
+    </Page>
+    <Page name="PARADE">
+      <param compileSize="4" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="77" pose="0 0 0 10.25 -10.25 11.43 -11.43 5.57 -5.57 31.35 -31.35 0.88 -0.88 83.79 -83.79" />
+        <step frame="154" pose="0 0 0 26.07 -26.07 6.45 -6.45 4.98 -4.98 68.26 -68.26 85.84 -85.84 -56.54 56.54" />
+        <step frame="232" pose="0 0 0 26.37 -26.37 -4.39 4.39 10.55 -10.55 68.55 -68.55 149.71 -149.71 -49.8 49.8" />
+        <step frame="271" pose="0 0 0 23.44 -23.44 -5.86 5.86 9.38 -9.38 75 -75 149.71 -149.71 6.45 -6.45" />
+        <step frame="294" pose="0 0 0 23.44 -23.44 -5.86 5.86 9.38 -9.38 75 -75 149.71 -149.71 6.45 -6.45" />
+        <step frame="346" pose="0 0 0 23.44 -23.44 6.45 -6.45 -21.09 21.09 110.45 -110.45 68.55 -68.55 24.9 -24.9" />
+        <step frame="410" pose="26.37 0 0 26.66 -26.66 -12.3 12.3 -48.34 48.34 94.63 -94.63 30.47 -30.47 43.36 -43.36" />
+        <step frame="487" pose="26.37 0 0 26.66 -26.66 -12.3 12.3 -48.34 48.34 94.63 -94.63 30.47 -30.47 43.36 -43.36" />
+        <step frame="538" pose="10 0 0 9.67 2.63 -11.43 2.87 -21.09 12.96 79.39 -73 29.88 -8.84 42.19 -59.09" />
+        <step frame="563" pose="0 0 0 9.08 16.99 -4.1 -1.76 11.43 -4.39 72.66 -62.4 60.35 1.76 38.67 -66.8" />
+        <step frame="615" pose="-4.39 -31.64 0 9.96 16.99 33.4 -1.76 34.28 -4.39 97.85 -62.4 91.41 1.76 41.02 -66.8" />
+        <step frame="743" pose="-4.39 -31.64 19.92 9.96 16.99 33.4 -1.76 -16.11 -4.39 97.85 -62.4 -28.12 1.76 67.38 -66.8" />
+        <step frame="871" pose="0 0 -20 9.96 16.99 33.4 -1.76 34.28 -4.39 97.85 -62.4 91.41 1.76 41.02 -66.8" />
+        <step frame="999" pose="-4.39 31.64 19.92 9.96 16.99 33.4 -1.76 -16.11 -4.39 97.85 -62.4 -28.12 1.76 67.38 -66.8" />
+        <step frame="1127" pose="-4.39 31.64 -19.92 9.96 16.99 33.4 -1.76 34.28 -4.39 97.85 -62.4 91.41 1.76 41.02 -66.8" />
+        <step frame="1196" pose="-4.39 31.64 0 -16.99 -9.96 1.76 -33.4 4.39 -34.28 62.4 -97.85 -1.76 -91.41 66.8 -41.02" />
+        <step frame="1324" pose="-4.39 31.64 -19.92 -16.99 -9.96 1.76 -33.4 4.39 16.11 62.4 -97.85 -1.76 28.12 66.8 -67.38" />
+        <step frame="1453" pose="0 0 19.92 -16.99 -9.96 1.76 -33.4 4.39 -34.28 62.4 -97.85 -1.76 -91.41 66.8 -41.02" />
+        <step frame="1581" pose="-4.39 -31.64 -19.92 -16.99 -9.96 1.76 -33.4 4.39 16.11 62.4 -97.85 -1.76 28.12 66.8 -67.38" />
+        <step frame="1709" pose="-4.39 -31.64 20 -16.99 -9.96 1.76 -33.4 4.39 -34.28 62.4 -97.85 -1.76 -91.41 66.8 -41.02" />
+        <step frame="1817" pose="0 0 0 -16.99 16.99 1.76 -1.76 4.39 -4.39 62.4 -62.4 -1.76 1.76 66.8 -66.8" />
+        <step frame="1895" pose="0 0 0 6.74 -6.74 -3.81 3.81 3.22 -3.22 80.86 -80.86 75.29 -75.29 9.38 -9.38" />
+        <step frame="1972" pose="20 0 0 67.68 -56.54 -8.79 20.51 -36.91 25.49 104.59 -106.64 133.59 -133.3 -16.7 30.76" />
+        <step frame="2083" pose="-5.86 0 35 63.28 -63.28 18.16 -18.16 -10.25 10.25 33.4 -33.4 134.47 -134.47 7.03 -7.03" />
+        <step frame="2099" pose="-6 0 34.86 63.28 -63.28 18.16 -18.16 -10.25 10.25 33.4 -33.4 134.47 -134.47 7.03 -7.03" />
+        <step frame="2175" pose="20 0 0 67.68 -56.54 -8.79 20.51 -36.91 25.49 104.59 -106.64 133.59 -133.3 -16.7 30.76" />
+        <step frame="2278" pose="-5.86 0 -34.86 62.99 -62.99 19.34 -19.34 26.37 -26.37 39.55 -39.55 134.77 -134.77 7.32 -7.32" />
+        <step frame="2291" pose="-5.86 0 -34.86 62.99 -62.99 19.34 -19.34 26.37 -26.37 39.55 -39.55 134.77 -134.77 7.32 -7.32" />
+        <step frame="2389" pose="20 0 0 67.68 -56.54 -8.79 20.51 -36.91 25.49 104.59 -106.64 133.59 -133.3 -16.7 30.76" />
+        <step frame="2492" pose="-5.86 0 34.86 62.99 -62.99 19.34 -19.34 26.37 -26.37 39.55 -39.55 134.77 -134.77 7.32 -7.32" />
+        <step frame="2505" pose="-5.86 0 34.86 62.99 -62.99 19.34 -19.34 26.37 -26.37 39.55 -39.55 134.77 -134.77 7.32 -7.32" />
+      </steps>
+    </Page>
+    <Page name="DADAH">
+      <param compileSize="2" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="128" pose="-4.39 -31.64 0 9.96 16.99 33.4 -1.76 34.28 -4.39 97.85 -62.4 91.41 1.76 41.02 -66.8" />
+        <step frame="256" pose="-4.39 -31.64 19.92 9.96 16.99 33.4 -1.76 -16.11 -4.39 97.85 -62.4 -28.12 1.76 67.38 -66.8" />
+        <step frame="384" pose="0 0 -20 9.96 16.99 33.4 -1.76 34.28 -4.39 97.85 -62.4 91.41 1.76 41.02 -66.8" />
+        <step frame="512" pose="-4.39 31.64 19.92 9.96 16.99 33.4 -1.76 -16.11 -4.39 97.85 -62.4 -28.12 1.76 67.38 -66.8" />
+        <step frame="640" pose="-4.39 31.64 -19.92 9.96 16.99 33.4 -1.76 34.28 -4.39 97.85 -62.4 91.41 1.76 41.02 -66.8" />
+        <step frame="709" pose="-4.39 31.64 0 -16.99 -9.96 1.76 -33.4 4.39 -34.28 62.4 -97.85 -1.76 -91.41 66.8 -41.02" />
+        <step frame="837" pose="-4.39 31.64 -19.92 -16.99 -9.96 1.76 -33.4 4.39 16.11 62.4 -97.85 -1.76 28.12 66.8 -67.38" />
+        <step frame="966" pose="0 0 19.92 -16.99 -9.96 1.76 -33.4 4.39 -34.28 62.4 -97.85 -1.76 -91.41 66.8 -41.02" />
+        <step frame="1094" pose="-4.39 -31.64 -19.92 -16.99 -9.96 1.76 -33.4 4.39 16.11 62.4 -97.85 -1.76 28.12 66.8 -67.38" />
+        <step frame="1222" pose="-4.39 -31.64 20 -16.99 -9.96 1.76 -33.4 4.39 -34.28 62.4 -97.85 -1.76 -91.41 66.8 -41.02" />
+        <step frame="1330" pose="0 0 0 -16.99 16.99 1.76 -1.76 4.39 -4.39 62.4 -62.4 -1.76 1.76 66.8 -66.8" />
+      </steps>
+    </Page>
+    <Page name="init parade">
+      <param compileSize="1" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="128" pose="0 0 0 10.25 -10.25 11.43 -11.43 5.57 -5.57 31.35 -31.35 0.88 -0.88 83.79 -83.79" />
+      </steps>
+    </Page>
+    <Page name="feather">
+      <param compileSize="3" acceleration="32" softness="4 4 4 4 4 4 4 4 4 4 4 4 4 4 4" />
+      <steps>
+        <step frame="128" pose="0 0 0 -21.39 21.39 41.02 -41.02 -58.89 58.89 66.21 -66.21 18.75 -18.75 40.14 -40.14" />
+        <step frame="205" pose="2.05 9.08 -12.6 -21.39 21.39 41.02 -41.02 -58.89 58.89 66.21 -66.21 18.75 -18.75 40.14 -40.14" />
+        <step frame="231" pose="1.66 7.35 -10.19 -21.39 21.39 41.02 -41.02 -58.89 58.89 66.21 -66.21 18.75 -18.75 40.14 -40.14" />
+        <step frame="256" pose="2.05 9.08 -12.6 -21.39 21.39 41.02 -41.02 -58.89 58.89 66.21 -66.21 18.75 -18.75 40.14 -40.14" />
+        <step frame="333" pose="8.5 1.46 20.51 -21.39 21.39 41.02 -41.02 -58.89 58.89 66.21 -66.21 18.75 -18.75 40.14 -40.14" />
+        <step frame="358" pose="7.41 2.74 14.93 -21.39 21.39 41.02 -41.02 -58.89 58.89 66.21 -66.21 18.75 -18.75 40.14 -40.14" />
+        <step frame="384" pose="8.5 1.46 20.51 -21.39 21.39 41.02 -41.02 -58.89 58.89 66.21 -66.21 18.75 -18.75 40.14 -40.14" />
+        <step frame="461" pose="2.05 9.08 -12.6 92.58 -99.02 -19.04 4.1 -37.5 42.77 97.85 -106.93 118.95 -134.77 18.16 -14.06" />
+        <step frame="486" pose="1.66 7.35 -10.19 81.08 -92.58 -18.59 4.1 -40.19 41.02 103.23 -108.11 113.87 -134.77 17.27 -8.2" />
+        <step frame="512" pose="2.05 9.08 -12.6 70.02 -86.13 -18.16 4.39 -42.77 38.96 108.4 -109.57 108.98 -134.77 16.41 -1.76" />
+        <step frame="589" pose="8.5 1.46 20.51 65.04 -67.68 -9.67 4.39 -50.39 33.4 111.04 -113.38 121.29 -135.06 4.69 15.82" />
+        <step frame="614" pose="7.41 2.74 14.93 65.04 -61.52 -9.67 4.69 -50.39 31.64 111.04 -114.84 121.29 -135.06 4.69 21.68" />
+        <step frame="640" pose="8.5 1.46 20.51 65.04 -55.66 -9.67 4.69 -50.39 29.88 111.04 -116.02 121.29 -135.06 4.69 27.25" />
+        <step frame="691" pose="27.25 -5.86 30.76 89.36 -48.93 8.2 -18.46 -48.63 24.32 94.04 -115.14 22.85 -1.76 12.3 -38.09" />
+        <step frame="755" pose="2.34 4.69 2.34 99.02 -95.21 10.55 -29.88 -38.09 26.95 100.78 -116.6 24.61 -13.48 16.7 -29.88" />
+        <step frame="819" pose="26.95 -10.84 -32.81 47.75 -84.08 9.67 4.39 -16.99 52.73 110.74 -84.08 -0.88 -43.07 31.05 -19.34" />
+        <step frame="910" pose="8.2 -26.95 22.85 12.01 -68.26 24.32 12.3 -30.47 46.29 101.37 -102.83 15.23 -48.93 -17.87 -40.14" />
+        <step frame="974" pose="7.62 16.11 -13.18 68.26 -12.01 -12.3 -24.32 -46.29 30.47 102.83 -101.37 48.93 -15.23 40.14 17.87" />
+        <step frame="1039" pose="8.2 -26.95 22.85 12.01 -68.26 24.32 12.3 -30.47 46.29 101.37 -102.83 15.23 -48.93 -17.87 -40.14" />
+        <step frame="1101" pose="7.62 16.11 -13.18 68.26 -12.01 -12.3 -24.32 -46.29 30.47 102.83 -101.37 48.93 -15.23 40.14 17.87" />
+      </steps>
+    </Page>
+  </PageRoot>
+  <GroupRoot>
+    <Group name="All">
+      <param weights="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1" />
+    </Group>
+    <Group name="Kepala">
+      <param weights="1 1 1 0 0 0 0 0 0 0 0 0 0 0 0" />
+    </Group>
+    <Group name="Tangan">
+      <param weights="0 0 0 1 1 1 1 1 1 1 1 1 1 1 1" />
+    </Group>
+    <Group name="Tangan Kanan">
+      <param weights="0 0 0 1 0 1 0 1 0 1 0 1 0 1 0" />
+    </Group>
+    <Group name="Tangan Kiri">
+      <param weights="0 0 0 0 1 0 1 0 1 0 1 0 1 0 1" />
+    </Group>
+  </GroupRoot>
+  <BucketRoot>
+    <Bucket name="REGIONAL EPIC COMEBACK">
+      <callFlows>
+        <callFlow callIndex="1" subIndex="0" exitIndex="0" flow="START INIT" />
+        <callFlow callIndex="2" subIndex="0" exitIndex="0" flow="Gerak Pembuka" />
+        <callFlow callIndex="3" subIndex="0" exitIndex="0" flow="JALAN A1" />
+        <callFlow callIndex="4" subIndex="0" exitIndex="0" flow="SIBAK ATAS" />
+        <callFlow callIndex="5" subIndex="0" exitIndex="0" flow="SETELAH SALAM" />
+        <callFlow callIndex="6" subIndex="0" exitIndex="0" flow="NGIBAS SLEBEW" />
+        <callFlow callIndex="7" subIndex="0" exitIndex="0" flow="JALAN A2 NAIK" />
+        <callFlow callIndex="8" subIndex="0" exitIndex="0" flow="1/2 SALAM B1" />
+        <callFlow callIndex="9" subIndex="0" exitIndex="0" flow="TRANSISI B1" />
+        <callFlow callIndex="10" subIndex="0" exitIndex="0" flow="MEKAR CYCLING" />
+        <callFlow callIndex="11" subIndex="0" exitIndex="0" flow="SETELAH SALAM B1" />
+        <callFlow callIndex="12" subIndex="0" exitIndex="0" flow="JALAN B1" />
+        <callFlow callIndex="13" subIndex="0" exitIndex="0" flow="SRISIG" />
+        <callFlow callIndex="14" subIndex="0" exitIndex="0" flow="ARM CYCLING" />
+        <callFlow callIndex="15" subIndex="0" exitIndex="0" flow="TRANSISI B2" />
+        <callFlow callIndex="16" subIndex="0" exitIndex="0" flow="JALAN B2 TURUN" />
+        <callFlow callIndex="17" subIndex="0" exitIndex="0" flow="MENDAYU SYAHDU" />
+        <callFlow callIndex="18" subIndex="0" exitIndex="0" flow="MEGOL DUDUK" />
+        <callFlow callIndex="19" subIndex="0" exitIndex="0" flow="MT TRANSISI" />
+        <callFlow callIndex="20" subIndex="0" exitIndex="0" flow="JALAN C1" />
+        <callFlow callIndex="21" subIndex="0" exitIndex="0" flow="SALAM PENUTUP" />
+        <callFlow callIndex="22" subIndex="0" exitIndex="0" flow="LEPAS MASKER" />
+        <callFlow callIndex="23" subIndex="0" exitIndex="0" flow="CUCI TANGAN2" />
+        <callFlow callIndex="24" subIndex="0" exitIndex="0" flow="FINAL POSE" />
+      </callFlows>
+    </Bucket>
+    <Bucket name="NASIONAL EPIC COMEBACK">
+      <callFlows>
+        <callFlow callIndex="1" subIndex="0" exitIndex="0" flow="START INIT" />
+        <callFlow callIndex="2" subIndex="0" exitIndex="0" flow="GERAK PEMBUKA V2" />
+        <callFlow callIndex="3" subIndex="0" exitIndex="0" flow="JALAN A1" />
+        <callFlow callIndex="4" subIndex="0" exitIndex="0" flow="IRAMA GENDANG V2" />
+        <callFlow callIndex="5" subIndex="0" exitIndex="0" flow="KAKI MELINTANG" />
+        <callFlow callIndex="6" subIndex="0" exitIndex="0" flow="MALAM GEMBIRA" />
+        <callFlow callIndex="7" subIndex="0" exitIndex="0" flow="JALAN A2 NAIK" />
+        <callFlow callIndex="8" subIndex="0" exitIndex="0" flow="1/2 SALAM B1" />
+        <callFlow callIndex="9" subIndex="0" exitIndex="0" flow="TRANSISI B1" />
+        <callFlow callIndex="10" subIndex="0" exitIndex="0" flow="MEKAR CYCLING" />
+        <callFlow callIndex="11" subIndex="0" exitIndex="0" flow="SETELAH SALAM B1" />
+        <callFlow callIndex="12" subIndex="0" exitIndex="0" flow="JALAN B1" />
+        <callFlow callIndex="13" subIndex="0" exitIndex="0" flow="SRISIG" />
+        <callFlow callIndex="14" subIndex="0" exitIndex="0" flow="ARM CYCLING" />
+        <callFlow callIndex="15" subIndex="0" exitIndex="0" flow="TRANSISI B2" />
+        <callFlow callIndex="16" subIndex="0" exitIndex="0" flow="JALAN B2 TURUN" />
+        <callFlow callIndex="17" subIndex="0" exitIndex="0" flow="MENDAYU SYAHDU" />
+        <callFlow callIndex="18" subIndex="0" exitIndex="0" flow="MEGOL DUDUK" />
+        <callFlow callIndex="19" subIndex="0" exitIndex="0" flow="MT TRANSISI" />
+        <callFlow callIndex="20" subIndex="0" exitIndex="0" flow="JALAN C1" />
+        <callFlow callIndex="21" subIndex="0" exitIndex="0" flow="SALAM PENUTUP" />
+        <callFlow callIndex="22" subIndex="0" exitIndex="0" flow="LEPAS MASKER" />
+        <callFlow callIndex="23" subIndex="0" exitIndex="0" flow="CUCI TANGAN2" />
+        <callFlow callIndex="24" subIndex="0" exitIndex="0" flow="FINAL POSE" />
+      </callFlows>
+    </Bucket>
+    <Bucket name="GERIGI">
+      <callFlows>
+        <callFlow callIndex="1" subIndex="0" exitIndex="0" flow="START INIT" />
+        <callFlow callIndex="2" subIndex="0" exitIndex="0" flow="GERAK PEMBUKA V2" />
+        <callFlow callIndex="3" subIndex="0" exitIndex="0" flow="SIBAK ATAS" />
+        <callFlow callIndex="4" subIndex="0" exitIndex="0" flow="IRAMA GENDANG V2" />
+        <callFlow callIndex="5" subIndex="0" exitIndex="0" flow="SRISIG 2" />
+        <callFlow callIndex="6" subIndex="0" exitIndex="0" flow="MALAM GEMBIRA" />
+        <callFlow callIndex="7" subIndex="0" exitIndex="0" flow="NGIBAS SLEBEW" />
+        <callFlow callIndex="8" subIndex="0" exitIndex="0" flow="1/2 SALAM B1" />
+        <callFlow callIndex="9" subIndex="0" exitIndex="0" flow="TRANSISI B1" />
+        <callFlow callIndex="10" subIndex="0" exitIndex="0" flow="MEKAR CYCLING" />
+        <callFlow callIndex="11" subIndex="0" exitIndex="0" flow="SETELAH SALAM B1" />
+        <callFlow callIndex="12" subIndex="0" exitIndex="0" flow="NGASAI TURUN" />
+        <callFlow callIndex="13" subIndex="0" exitIndex="0" flow="SRISIG" />
+        <callFlow callIndex="14" subIndex="0" exitIndex="0" flow="MALAM GEMBIRA 2" />
+        <callFlow callIndex="15" subIndex="0" exitIndex="0" flow="TRANSISI B2" />
+        <callFlow callIndex="16" subIndex="0" exitIndex="0" flow="KEBAK GANTI" />
+        <callFlow callIndex="17" subIndex="0" exitIndex="0" flow="MENDAYU SYAHDU" />
+        <callFlow callIndex="18" subIndex="0" exitIndex="0" flow="MEGOL DUDUK" />
+        <callFlow callIndex="19" subIndex="0" exitIndex="0" flow="MT TRANSISI" />
+        <callFlow callIndex="20" subIndex="0" exitIndex="0" flow="CLINGAK CLINGUK" />
+        <callFlow callIndex="21" subIndex="0" exitIndex="0" flow="SALAM PENUTUP" />
+        <callFlow callIndex="22" subIndex="0" exitIndex="0" flow="LEPAS MASKER" />
+        <callFlow callIndex="23" subIndex="0" exitIndex="0" flow="CUCI TANGAN2" />
+        <callFlow callIndex="24" subIndex="0" exitIndex="0" flow="FINAL POSE" />
+        <callFlow callIndex="25" subIndex="0" exitIndex="0" flow="FINAL POSE DELAY" />
+        <callFlow callIndex="26" subIndex="0" exitIndex="0" flow="PARADE" />
+      </callFlows>
+    </Bucket>
+    <Bucket name="RUNNING TEST">
+      <callFlows>
+        <callFlow callIndex="1" subIndex="0" exitIndex="0" flow="START INIT" />
+        <callFlow callIndex="2" subIndex="0" exitIndex="0" flow="JALAN A1" />
+        <callFlow callIndex="3" subIndex="0" exitIndex="0" flow="KAKI MELINTANG" />
+        <callFlow callIndex="4" subIndex="0" exitIndex="0" flow="INIT 2" />
+        <callFlow callIndex="5" subIndex="0" exitIndex="0" flow="JALAN A2 NAIK" />
+        <callFlow callIndex="6" subIndex="0" exitIndex="0" flow="INIT 3" />
+        <callFlow callIndex="7" subIndex="0" exitIndex="0" flow="JALAN B1" />
+        <callFlow callIndex="8" subIndex="0" exitIndex="0" flow="ARM CYCLING" />
+        <callFlow callIndex="9" subIndex="0" exitIndex="0" flow="INIT 4" />
+        <callFlow callIndex="10" subIndex="0" exitIndex="0" flow="JALAN B2 TURUN" />
+        <callFlow callIndex="11" subIndex="0" exitIndex="0" flow="INIT 5" />
+        <callFlow callIndex="12" subIndex="0" exitIndex="0" flow="JALAN C1" />
+      </callFlows>
+    </Bucket>
+    <Bucket name="UKM">
+      <callFlows>
+        <callFlow callIndex="1" subIndex="0" exitIndex="0" flow="START INIT" />
+        <callFlow callIndex="2" subIndex="0" exitIndex="0" flow="PARADE" />
+      </callFlows>
+    </Bucket>
+  </BucketRoot>
+</Root>

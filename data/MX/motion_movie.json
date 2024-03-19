@@ -1,0 +1,582 @@
+{
+  "MOVIE": [
+    {
+      "id": 1,
+      "name": "START INIT",
+      "motion_unit": [
+        { "id": 1, "name": "WALKREADY NOW", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "INIT 2",
+      "motion_unit": [
+        { "id": 1, "name": "WALKREADY NOW", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "INIT 3",
+      "motion_unit": [
+        { "id": 1, "name": "WALKREADY NOW", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "INIT 4",
+      "motion_unit": [
+        { "id": 1, "name": "WALKREADY NOW", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "INIT 5",
+      "motion_unit": [
+        { "id": 1, "name": "WALKREADY NOW", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "GERAK PEMBUKA V2",
+      "motion_unit": [
+        { "id": 3, "name": "GERAK PEMBUKA V2", "speed": "1", "loop": "1" },
+        { "id": 9, "name": "PASANG MASKER", "speed": "1", "loop": "1" },
+        { "id": 13, "name": "CUCI TANGAN V2", "speed": "1.5", "loop": "1" },
+        { "id": 4, "name": "MERENG BARU", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "IRAMA GENDANG",
+      "motion_unit": [
+        { "id": 8, "name": "IRAMA GENDANG V2", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "GERAK PEMBUKA",
+      "motion_unit": [
+        { "id": 3, "name": "GERAK PEMBUKA V2", "speed": "1", "loop": "1" },
+        { "id": 9, "name": "PASANG MASKER", "speed": "1.2", "loop": "1" },
+        { "id": 15, "name": "CUCI TANGAN V3", "speed": "1", "loop": "1" },
+        { "id": 11, "name": "MERENG", "speed": "1", "loop": "1" },
+        { "id": 10, "name": "SALAM PEMBUKA", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "JALAN A1",
+      "motion_unit": [
+        { "id": 58, "name": "1 Kanan Awal", "speed": "1.8", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.8", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.8", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.8", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.8", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.8", "loop": "1" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "KAKI MELINTANG",
+      "motion_unit": [
+        { "id": 123, "name": "KAKI MELINTANG ZIFA", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "CUCI TANGAN",
+      "motion_unit": [
+        { "id": 13, "name": "CUCI TANGAN V2", "speed": "1.5", "loop": "1" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "COBA SELESAI",
+      "motion_unit": [
+        { "id": 3, "name": "GERAK PEMBUKA V2", "speed": "1", "loop": "1" },
+        { "id": 9, "name": "PASANG MASKER", "speed": "1", "loop": "1" },
+        { "id": 13, "name": "CUCI TANGAN V2", "speed": "1.5", "loop": "1" },
+        { "id": 4, "name": "MERENG BARU", "speed": "1", "loop": "1" },
+        { "id": 58, "name": "1 Kanan Awal", "speed": "1.8", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.8", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.8", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.8", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.8", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.8", "loop": "1" },
+        { "id": 7, "name": "IRAMA GENDANG", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "TEMPLATE JALAN 1.5",
+      "motion_unit": [
+        { "id": 58, "name": "1 Kanan Awal", "speed": "1.5", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.5", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.5", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.5", "loop": "1" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "TEMPLATE JALAN 1.7",
+      "motion_unit": [
+        { "id": 58, "name": "1 Kanan Awal", "speed": "1.8", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.8", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.8", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.8", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.8", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.8", "loop": "1" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "=== ZONA A ===",
+      "motion_unit": [
+        { "id": 17, "name": "SIBAK ATAS", "speed": "1", "loop": "3" },
+        { "id": 18, "name": "SETELAH SALAM", "speed": "1", "loop": "1" },
+        { "id": 19, "name": "NGIBAS SLEBEW", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "SIBAK ATAS",
+      "motion_unit": [
+        { "id": 17, "name": "SIBAK ATAS", "speed": "1.2", "loop": "3" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "SIBAK ATAS V2",
+      "motion_unit": [{ "id": 6, "name": "NYAPU", "speed": "0.8", "loop": "2" }]
+    },
+    {
+      "id": 18,
+      "name": "SETELAH SALAM",
+      "motion_unit": [
+        { "id": 18, "name": "SETELAH SALAM", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "NGIBAS SLEBEW",
+      "motion_unit": [
+        { "id": 20, "name": "NGIBAS V2", "speed": "1.1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "MALAM GEMBIRA",
+      "motion_unit": [
+        { "id": 21, "name": "MALAM GEMBIRA", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "MALAM GEMBIRA 2",
+      "motion_unit": [
+        { "id": 21, "name": "MALAM GEMBIRA", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "JALAN A2 NAIK",
+      "motion_unit": [
+        { "id": 58, "name": "1 Kanan Awal", "speed": "1.8", "loop": "1" },
+        { "id": 75, "name": "Kiri ++ Naik", "speed": "1.8", "loop": "1" },
+        { "id": 77, "name": "Kanan++ Naik", "speed": "1.8", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.8", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.8", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.8", "loop": "1" }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "=== ZONA B1 ===",
+      "motion_unit": [
+        { "id": 24, "name": "1/2 SETELAH SALAM", "speed": "1", "loop": "1" },
+        { "id": 25, "name": "FLIP FLIP B1", "speed": "1", "loop": "1" },
+        {
+          "id": 26,
+          "name": "KIRI PUTAR KANAN SIBAK",
+          "speed": "1.1",
+          "loop": "3"
+        },
+        { "id": 18, "name": "SETELAH SALAM", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "1/2 SETELAH SALAM B1",
+      "motion_unit": [
+        { "id": 24, "name": "1/2 SETELAH SALAM", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "FLIP FLIP B1",
+      "motion_unit": [
+        { "id": 25, "name": "FLIP FLIP B1", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "KIRI PUTAR KANAN SIBAK",
+      "motion_unit": [
+        {
+          "id": 26,
+          "name": "KIRI PUTAR KANAN SIBAK",
+          "speed": "1.1",
+          "loop": "3"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "SETELAH SALAM B1",
+      "motion_unit": [
+        { "id": 18, "name": "SETELAH SALAM", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "JALAN B1",
+      "motion_unit": [
+        { "id": 58, "name": "1 Kanan Awal", "speed": "1.5", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.5", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.5", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.5", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.5", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.5", "loop": "1" }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "=== ZONA B2 ===",
+      "motion_unit": [
+        { "id": 29, "name": "SRISIG", "speed": "1", "loop": "1" },
+        { "id": 30, "name": "ARM CYCLING", "speed": "1", "loop": "1" },
+        { "id": 34, "name": "FLIP FLIP B2", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "SRISIG",
+      "motion_unit": [{ "id": 29, "name": "SRISIG", "speed": "1", "loop": "1" }]
+    },
+    {
+      "id": 31,
+      "name": "SRISIG 2",
+      "motion_unit": [{ "id": 29, "name": "SRISIG", "speed": "1", "loop": "1" }]
+    },
+    {
+      "id": 32,
+      "name": "ARM CYCLING",
+      "motion_unit": [
+        { "id": 31, "name": "ARM CYCLING 2", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "1/2 SALAM B2",
+      "motion_unit": [
+        { "id": 24, "name": "1/2 SETELAH SALAM", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "TRANSISI B2",
+      "motion_unit": [
+        { "id": 33, "name": "TRANSISI B2 B", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "FLIP FLIP B2",
+      "motion_unit": [
+        { "id": 34, "name": "FLIP FLIP B2", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "JALAN B2 TURUN",
+      "motion_unit": [
+        { "id": 58, "name": "1 Kanan Awal", "speed": "1.5", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.5", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.5", "loop": "1" },
+        { "id": 89, "name": "Kiri ++ Turun", "speed": "1.5", "loop": "1" },
+        { "id": 90, "name": "Kanan ++ Turun", "speed": "1.5", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.5", "loop": "1" },
+        { "id": 60, "name": "2 Kanan ++ ", "speed": "1.5", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.5", "loop": "1" }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "=====================",
+      "motion_unit": [
+        { "id": 90, "name": "Kanan ++ Turun", "speed": "1.5", "loop": "1" },
+        { "id": 59, "name": "1 Kiri ++", "speed": "1.5", "loop": "1" },
+        { "id": 62, "name": "1 Kanan ++", "speed": "1.5", "loop": "1" },
+        { "id": 61, "name": "1 Kiri Tutup", "speed": "1.5", "loop": "1" }
+      ]
+    },
+    { "id": 38, "name": "=== ZONA C1 ===", "motion_unit": [] },
+    {
+      "id": 39,
+      "name": "MENDAYU SYAHDU",
+      "motion_unit": [
+        { "id": 102, "name": "MENDAYU V3", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "UKEL KARNA",
+      "motion_unit": [
+        { "id": 38, "name": "ukel karna", "speed": "1.2", "loop": "1" }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "MEGOL DUDUK ",
+      "motion_unit": [
+        { "id": 41, "name": "MEGOL DUDUK V2", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "MT TRANSISI",
+      "motion_unit": [
+        { "id": 42, "name": "MT TRANSISI", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "JALAN C1",
+      "motion_unit": [
+        {
+          "id": 69,
+          "name": "Kanan Awal Belok Kiri",
+          "speed": "1.5",
+          "loop": "1"
+        },
+        { "id": 70, "name": "Kiri ++ Belok Kiri", "speed": "1.5", "loop": "1" },
+        {
+          "id": 71,
+          "name": "Kanan ++ Belok Kiri",
+          "speed": "1.5",
+          "loop": "1"
+        },
+        { "id": 70, "name": "Kiri ++ Belok Kiri", "speed": "1.5", "loop": "1" },
+        {
+          "id": 71,
+          "name": "Kanan ++ Belok Kiri",
+          "speed": "1.5",
+          "loop": "1"
+        },
+        {
+          "id": 72,
+          "name": "Kiri Tutup Belok Kiri",
+          "speed": "1.5",
+          "loop": "1"
+        },
+        { "id": 93, "name": "Sisa C1", "speed": "1", "loop": "1" }
+      ]
+    },
+    { "id": 44, "name": "=== ZONA AKHIR ===", "motion_unit": [] },
+    {
+      "id": 45,
+      "name": "KIRI KANAN SIBAK",
+      "motion_unit": [
+        {
+          "id": 26,
+          "name": "KIRI PUTAR KANAN SIBAK",
+          "speed": "1",
+          "loop": "1"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "SALAM PENUTUP",
+      "motion_unit": [
+        { "id": 45, "name": "Salam Penutup Ninaa", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "LEPAS MASKER",
+      "motion_unit": [
+        { "id": 46, "name": "LEPAS MASKER", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "CUCI TANGAN 2",
+      "motion_unit": [
+        { "id": 47, "name": "CUCI TANGAN2", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "FINAL POSE",
+      "motion_unit": [
+        { "id": 48, "name": "Final Nas Ninaa", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "FINAL POSE DELAY",
+      "motion_unit": [
+        { "id": 49, "name": "FINAL POSE DELAY", "speed": "1", "loop": "20" }
+      ]
+    },
+    { "id": 51, "name": "====", "motion_unit": [] },
+    {
+      "id": 52,
+      "name": "GAMBANG SEMARANG 2",
+      "motion_unit": [
+        { "id": 37, "name": "gambang semarang 2", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "GAMBANG SEMARANG 1",
+      "motion_unit": [
+        { "id": 19, "name": "NGIBAS SLEBEW", "speed": "1.2", "loop": "1" }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "GAMBANG SEMARANG 3",
+      "motion_unit": [
+        { "id": 38, "name": "ukel karna", "speed": "1", "loop": "1" },
+        { "id": 104, "name": "sindhet", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "GAMBANG SEMARANG 4",
+      "motion_unit": [
+        { "id": 29, "name": "SRISIG", "speed": "1", "loop": "1" },
+        { "id": 107, "name": "ARM CYCLING2", "speed": "1", "loop": "1" },
+        { "id": 39, "name": "Kembang Kincup", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "JINJIT LOOP",
+      "motion_unit": [
+        { "id": 119, "name": "JINJIT coba", "speed": "1.1", "loop": "2" }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "MEKAR CYCLING",
+      "motion_unit": [
+        { "id": 112, "name": "MEKAR CYCLING V2", "speed": "1.1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "TRANSISI B1",
+      "motion_unit": [
+        { "id": 114, "name": "TRANSISI B1", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Coba Belok Kiri",
+      "motion_unit": [
+        {
+          "id": 69,
+          "name": "Kanan Awal Belok Kiri",
+          "speed": "1.5",
+          "loop": "1"
+        },
+        { "id": 83, "name": "kr++2", "speed": "1.5", "loop": "1" },
+        { "id": 85, "name": "knn++2", "speed": "1.5", "loop": "1" },
+        { "id": 84, "name": "kr++2.2", "speed": "1.5", "loop": "1" },
+        { "id": 86, "name": "knn++2.2", "speed": "1.5", "loop": "1" },
+        {
+          "id": 72,
+          "name": "Kiri Tutup Belok Kiri",
+          "speed": "1.5",
+          "loop": "1"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "COBA MEGOL",
+      "motion_unit": [
+        { "id": 133, "name": "MEGOL ASIK", "speed": "1.4", "loop": "1" }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "coba angkat kaki",
+      "motion_unit": [
+        { "id": 122, "name": "KAKI MELINTANG", "speed": "1.1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "2019",
+      "motion_unit": [
+        { "id": 122, "name": "KAKI MELINTANG", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "KEMBANG KINCUP",
+      "motion_unit": [
+        { "id": 39, "name": "Kembang Kincup", "speed": "0.9", "loop": "2" }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "NGASAI TURUN",
+      "motion_unit": [
+        { "id": 136, "name": "NGASAI TURUN", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "KEBAK GANTI",
+      "motion_unit": [
+        { "id": 137, "name": "KEBAK GANTI", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "CLINGAK CLINGUK",
+      "motion_unit": [
+        { "id": 138, "name": "CLINGAK CLINGUK", "speed": "1", "loop": "1" },
+        { "id": 39, "name": "Kembang Kincup", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "PARADE",
+      "motion_unit": [
+        { "id": 141, "name": "init parade", "speed": "1", "loop": "1" },
+        { "id": 139, "name": "PARADE", "speed": "1", "loop": "14" }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "feather",
+      "motion_unit": [
+        { "id": 142, "name": "feather", "speed": "1", "loop": "1" }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "DADAH",
+      "motion_unit": [
+        { "id": 141, "name": "init parade", "speed": "1", "loop": "1" },
+        { "id": 140, "name": "DADAH", "speed": "1", "loop": "100" }
+      ]
+    }
+  ]
+}
