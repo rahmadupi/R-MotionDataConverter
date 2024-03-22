@@ -11,8 +11,8 @@ servo_type="None"
 #konstanta string lokasi file
 default_loc="../../data/"
 # input
-filenameMX="Motion MX Nina (M) NC.mtnx" #to be changed #specify file location and name
-filenameXL="Motion XL Nina NC.mtnx" #to be changed #specify file location and name
+filenameMX="Motion MX Nina (M) NC.mtnx" #to be changed #specify file location and filename
+filenameXL="Motion XL Nina NC.mtnx" #to be changed #specify file location and filename
 data_loc_mx=filenameMX
 data_loc_xl=filenameXL
 #output
