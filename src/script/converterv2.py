@@ -58,7 +58,7 @@ def getbucket(path):
     root = tree.getroot()
 
     motion_buckets = []
-    motion_bucket_id = 1
+    motion_bucket_id = 0
 
     for bucket in root.findall('.//Bucket'):
         motion_bucket = {
@@ -84,7 +84,7 @@ def getmovie(path):
     root = tree.getroot()
 
     motion_movies = []
-    motion_movie_id = 1
+    motion_movie_id = 0
 
     for movie in root.findall('.//Flow'):
         #initialize name of unit
@@ -100,8 +100,8 @@ def getmovie(path):
             motion_unit = {
                 "id": motion_unit_name.index(unit.get('main')),#motion_unit_id,
                 "name": unit.get('main'),
-                "speed": unit.get('mainSpeed'),
-                "loop": unit.get('loop')
+                "speed": float(unit.get('mainSpeed')),
+                "loop": int(unit.get('loop'))
             }
             motion_movie["motion_unit"].append(motion_unit)
 

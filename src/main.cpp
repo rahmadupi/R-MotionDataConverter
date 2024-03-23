@@ -19,9 +19,8 @@ void get_motion_bucket(String servo_type) {
     if (!file) {
         Serial.println("[-] Failed to open file for reading");
         return;
-    } else {
+    } else
         Serial.println("[+] File opened: " + String(file.name()));
-    }
 
     // parse json file
     JsonObject root = parse_json(file);
@@ -91,12 +90,14 @@ void get_motion_movie(String servo_type) {
     if (!file) {
         Serial.println("[-] Failed to open file for reading");
         return;
-    }
+    } else
+        Serial.println("[+] File opened: " + String(file.name()));
+
     // main
     JsonObject root = parse_json(file);
     // JsonDocument doc;
 
-    JsonArray motionMovieArray = root["BUCKET"].as<JsonArray>();
+    JsonArray motionMovieArray = root["MOVIE"].as<JsonArray>();
 
     // testonly
     int movie_size = motionMovieArray.size();
@@ -106,28 +107,33 @@ void get_motion_movie(String servo_type) {
     for (JsonVariant motionMovie : motionMovieArray) {
         if (servo_type == "MX") {
             int id = motionMovie["id"].as<int>();
+            Serial.print("sssssssssssssssssssssssssssssssssssssssssss");
             String name = motionMovie["name"].as<String>();
-            motion_Movie_mx[id].id = id;
-            strcpy(motion_Movie_mx[id].name, name.c_str());
-            JsonArray motion_unit = motionMovie["motion_movie"].as<JsonArray>();
+            // motion_movie_mx[id].id = id;
+            // strcpy(motion_movie_mx[id].name, name.c_str());
+            JsonArray motion_unit = motionMovie["motion_unit"].as<JsonArray>();
+            Serial.print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 
             // testonly
             unit_size[id] = motion_unit.size();
 
-            Serial.print("[+] Load Movie: " + name + " " + servo_type);
+            Serial.println("[+] Load Movie: " + name + " " + servo_type);
 
             int iter = 1;
-            for (JsonVariant motion_unit_id : motion_movie) {
-                motion_movie_mx[id].motion_unit_id[iter++] = motion_unit["id"].as<int>();
-                motion_movie_mx[id].motion_unit_loop[iter++] = motion_unit["loop"].as<int>();
-                motion_movie_mx[id].motion_unit_speed[iter++] = motion_unit_id["speed"].as<double>();
+            for (JsonVariant motion_unit_data : motion_unit) {
+                Serial.println("ddddddddddddddddddddddddddddddddddddddddd");
+                motion_movie_mx[id].motion_unit_id[iter++] = motion_unit_data["id"].as<int>();
+                motion_movie_mx[id].motion_unit_loop[iter++] = motion_unit_data["loop"].as<int>();
+                Serial.println("jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj");
+                motion_movie_mx[id].motion_unit_speed[iter++] = motion_unit_data["speed"].as<float>();
+                Serial.println("ggggggggggggggggggggggggggggggggggggggggggggg");
             }
         } else if (servo_type == "XL") {
             int id = motionMovie["id"].as<int>();
             String name = motionMovie["name"].as<String>();
-            motion_Movie_xl[id].id = id;
-            strcpy(motion_Movie_xl[id].name, name.c_str());
-            JsonArray motion_unit = motionMovie["motion_movie"].as<JsonArray>();
+            motion_movie_xl[id].id = id;
+            // strcpy(motion_movie_xl[id].name, name.c_str());
+            JsonArray motion_unit = motionMovie["motion_unit"].as<JsonArray>();
 
             // testonly
             unit_size[id] = motion_unit.size();
@@ -135,10 +141,10 @@ void get_motion_movie(String servo_type) {
             Serial.print("[+] Load Movie: " + name + " " + servo_type);
 
             int iter = 1;
-            for (JsonVariant motion_unit_id : motion_unit) {
-                motion_movie_xl[id].motion_unit_id[iter++] = motion_unit["id"].as<int>();
-                motion_movie_xl[id].motion_unit_loop[iter++] = motion_unit["loop"].as<int>();
-                motion_movie_xl[id].motion_unit_speed[iter++] = motion_unit_id["speed"].as<double>();
+            for (JsonVariant motion_unit_data : motion_unit) {
+                motion_movie_xl[id].motion_unit_id[iter++] = motion_unit_data["id"].as<int>();
+                motion_movie_xl[id].motion_unit_loop[iter++] = motion_unit_data["loop"].as<int>();
+                motion_movie_xl[id].motion_unit_speed[iter++] = motion_unit_data["speed"].as<double>();
             }
         }
         Serial.println(" [+] Done");
@@ -151,6 +157,16 @@ void get_motion_movie(String servo_type) {
         file.close();
         Serial.println("[+] File closed");
     }
+    // for (int i = 1; i <= movie_size; i++) {
+    //     Serial.println("id: " + String(motion_movie_mx[i].id));
+    //     // Serial.println("nama: " + String(motion_bucket_xl[i].name));
+    //     for (int j = 1; j <= unit_size[i]; j++) {
+    //         String a = "id" + String(motion_movie_mx[i].motion_unit_id[j]) + " loop" + String(motion_movie_mx[i].motion_unit_loop[j]) + " speed" + String(motion_movie_mx[i].motion_unit_speed[j]);
+    //         Serial.print(a);
+    //     }
+    //     Serial.println();
+    //     delay(2000);
+    // }
 }
 void get_motion_unit(String servo_type) {
     File dir = SPIFFS.open("/" + servo_type + motion_unit_foldername);
@@ -181,12 +197,12 @@ void setup() {
 
     get_data_from_json();
 
-    free(motion_bucket_mx);
-    // free(motion_movie_mx);
+    // free(motion_bucket_mx);
+    free(motion_movie_mx);
     // free(motion_unit_mx);
 
-    free(motion_bucket_xl);
-    // free(motion_movie_xl);
+    // free(motion_bucket_xl);
+    free(motion_movie_xl);
     // free(motion_unit_xl);
 
     //  File file = SPIFFS.open("/test.json", "r");
