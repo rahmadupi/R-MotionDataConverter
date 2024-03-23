@@ -64,15 +64,17 @@ def getbucket(path):
         motion_bucket = {
             "id": motion_bucket_id,
             "name": bucket.get('name'),
+            "total_movie": len(bucket.findall('.//callFlow')),
             "motion_movie": []
         }
         
         for movie in bucket.findall('.//callFlow'):
-            motion_movie = {
-                "id": motion_movie_name.index(movie.get('flow'))+1,#motion_movie_id,
-                "name": movie.get('flow')
-            }
-            motion_bucket["motion_movie"].append(motion_movie)
+            id=motion_movie_name.index(movie.get('flow')),#motion_movie_id,
+            # motion_movie = {
+            #     "id": motion_movie_name.index(movie.get('flow'))+1,#motion_movie_id,
+            #     "name": movie.get('flow')
+            # }
+            motion_bucket["motion_movie"].append(id[0])
 
         motion_buckets.append(motion_bucket)
         motion_bucket_id += 1
@@ -93,13 +95,14 @@ def getmovie(path):
         motion_movie = {
             "id": motion_movie_id,
             "name": movie.get('name'),
+            "total_unit": len(movie.findall('.//unit')),
             "motion_unit": []
         }
 
         for unit in movie.findall('.//unit'):
             motion_unit = {
                 "id": motion_unit_name.index(unit.get('main')),#motion_unit_id,
-                "name": unit.get('main'),
+                # "name": unit.get('main'),
                 "speed": float(unit.get('mainSpeed')),
                 "loop": int(unit.get('loop'))
             }
@@ -207,11 +210,12 @@ for i in files:
     motion_unit_name=[]
     motion_movie_name=[]
     if re.search("MX", i)!=None or re.search("XL", i)!=None:
-        try:
-            start_get(i)
-            print(f"[+] Convert Success")
-        except:
-            print("[-] Convert Failed")
-            print(f"Exception: {sys.exc_info()[0]}")
+        start_get(i)
+        # try:
+        #     start_get(i)
+        #     print(f"[+] Convert Success")
+        # except:
+        #     print("[-] Convert Failed")
+        #     print(f"Exception: {sys.exc_info()[0]}")
     else:
         print("[-] Missing Servo type XL or MX speceifier in file name")

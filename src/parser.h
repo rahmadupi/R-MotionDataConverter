@@ -16,22 +16,22 @@
 
 #define MAX 50
 
-typedef struct {
+typedef struct MotionUnit {
     int id = 0;
     char name[MAX] = "";
     int time[UNIT_VALUE_DATASIZE];
     int data[UNIT_VALUE_DATASIZE][15];
 } MotionUnit;
 
-typedef struct {
+typedef struct MotionMovie {
     int id = 0;
-    char name[MAX] = "";
+    char name[MAX] = " ";
     int motion_unit_id[MOVIE_UNIT_DATASIZE];
-    double motion_unit_speed[MOVIE_UNIT_DATASIZE];
+    float motion_unit_speed[MOVIE_UNIT_DATASIZE];
     int motion_unit_loop[MOVIE_UNIT_DATASIZE];
 } MotionMovie;
 
-typedef struct {
+typedef struct MotionBucket {
     int id = 0;
     char name[MAX] = "";
     int motion_movie_id[BUCKET_MOVIE_DATASIZE];

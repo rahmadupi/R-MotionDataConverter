@@ -1,1 +1,38 @@
-{"BUCKET":[{"id":0,"name":"REGIONAL EPIC COMEBACK","motion_movie":[{"id":1,"name":"START INIT"},{"id":8,"name":"GERAK PEMBUKA"},{"id":9,"name":"JALAN A1"},{"id":16,"name":"SIBAK ATAS"},{"id":18,"name":"SETELAH SALAM"},{"id":19,"name":"NGIBAS SLEBEW"},{"id":22,"name":"JALAN A2 NAIK"},{"id":24,"name":"1/2 SETELAH SALAM B1"},{"id":58,"name":"TRANSISI B1"},{"id":57,"name":"MEKAR CYCLING"},{"id":27,"name":"SETELAH SALAM B1"},{"id":28,"name":"JALAN B1"},{"id":30,"name":"SRISIG"},{"id":32,"name":"ARM CYCLING"},{"id":34,"name":"TRANSISI B2"},{"id":36,"name":"JALAN B2 TURUN"},{"id":39,"name":"MENDAYU SYAHDU"},{"id":41,"name":"MEGOL DUDUK "},{"id":42,"name":"MT TRANSISI"},{"id":43,"name":"JALAN C1"},{"id":46,"name":"SALAM PENUTUP"},{"id":47,"name":"LEPAS MASKER"},{"id":48,"name":"CUCI TANGAN 2"},{"id":49,"name":"FINAL POSE"}]},{"id":1,"name":"NASIONAL EPIC COMEBACK","motion_movie":[{"id":1,"name":"START INIT"},{"id":6,"name":"GERAK PEMBUKA V2"},{"id":9,"name":"JALAN A1"},{"id":7,"name":"IRAMA GENDANG"},{"id":10,"name":"KAKI MELINTANG"},{"id":20,"name":"MALAM GEMBIRA"},{"id":22,"name":"JALAN A2 NAIK"},{"id":24,"name":"1/2 SETELAH SALAM B1"},{"id":58,"name":"TRANSISI B1"},{"id":57,"name":"MEKAR CYCLING"},{"id":27,"name":"SETELAH SALAM B1"},{"id":28,"name":"JALAN B1"},{"id":30,"name":"SRISIG"},{"id":32,"name":"ARM CYCLING"},{"id":34,"name":"TRANSISI B2"},{"id":36,"name":"JALAN B2 TURUN"},{"id":39,"name":"MENDAYU SYAHDU"},{"id":41,"name":"MEGOL DUDUK "},{"id":42,"name":"MT TRANSISI"},{"id":43,"name":"JALAN C1"},{"id":46,"name":"SALAM PENUTUP"},{"id":47,"name":"LEPAS MASKER"},{"id":48,"name":"CUCI TANGAN 2"},{"id":49,"name":"FINAL POSE"}]},{"id":2,"name":"GERIGI","motion_movie":[{"id":1,"name":"START INIT"},{"id":6,"name":"GERAK PEMBUKA V2"},{"id":16,"name":"SIBAK ATAS"},{"id":7,"name":"IRAMA GENDANG"},{"id":31,"name":"SRISIG 2"},{"id":20,"name":"MALAM GEMBIRA"},{"id":19,"name":"NGIBAS SLEBEW"},{"id":24,"name":"1/2 SETELAH SALAM B1"},{"id":58,"name":"TRANSISI B1"},{"id":57,"name":"MEKAR CYCLING"},{"id":27,"name":"SETELAH SALAM B1"},{"id":64,"name":"NGASAI TURUN"},{"id":30,"name":"SRISIG"},{"id":21,"name":"MALAM GEMBIRA 2"},{"id":34,"name":"TRANSISI B2"},{"id":65,"name":"KEBAK GANTI"},{"id":39,"name":"MENDAYU SYAHDU"},{"id":41,"name":"MEGOL DUDUK "},{"id":42,"name":"MT TRANSISI"},{"id":66,"name":"CLINGAK CLINGUK"},{"id":46,"name":"SALAM PENUTUP"},{"id":47,"name":"LEPAS MASKER"},{"id":48,"name":"CUCI TANGAN 2"},{"id":49,"name":"FINAL POSE"},{"id":50,"name":"FINAL POSE DELAY"},{"id":67,"name":"PARADE"}]},{"id":3,"name":"RUNNING TEST","motion_movie":[{"id":1,"name":"START INIT"},{"id":9,"name":"JALAN A1"},{"id":10,"name":"KAKI MELINTANG"},{"id":2,"name":"INIT 2"},{"id":22,"name":"JALAN A2 NAIK"},{"id":3,"name":"INIT 3"},{"id":28,"name":"JALAN B1"},{"id":32,"name":"ARM CYCLING"},{"id":4,"name":"INIT 4"},{"id":36,"name":"JALAN B2 TURUN"},{"id":5,"name":"INIT 5"},{"id":43,"name":"JALAN C1"}]},{"id":4,"name":"UKM","motion_movie":[{"id":1,"name":"START INIT"},{"id":67,"name":"PARADE"}]}]}
+{
+  "BUCKET": [
+    {
+      "id": 0,
+      "name": "REGIONAL EPIC COMEBACK",
+      "total_movie": 24,
+      "motion_movie": [
+        0, 7, 8, 15, 17, 18, 21, 23, 57, 56, 26, 27, 29, 31, 33, 35, 38, 40, 41,
+        42, 45, 46, 47, 48
+      ]
+    },
+    {
+      "id": 1,
+      "name": "NASIONAL EPIC COMEBACK",
+      "total_movie": 24,
+      "motion_movie": [
+        0, 5, 8, 6, 9, 19, 21, 23, 57, 56, 26, 27, 29, 31, 33, 35, 38, 40, 41,
+        42, 45, 46, 47, 48
+      ]
+    },
+    {
+      "id": 2,
+      "name": "GERIGI",
+      "total_movie": 26,
+      "motion_movie": [
+        0, 5, 15, 6, 30, 19, 18, 23, 57, 56, 26, 63, 29, 20, 33, 64, 38, 40, 41,
+        65, 45, 46, 47, 48, 49, 66
+      ]
+    },
+    {
+      "id": 3,
+      "name": "RUNNING TEST",
+      "total_movie": 12,
+      "motion_movie": [0, 8, 9, 1, 21, 2, 27, 31, 3, 35, 4, 42]
+    },
+    { "id": 4, "name": "UKM", "total_movie": 2, "motion_movie": [0, 66] }
+  ]
+}
