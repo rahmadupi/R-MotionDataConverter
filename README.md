@@ -24,7 +24,7 @@ c++ parser */src/main.cpp (durung) <br>
 
   
   
-  <p>- Dalam file motion bucket terdapat key BUCKET berisi list dari seluruh data bucket<br>  dalam data bucket berisi id, nama, total motion movie dalam bucket dan terakhit key motion movie yang berisi list dari id motion movie yang ada dalam bucket</p>
+  <p>- Dalam file motion bucket terdapat key BUCKET berisi list dari seluruh data bucket<br>  dalam data bucket berisi id, nama, total motion movie dalam bucket dan terakhir key motion movie yang berisi list dari id motion movie yang ada dalam bucket</p>
 
   <h5>- Movie</h5>
   
