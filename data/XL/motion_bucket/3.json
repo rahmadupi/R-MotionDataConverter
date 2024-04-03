@@ -1,1 +1,1 @@
-{"id":3,"name":"RUNNING TEST","total_movie":12,"motion_movie":[1,7,10,2,13,3,19,23,4,25,5,30]}
+{"id":3,"name":"RUNNING TEST","total_movie":12,"motion_movie":[{"id":2,"name":"START INIT"},{"id":8,"name":"JALAN A1"},{"id":11,"name":"KAKI MELINTANG"},{"id":3,"name":"INIT 2"},{"id":14,"name":"JALAN A2 NAIK"},{"id":4,"name":"INIT 3"},{"id":20,"name":"JALAN B1"},{"id":24,"name":"ARM CYCLING"},{"id":5,"name":"INIT 4"},{"id":26,"name":"JALAN B2 TURUN"},{"id":6,"name":"INIT 5"},{"id":31,"name":"JALAN C1"}]}

@@ -21,6 +21,15 @@ loc_bucket_sep="../../data/"+servo_type+"/motion_bucket/"
 loc_movie="../../data/"+servo_type+"/"
 loc_unit="../../data/"+servo_type+"/motion_unit/"
 
+def verify_path():
+    if not os.path.exists(loc_bucket_sep):
+        print("[-] Folder missing\n[+] Creating folder...")
+        os.makedirs(loc_bucket_sep)
+    if not os.path.exists(loc_unit):
+        print("[-] Folder missing\n[+] Creating folder...")
+        os.makedirs(loc_unit)
+        
+
 #convert_data_function
 def update_variable(servo_type):
     #output
@@ -63,12 +72,13 @@ def getbucket(path):
         }
         
         for movie in bucket.findall('.//callFlow'):
-            id=motion_movie_name.index(movie.get('flow')),#motion_movie_id,
-            # motion_movie = {
-            #     "id": motion_movie_name.index(movie.get('flow'))+1,#motion_movie_id,
-            #     "name": movie.get('flow')
-            # }
-            motion_bucket["motion_movie"].append(id[0])
+            #id=motion_movie_name.index(movie.get('flow')),#motion_movie_id,
+            motion_movie = {
+                "id": motion_movie_name.index(movie.get('flow'))+1,#motion_movie_id,
+                "name": movie.get('flow')
+            }
+            #motion_bucket["motion_movie"].append(id[0])
+            motion_bucket["motion_movie"].append(motion_movie)
 
         motion_buckets.append(motion_bucket)
         motion_bucket_id += 1
@@ -195,6 +205,9 @@ def start_get(path):
         # if not os.path.exists(default_loc+servo_type):
         #    print("[-] Folder missing\n[+] Creating folder...")
         #    os.makedirs(default_loc+servo_type)
+    
+    #verify output path is exist
+    verify_path()
     
     #scrap data from .mtnx
     unit=getunit(file_inp, servo_type)
