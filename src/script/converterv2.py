@@ -17,26 +17,20 @@ data_loc_mx=filenameMX
 data_loc_xl=filenameXL
 #output
 loc_bucket="../../data/"+servo_type+"/"
+loc_bucket_sep="../../data/"+servo_type+"/motion_bucket/"
 loc_movie="../../data/"+servo_type+"/"
 loc_unit="../../data/"+servo_type+"/motion_unit/"
-
-#gak kanggo tulis info motion
-def write_info_unit(data):
-    loc=default_loc+servo_type
-    info={"count":len(data)-1}
-    to_json=json.dumps(info, indent=4)
-    output=open(loc+"/motion_unit_info.json",'w')
-    output.write(to_json)
-    output.close()
 
 #convert_data_function
 def update_variable(servo_type):
     #output
     global loc_bucket
+    global loc_bucket_sep
     global loc_movie
     global loc_unit
     
     loc_bucket="../../data/"+servo_type+"/"
+    loc_bucket_sep="../../data/"+servo_type+"/motion_bucket/"
     loc_movie="../../data/"+servo_type+"/"
     loc_unit="../../data/"+servo_type+"/motion_unit/"
     
@@ -95,7 +89,7 @@ def getmovie(path):
         motion_movie = {
             "id": motion_movie_id,
             "name": movie.get('name'),
-            "total_unit": len(movie.findall('.//unit')),
+            "total_unit": len(movie.findall('.//unit')),##
             "motion_unit": []
         }
 
@@ -162,6 +156,15 @@ def generate_file(data, what):
         output_file=open(loc_bucket+"MOTION_BUCKET.json",'w')
         output_file.write(to_json)
         output_file.close()
+        
+        iter=0
+        for i in data:
+            to_json=json.dumps(i, separators=(',', ':'))
+            output_file=open(loc_bucket_sep+str(iter)+".json",'w')
+            output_file.write(to_json)
+            output_file.close()
+            iter+=1
+            
     elif(what==1): #motion_movie
         to_json=json.dumps({"MOVIE":data}, separators=(',', ':'))
         output_file=open(loc_movie+"MOTION_MOVIE.json",'w')
@@ -197,7 +200,6 @@ def start_get(path):
     unit=getunit(file_inp, servo_type)
     movie=getmovie(file_inp)
     bucket=getbucket(file_inp)
-    #write_info_unit(unit) #cuma memberitahu berapa banyak motion unit #tidak digunakan
     
     #write data to json separately  
     generate_file(bucket, 0)
@@ -211,6 +213,7 @@ for i in files:
     motion_movie_name=[]
     if re.search("MX", i)!=None or re.search("XL", i)!=None:
         start_get(i)
+        print(f"[+] Convert Success")
         # try:
         #     start_get(i)
         #     print(f"[+] Convert Success")
