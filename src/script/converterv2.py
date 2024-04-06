@@ -19,14 +19,18 @@ data_loc_xl=filenameXL
 loc_bucket="../../data/"+servo_type+"/"
 loc_bucket_sep="../../data/"+servo_type+"/motion_bucket/"
 loc_movie="../../data/"+servo_type+"/"
+loc_movie_sep="../../data/"+servo_type+"/motion_movie/"
 loc_unit="../../data/"+servo_type+"/motion_unit/"
 
 def verify_path():
     if not os.path.exists(loc_bucket_sep):
-        print("[-] Folder missing\n[+] Creating folder...")
+        print("[-] Folder missing\n[+] Creating folder..." + loc_bucket_sep)
         os.makedirs(loc_bucket_sep)
+    if not os.path.exists(loc_movie_sep):
+        print("[-] Folder missing\n[+] Creating folder..."+ loc_movie_sep)
+        os.makedirs(loc_movie_sep)
     if not os.path.exists(loc_unit):
-        print("[-] Folder missing\n[+] Creating folder...")
+        print("[-] Folder missing\n[+] Creating folder..."+ loc_unit)
         os.makedirs(loc_unit)
         
 
@@ -36,11 +40,13 @@ def update_variable(servo_type):
     global loc_bucket
     global loc_bucket_sep
     global loc_movie
+    global loc_movie_sep
     global loc_unit
     
     loc_bucket="../../data/"+servo_type+"/"
     loc_bucket_sep="../../data/"+servo_type+"/motion_bucket/"
     loc_movie="../../data/"+servo_type+"/"
+    loc_movie_sep="../../data/"+servo_type+"/motion_movie/"
     loc_unit="../../data/"+servo_type+"/motion_unit/"
     
 def convert_motion(data, type):
@@ -56,13 +62,13 @@ def convert_motion(data, type):
         
     return converted_data
 
-def getbucket(path):
+def getbucket(path, movie_data, unit_data):
     tree = ET.parse(path)
     root = tree.getroot()
 
     motion_buckets = []
     motion_bucket_id = 0
-
+    
     for bucket in root.findall('.//Bucket'):
         motion_bucket = {
             "id": motion_bucket_id,
@@ -70,15 +76,22 @@ def getbucket(path):
             "total_movie": len(bucket.findall('.//callFlow')),
             "motion_movie": []
         }
-        
+        start_frame=0;
         for movie in bucket.findall('.//callFlow'):
-            #id=motion_movie_name.index(movie.get('flow')),#motion_movie_id,
+            #getting frame duration
+            end_frame=0;
+            for unit in movie_data[motion_movie_name.index(movie.get('flow'))]["motion_unit"]:
+                end_frame+=unit_data[unit["id"]]["time"][unit_data[unit["id"]]["total_frame"]-1]
+            end_frame+=start_frame
             motion_movie = {
-                "id": motion_movie_name.index(movie.get('flow'))+1,#motion_movie_id,
-                "name": movie.get('flow')
+                "id": motion_movie_name.index(movie.get('flow')),#motion_movie_id,
+                "name": movie.get('flow'),
+                "start_frame": start_frame,
+                "end_frame": end_frame
             }
-            #motion_bucket["motion_movie"].append(id[0])
             motion_bucket["motion_movie"].append(motion_movie)
+            
+            start_frame=end_frame+1
 
         motion_buckets.append(motion_bucket)
         motion_bucket_id += 1
@@ -162,7 +175,7 @@ def getunit(path, servo):
 #process_function
 def generate_file(data, what):
     if(what==0): #motion_bucket
-        to_json=json.dumps({"BUCKET":data}, separators=(',', ':'))
+        to_json=json.dumps(data, separators=(',', ':'))
         output_file=open(loc_bucket+"MOTION_BUCKET.json",'w')
         output_file.write(to_json)
         output_file.close()
@@ -175,11 +188,21 @@ def generate_file(data, what):
             output_file.close()
             iter+=1
             
+            
     elif(what==1): #motion_movie
-        to_json=json.dumps({"MOVIE":data}, separators=(',', ':'))
+        to_json=json.dumps(data, separators=(',', ':'))
         output_file=open(loc_movie+"MOTION_MOVIE.json",'w')
         output_file.write(to_json)
         output_file.close()
+        
+        iter=0
+        for i in data:
+            to_json=json.dumps(i, separators=(',', ':'))
+            output_file=open(loc_movie_sep+str(iter)+".json",'w')
+            output_file.write(to_json)
+            output_file.close()
+            iter+=1
+            
     else: #motion_unit
         iter=0
         for i in data:
@@ -196,28 +219,22 @@ def start_get(path):
     if(re.search("MX", file_inp)!=None):
         servo_type="MX"
         update_variable(servo_type)
-        # if not os.path.exists(default_loc+servo_type):
-        #     print("[-] Folder missing\n[+] Creating folder...")
-        #     os.makedirs(default_loc+servo_type)
     elif(re.search("XL", file_inp)!=None):
         servo_type="XL"
         update_variable(servo_type)
-        # if not os.path.exists(default_loc+servo_type):
-        #    print("[-] Folder missing\n[+] Creating folder...")
-        #    os.makedirs(default_loc+servo_type)
     
     #verify output path is exist
     verify_path()
     
     #scrap data from .mtnx
-    unit=getunit(file_inp, servo_type)
-    movie=getmovie(file_inp)
-    bucket=getbucket(file_inp)
+    unit_data=getunit(file_inp, servo_type)
+    movie_data=getmovie(file_inp)
+    bucket_data=getbucket(file_inp, movie_data, unit_data)
     
     #write data to json separately  
-    generate_file(bucket, 0)
-    generate_file(movie, 1)
-    generate_file(unit, 2)
+    generate_file(bucket_data, 0)
+    generate_file(movie_data, 1)
+    generate_file(unit_data, 2)
 
 #main
 files=[data_loc_mx, data_loc_xl]

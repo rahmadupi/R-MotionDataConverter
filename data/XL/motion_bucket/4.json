@@ -1,1 +1,1 @@
-{"id":4,"name":"UKM","total_movie":2,"motion_movie":[{"id":2,"name":"START INIT"},{"id":47,"name":"PARADE"}]}
+{"id":4,"name":"UKM","total_movie":2,"motion_movie":[{"id":1,"name":"START INIT","start_frame":0,"end_frame":180},{"id":46,"name":"PARADE","start_frame":181,"end_frame":2814}]}

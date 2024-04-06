@@ -1,1 +1,465 @@
-{"BUCKET":[{"id":0,"name":"REGIONAL EPIC COMEBACK","total_movie":24,"motion_movie":[{"id":1,"name":"START INIT"},{"id":8,"name":"GERAK PEMBUKA"},{"id":9,"name":"JALAN A1"},{"id":16,"name":"SIBAK ATAS"},{"id":18,"name":"SETELAH SALAM"},{"id":19,"name":"NGIBAS SLEBEW"},{"id":22,"name":"JALAN A2 NAIK"},{"id":24,"name":"1/2 SETELAH SALAM B1"},{"id":58,"name":"TRANSISI B1"},{"id":57,"name":"MEKAR CYCLING"},{"id":27,"name":"SETELAH SALAM B1"},{"id":28,"name":"JALAN B1"},{"id":30,"name":"SRISIG"},{"id":32,"name":"ARM CYCLING"},{"id":34,"name":"TRANSISI B2"},{"id":36,"name":"JALAN B2 TURUN"},{"id":39,"name":"MENDAYU SYAHDU"},{"id":41,"name":"MEGOL DUDUK "},{"id":42,"name":"MT TRANSISI"},{"id":43,"name":"JALAN C1"},{"id":46,"name":"SALAM PENUTUP"},{"id":47,"name":"LEPAS MASKER"},{"id":48,"name":"CUCI TANGAN 2"},{"id":49,"name":"FINAL POSE"}]},{"id":1,"name":"NASIONAL EPIC COMEBACK","total_movie":24,"motion_movie":[{"id":1,"name":"START INIT"},{"id":6,"name":"GERAK PEMBUKA V2"},{"id":9,"name":"JALAN A1"},{"id":7,"name":"IRAMA GENDANG"},{"id":10,"name":"KAKI MELINTANG"},{"id":20,"name":"MALAM GEMBIRA"},{"id":22,"name":"JALAN A2 NAIK"},{"id":24,"name":"1/2 SETELAH SALAM B1"},{"id":58,"name":"TRANSISI B1"},{"id":57,"name":"MEKAR CYCLING"},{"id":27,"name":"SETELAH SALAM B1"},{"id":28,"name":"JALAN B1"},{"id":30,"name":"SRISIG"},{"id":32,"name":"ARM CYCLING"},{"id":34,"name":"TRANSISI B2"},{"id":36,"name":"JALAN B2 TURUN"},{"id":39,"name":"MENDAYU SYAHDU"},{"id":41,"name":"MEGOL DUDUK "},{"id":42,"name":"MT TRANSISI"},{"id":43,"name":"JALAN C1"},{"id":46,"name":"SALAM PENUTUP"},{"id":47,"name":"LEPAS MASKER"},{"id":48,"name":"CUCI TANGAN 2"},{"id":49,"name":"FINAL POSE"}]},{"id":2,"name":"GERIGI","total_movie":26,"motion_movie":[{"id":1,"name":"START INIT"},{"id":6,"name":"GERAK PEMBUKA V2"},{"id":16,"name":"SIBAK ATAS"},{"id":7,"name":"IRAMA GENDANG"},{"id":31,"name":"SRISIG 2"},{"id":20,"name":"MALAM GEMBIRA"},{"id":19,"name":"NGIBAS SLEBEW"},{"id":24,"name":"1/2 SETELAH SALAM B1"},{"id":58,"name":"TRANSISI B1"},{"id":57,"name":"MEKAR CYCLING"},{"id":27,"name":"SETELAH SALAM B1"},{"id":64,"name":"NGASAI TURUN"},{"id":30,"name":"SRISIG"},{"id":21,"name":"MALAM GEMBIRA 2"},{"id":34,"name":"TRANSISI B2"},{"id":65,"name":"KEBAK GANTI"},{"id":39,"name":"MENDAYU SYAHDU"},{"id":41,"name":"MEGOL DUDUK "},{"id":42,"name":"MT TRANSISI"},{"id":66,"name":"CLINGAK CLINGUK"},{"id":46,"name":"SALAM PENUTUP"},{"id":47,"name":"LEPAS MASKER"},{"id":48,"name":"CUCI TANGAN 2"},{"id":49,"name":"FINAL POSE"},{"id":50,"name":"FINAL POSE DELAY"},{"id":67,"name":"PARADE"}]},{"id":3,"name":"RUNNING TEST","total_movie":12,"motion_movie":[{"id":1,"name":"START INIT"},{"id":9,"name":"JALAN A1"},{"id":10,"name":"KAKI MELINTANG"},{"id":2,"name":"INIT 2"},{"id":22,"name":"JALAN A2 NAIK"},{"id":3,"name":"INIT 3"},{"id":28,"name":"JALAN B1"},{"id":32,"name":"ARM CYCLING"},{"id":4,"name":"INIT 4"},{"id":36,"name":"JALAN B2 TURUN"},{"id":5,"name":"INIT 5"},{"id":43,"name":"JALAN C1"}]},{"id":4,"name":"UKM","total_movie":2,"motion_movie":[{"id":1,"name":"START INIT"},{"id":67,"name":"PARADE"}]}]}
+[
+  {
+    "id": 0,
+    "name": "REGIONAL EPIC COMEBACK",
+    "total_movie": 24,
+    "motion_movie": [
+      { "id": 0, "name": "START INIT", "start_frame": 0, "end_frame": 180 },
+      {
+        "id": 7,
+        "name": "GERAK PEMBUKA",
+        "start_frame": 181,
+        "end_frame": 3087
+      },
+      { "id": 8, "name": "JALAN A1", "start_frame": 3088, "end_frame": 4876 },
+      {
+        "id": 15,
+        "name": "SIBAK ATAS",
+        "start_frame": 4877,
+        "end_frame": 5274
+      },
+      {
+        "id": 17,
+        "name": "SETELAH SALAM",
+        "start_frame": 5275,
+        "end_frame": 5916
+      },
+      {
+        "id": 18,
+        "name": "NGIBAS SLEBEW",
+        "start_frame": 5917,
+        "end_frame": 7019
+      },
+      {
+        "id": 21,
+        "name": "JALAN A2 NAIK",
+        "start_frame": 7020,
+        "end_frame": 8808
+      },
+      {
+        "id": 23,
+        "name": "1/2 SETELAH SALAM B1",
+        "start_frame": 8809,
+        "end_frame": 9167
+      },
+      {
+        "id": 57,
+        "name": "TRANSISI B1",
+        "start_frame": 9168,
+        "end_frame": 10320
+      },
+      {
+        "id": 56,
+        "name": "MEKAR CYCLING",
+        "start_frame": 10321,
+        "end_frame": 12139
+      },
+      {
+        "id": 26,
+        "name": "SETELAH SALAM B1",
+        "start_frame": 12140,
+        "end_frame": 12781
+      },
+      {
+        "id": 27,
+        "name": "JALAN B1",
+        "start_frame": 12782,
+        "end_frame": 14570
+      },
+      { "id": 29, "name": "SRISIG", "start_frame": 14571, "end_frame": 15690 },
+      {
+        "id": 31,
+        "name": "ARM CYCLING",
+        "start_frame": 15691,
+        "end_frame": 16669
+      },
+      {
+        "id": 33,
+        "name": "TRANSISI B2",
+        "start_frame": 16670,
+        "end_frame": 18001
+      },
+      {
+        "id": 35,
+        "name": "JALAN B2 TURUN",
+        "start_frame": 18002,
+        "end_frame": 20419
+      },
+      {
+        "id": 38,
+        "name": "MENDAYU SYAHDU",
+        "start_frame": 20420,
+        "end_frame": 23260
+      },
+      {
+        "id": 40,
+        "name": "MEGOL DUDUK ",
+        "start_frame": 23261,
+        "end_frame": 24436
+      },
+      {
+        "id": 41,
+        "name": "MT TRANSISI",
+        "start_frame": 24437,
+        "end_frame": 25742
+      },
+      {
+        "id": 42,
+        "name": "JALAN C1",
+        "start_frame": 25743,
+        "end_frame": 27950
+      },
+      {
+        "id": 45,
+        "name": "SALAM PENUTUP",
+        "start_frame": 27951,
+        "end_frame": 29129
+      },
+      {
+        "id": 46,
+        "name": "LEPAS MASKER",
+        "start_frame": 29130,
+        "end_frame": 29673
+      },
+      {
+        "id": 47,
+        "name": "CUCI TANGAN 2",
+        "start_frame": 29674,
+        "end_frame": 30212
+      },
+      {
+        "id": 48,
+        "name": "FINAL POSE",
+        "start_frame": 30213,
+        "end_frame": 30764
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "NASIONAL EPIC COMEBACK",
+    "total_movie": 24,
+    "motion_movie": [
+      { "id": 0, "name": "START INIT", "start_frame": 0, "end_frame": 180 },
+      {
+        "id": 5,
+        "name": "GERAK PEMBUKA V2",
+        "start_frame": 181,
+        "end_frame": 3344
+      },
+      { "id": 8, "name": "JALAN A1", "start_frame": 3345, "end_frame": 5133 },
+      {
+        "id": 6,
+        "name": "IRAMA GENDANG",
+        "start_frame": 5134,
+        "end_frame": 6312
+      },
+      {
+        "id": 9,
+        "name": "KAKI MELINTANG",
+        "start_frame": 6313,
+        "end_frame": 7416
+      },
+      {
+        "id": 19,
+        "name": "MALAM GEMBIRA",
+        "start_frame": 7417,
+        "end_frame": 8367
+      },
+      {
+        "id": 21,
+        "name": "JALAN A2 NAIK",
+        "start_frame": 8368,
+        "end_frame": 10156
+      },
+      {
+        "id": 23,
+        "name": "1/2 SETELAH SALAM B1",
+        "start_frame": 10157,
+        "end_frame": 10515
+      },
+      {
+        "id": 57,
+        "name": "TRANSISI B1",
+        "start_frame": 10516,
+        "end_frame": 11668
+      },
+      {
+        "id": 56,
+        "name": "MEKAR CYCLING",
+        "start_frame": 11669,
+        "end_frame": 13487
+      },
+      {
+        "id": 26,
+        "name": "SETELAH SALAM B1",
+        "start_frame": 13488,
+        "end_frame": 14129
+      },
+      {
+        "id": 27,
+        "name": "JALAN B1",
+        "start_frame": 14130,
+        "end_frame": 15918
+      },
+      { "id": 29, "name": "SRISIG", "start_frame": 15919, "end_frame": 17038 },
+      {
+        "id": 31,
+        "name": "ARM CYCLING",
+        "start_frame": 17039,
+        "end_frame": 18017
+      },
+      {
+        "id": 33,
+        "name": "TRANSISI B2",
+        "start_frame": 18018,
+        "end_frame": 19349
+      },
+      {
+        "id": 35,
+        "name": "JALAN B2 TURUN",
+        "start_frame": 19350,
+        "end_frame": 21767
+      },
+      {
+        "id": 38,
+        "name": "MENDAYU SYAHDU",
+        "start_frame": 21768,
+        "end_frame": 24608
+      },
+      {
+        "id": 40,
+        "name": "MEGOL DUDUK ",
+        "start_frame": 24609,
+        "end_frame": 25784
+      },
+      {
+        "id": 41,
+        "name": "MT TRANSISI",
+        "start_frame": 25785,
+        "end_frame": 27090
+      },
+      {
+        "id": 42,
+        "name": "JALAN C1",
+        "start_frame": 27091,
+        "end_frame": 29298
+      },
+      {
+        "id": 45,
+        "name": "SALAM PENUTUP",
+        "start_frame": 29299,
+        "end_frame": 30477
+      },
+      {
+        "id": 46,
+        "name": "LEPAS MASKER",
+        "start_frame": 30478,
+        "end_frame": 31021
+      },
+      {
+        "id": 47,
+        "name": "CUCI TANGAN 2",
+        "start_frame": 31022,
+        "end_frame": 31560
+      },
+      {
+        "id": 48,
+        "name": "FINAL POSE",
+        "start_frame": 31561,
+        "end_frame": 32112
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "GERIGI",
+    "total_movie": 26,
+    "motion_movie": [
+      { "id": 0, "name": "START INIT", "start_frame": 0, "end_frame": 180 },
+      {
+        "id": 5,
+        "name": "GERAK PEMBUKA V2",
+        "start_frame": 181,
+        "end_frame": 3344
+      },
+      {
+        "id": 15,
+        "name": "SIBAK ATAS",
+        "start_frame": 3345,
+        "end_frame": 3742
+      },
+      {
+        "id": 6,
+        "name": "IRAMA GENDANG",
+        "start_frame": 3743,
+        "end_frame": 4921
+      },
+      { "id": 30, "name": "SRISIG 2", "start_frame": 4922, "end_frame": 6041 },
+      {
+        "id": 19,
+        "name": "MALAM GEMBIRA",
+        "start_frame": 6042,
+        "end_frame": 6992
+      },
+      {
+        "id": 18,
+        "name": "NGIBAS SLEBEW",
+        "start_frame": 6993,
+        "end_frame": 8095
+      },
+      {
+        "id": 23,
+        "name": "1/2 SETELAH SALAM B1",
+        "start_frame": 8096,
+        "end_frame": 8454
+      },
+      {
+        "id": 57,
+        "name": "TRANSISI B1",
+        "start_frame": 8455,
+        "end_frame": 9607
+      },
+      {
+        "id": 56,
+        "name": "MEKAR CYCLING",
+        "start_frame": 9608,
+        "end_frame": 11426
+      },
+      {
+        "id": 26,
+        "name": "SETELAH SALAM B1",
+        "start_frame": 11427,
+        "end_frame": 12068
+      },
+      {
+        "id": 63,
+        "name": "NGASAI TURUN",
+        "start_frame": 12069,
+        "end_frame": 13261
+      },
+      { "id": 29, "name": "SRISIG", "start_frame": 13262, "end_frame": 14381 },
+      {
+        "id": 20,
+        "name": "MALAM GEMBIRA 2",
+        "start_frame": 14382,
+        "end_frame": 15332
+      },
+      {
+        "id": 33,
+        "name": "TRANSISI B2",
+        "start_frame": 15333,
+        "end_frame": 16664
+      },
+      {
+        "id": 64,
+        "name": "KEBAK GANTI",
+        "start_frame": 16665,
+        "end_frame": 18276
+      },
+      {
+        "id": 38,
+        "name": "MENDAYU SYAHDU",
+        "start_frame": 18277,
+        "end_frame": 21117
+      },
+      {
+        "id": 40,
+        "name": "MEGOL DUDUK ",
+        "start_frame": 21118,
+        "end_frame": 22293
+      },
+      {
+        "id": 41,
+        "name": "MT TRANSISI",
+        "start_frame": 22294,
+        "end_frame": 23599
+      },
+      {
+        "id": 65,
+        "name": "CLINGAK CLINGUK",
+        "start_frame": 23600,
+        "end_frame": 25161
+      },
+      {
+        "id": 45,
+        "name": "SALAM PENUTUP",
+        "start_frame": 25162,
+        "end_frame": 26340
+      },
+      {
+        "id": 46,
+        "name": "LEPAS MASKER",
+        "start_frame": 26341,
+        "end_frame": 26884
+      },
+      {
+        "id": 47,
+        "name": "CUCI TANGAN 2",
+        "start_frame": 26885,
+        "end_frame": 27423
+      },
+      {
+        "id": 48,
+        "name": "FINAL POSE",
+        "start_frame": 27424,
+        "end_frame": 27975
+      },
+      {
+        "id": 49,
+        "name": "FINAL POSE DELAY",
+        "start_frame": 27976,
+        "end_frame": 29256
+      },
+      { "id": 66, "name": "PARADE", "start_frame": 29257, "end_frame": 31890 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "RUNNING TEST",
+    "total_movie": 12,
+    "motion_movie": [
+      { "id": 0, "name": "START INIT", "start_frame": 0, "end_frame": 180 },
+      { "id": 8, "name": "JALAN A1", "start_frame": 181, "end_frame": 1969 },
+      {
+        "id": 9,
+        "name": "KAKI MELINTANG",
+        "start_frame": 1970,
+        "end_frame": 3073
+      },
+      { "id": 1, "name": "INIT 2", "start_frame": 3074, "end_frame": 3254 },
+      {
+        "id": 21,
+        "name": "JALAN A2 NAIK",
+        "start_frame": 3255,
+        "end_frame": 5043
+      },
+      { "id": 2, "name": "INIT 3", "start_frame": 5044, "end_frame": 5224 },
+      { "id": 27, "name": "JALAN B1", "start_frame": 5225, "end_frame": 7013 },
+      {
+        "id": 31,
+        "name": "ARM CYCLING",
+        "start_frame": 7014,
+        "end_frame": 7992
+      },
+      { "id": 3, "name": "INIT 4", "start_frame": 7993, "end_frame": 8173 },
+      {
+        "id": 35,
+        "name": "JALAN B2 TURUN",
+        "start_frame": 8174,
+        "end_frame": 10591
+      },
+      { "id": 4, "name": "INIT 5", "start_frame": 10592, "end_frame": 10772 },
+      { "id": 42, "name": "JALAN C1", "start_frame": 10773, "end_frame": 12980 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "UKM",
+    "total_movie": 2,
+    "motion_movie": [
+      { "id": 0, "name": "START INIT", "start_frame": 0, "end_frame": 180 },
+      { "id": 66, "name": "PARADE", "start_frame": 181, "end_frame": 2814 }
+    ]
+  }
+]
